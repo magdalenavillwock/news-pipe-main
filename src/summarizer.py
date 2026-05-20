@@ -114,28 +114,6 @@ Regeln:
 
 {digest_markdown}"""
 
-PROMPT_MAP = {
-    "news": {
-        "daily": DAILY_PROMPT,
-        "top3": TOP3_PROMPT,
-        "notification": NOTIFICATION_PROMPT,
-    },
-    "flight_deals": {
-        "daily": FLIGHT_DEALS_PROMPT,
-        "top3": FLIGHT_TOP3_PROMPT,
-        "notification": FLIGHT_NOTIFICATION_PROMPT,
-    },
-    "finance": {
-        "daily": FINANCE_DAILY_PROMPT,
-        "top3": TOP3_PROMPT,
-        "notification": NOTIFICATION_PROMPT,
-    },
-}
-
-WEEKLY_PROMPT_MAP = {
-    "finance": FINANCE_WEEKLY_PROMPT,
-}
-
 FINANCE_DAILY_PROMPT = """Du bist ein präziser Finanzanalyst. Erstelle ein strukturiertes Morning-Briefing für den heutigen Handelstag {date}.
 
 Nutze Websuche und beziehe dich auf aktuelle Quellen (Handelsblatt, Reuters, Bloomberg, CNBC, finanzen.net, Yahoo Finance, Wall Street Journal). Jede faktische Aussage erhält Quelle und Datum. Bei widersprüchlichen Einschätzungen: beide Positionen nennen, nicht glätten.
@@ -228,6 +206,28 @@ Erstelle einen umfassenden Wochenrückblick auf {language}:
 
 Hier sind die 7 Tages-Digests:
 {weekly_data}"""
+
+PROMPT_MAP = {
+    "news": {
+        "daily": DAILY_PROMPT,
+        "top3": TOP3_PROMPT,
+        "notification": NOTIFICATION_PROMPT,
+    },
+    "flight_deals": {
+        "daily": FLIGHT_DEALS_PROMPT,
+        "top3": FLIGHT_TOP3_PROMPT,
+        "notification": FLIGHT_NOTIFICATION_PROMPT,
+    },
+    "finance": {
+        "daily": FINANCE_DAILY_PROMPT,
+        "top3": TOP3_PROMPT,
+        "notification": NOTIFICATION_PROMPT,
+    },
+}
+
+WEEKLY_PROMPT_MAP = {
+    "finance": FINANCE_WEEKLY_PROMPT,
+}
 
 
 async def _call_claude(prompt: str, model: str) -> str:
