@@ -38,7 +38,7 @@ async def run_subscription_weekly(sub_id: str, sub_config: dict, settings: dict,
 
     logger.info(f"[{sub_id}] Loaded {len(digests)} daily digests for weekly summary")
 
-    weekly_markdown = await summarize_weekly(digests, settings, prompt_focus, language)
+    weekly_markdown = await summarize_weekly(digests, settings, prompt_focus, language, subscription_type)
     top3 = await summarize_top3(weekly_markdown, settings, language, subscription_type)
     notification_summary = await summarize_notification(weekly_markdown, settings, prompt_focus, language, subscription_type)
 

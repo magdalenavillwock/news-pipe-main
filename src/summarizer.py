@@ -2,6 +2,7 @@
 import asyncio
 import json
 import logging
+from datetime import date, timedelta
 
 from src.models import Article
 
@@ -124,7 +125,94 @@ PROMPT_MAP = {
         "top3": FLIGHT_TOP3_PROMPT,
         "notification": FLIGHT_NOTIFICATION_PROMPT,
     },
+    "finance": {
+        "daily": FINANCE_DAILY_PROMPT,
+        "top3": TOP3_PROMPT,
+        "notification": NOTIFICATION_PROMPT,
+    },
 }
+
+WEEKLY_PROMPT_MAP = {
+    "finance": FINANCE_WEEKLY_PROMPT,
+}
+
+FINANCE_DAILY_PROMPT = """Du bist ein präziser Finanzanalyst. Erstelle ein strukturiertes Morning-Briefing für den heutigen Handelstag {date}.
+
+Nutze Websuche und beziehe dich auf aktuelle Quellen (Handelsblatt, Reuters, Bloomberg, CNBC, finanzen.net, Yahoo Finance, Wall Street Journal). Jede faktische Aussage erhält Quelle und Datum. Bei widersprüchlichen Einschätzungen: beide Positionen nennen, nicht glätten.
+
+Sprache: Deutscher Satzbau durchgehend. Keine englischen Satzstrukturen. Fachbegriffe gemäß Deutscher Börse.
+
+─────────────────────────────────────────
+STRUKTUR (Pflicht, diese Reihenfolge):
+─────────────────────────────────────────
+
+① OVERNIGHT & VORBÖRSLICH [max. 150 Wörter]
+Was bewegte die Märkte seit gestern Abend? Asien-Schluss, US-Futures, relevante Ereignisse nach Börsenschluss. Nur wenn wirklich bewegt – sonst: „Keine wesentlichen Overnight-Bewegungen."
+
+② TAGESÜBERBLICK: SCHLÜSSELINDIZES [max. 100 Wörter]
+DAX, S&P 500, Nasdaq – Vortagsschluss, vorbörsliche Tendenz. Einzelwerte nur bei Bewegungen >3 % oder konkretem Nachrichtentreiber.
+
+③ HEUTIGE TERMINE & TRIGGER [max. 150 Wörter]
+Makrodaten (z. B. CPI, Arbeitsmarkt, BIP-Revision), Zinsentscheide, Earnings-Berichte, politische Ereignisse. Format pro Termin: Uhrzeit – Ereignis – erwartete Marktreaktion (bullish / bearish / neutral, mit Begründung).
+
+④ EIN RISIKO, EINE CHANCE [je max. 3 Sätze]
+Das konkreteste Abwärtsrisiko heute. Die konkreteste Aufwärtschance heute. Keine allgemeinen Aussagen wie „Märkte könnten steigen."
+
+⑤ WATCHLIST-HINWEIS [optional, nur wenn relevant]
+Maximal 2 Werte oder Sektoren mit auffälliger Lage. Nur aufnehmen, wenn ein konkreter Grund vorliegt.
+
+─────────────────────────────────────────
+REGELN:
+─────────────────────────────────────────
+- Gesamtlänge: 400–600 Wörter
+- Kein Abschnitt wird künstlich befüllt
+- Rohstoffe nur erwähnen, wenn sie heute direkten Markteinfluss haben
+- Kein 3-Monats-Ausblick, keine Strategieempfehlung – das ist Aufgabe des Weekly
+
+Hier sind die gesammelten Nachrichtendaten des heutigen Tages:
+{collected_data}"""
+
+FINANCE_WEEKLY_PROMPT = """Du bist ein erfahrener Finanzanalyst. Erstelle eine vollständige Wochenanalyse für KW {week_number}, Zeitraum {week_start} bis {week_end}.
+
+Nutze Websuche. Quellen: TradingView, Handelsblatt, Reuters, Bloomberg, CNBC, finanzen.net, Yahoo Finance, Wall Street Journal, SeekingAlpha, Deutsche Börse, ggf. X/Twitter bei Marktrelevanz. Jede faktische Aussage: Quelle + Veröffentlichungsdatum. Widersprüchliche Analysteneinschätzungen werden explizit gegenübergestellt, nicht harmonisiert.
+
+Sprache: Deutscher Satzbau durchgehend. Fachbegriffe nach Deutscher Börse und Coachingunterlagen. Detailgrad: +20 % gegenüber Standardanalysen – das bedeutet konkrete Zahlen, keine Phrasen.
+
+─────────────────────────────────────────
+VOLLSTÄNDIGKEITSBEDINGUNG:
+─────────────────────────────────────────
+Die Analyse gilt erst als vollständig, wenn alle 8 Abschnitte mit Quellenangaben ausgefüllt sind UND Abschnitt 7 (Weltpolitik) sowie Abschnitt 8 (Fazit & Strategie) substanziell befüllt sind – nicht mit Platzhaltern.
+
+─────────────────────────────────────────
+STRUKTUR:
+─────────────────────────────────────────
+
+① AKTUALITÄTS-CHECK
+Gab es in den letzten 48 Stunden Ereignisse, die frühere Wocheneinschätzungen überholen? (Zinsentscheide, Überraschungsdaten, geopolitische Eskalation, Großereignisse) Falls nein: explizit bestätigen.
+
+② ONE-MINUTE-TAKEAWAY
+3–5 Sätze. Die wichtigsten Erkenntnisse der Woche für jemanden, der nur diesen Abschnitt liest. Keine Phrasen. Konkrete Zahlen und Treiber.
+
+③ MARKTÜBERBLICK: INDIZES & EINZELWERTE
+Wochenperformance: DAX, S&P 500, Dow Jones, Nasdaq, EuroStoxx 50, Nikkei, Hang Seng – prozentuale Veränderung, Kontext. Währungen: EUR/USD, ggf. USD/JPY, DXY. Rohstoffe (Pflicht): Öl (WTI & Brent), Gold, Silber; weitere (Kupfer, Erdgas) nur bei auffälliger Bewegung. Einzelwerte: nur bei Bewegungen >5 % oder klarem Nachrichtentreiber. Pro Wert: Beobachtung → Auswirkung → Bedeutung.
+
+④ TECHNISCHE ANALYSE
+Für DAX und S&P 500 verpflichtend: RSI (überkauft/überverkauft?), gleitende Durchschnitte (50-Tage, 200-Tage – Lage dazu?), dominante Trendstruktur, Unterstützung/Widerstand. Fibonacci und Volatilität (VIX, VDAX) nur bei auffälligen Konstellationen – nicht standardmäßig. Für andere Indizes/Rohstoffe: nur wenn technisch eine besondere Lage vorliegt.
+
+⑤ MAKROÖKONOMISCHER KONTEXT
+Geldpolitik: FED, EZB, BOJ – Entscheidungen, Protokolle, Signale. Was hat sich verändert? Konjunkturdaten: Inflation, Arbeitsmarkt, BIP – nur veröffentlichte Daten dieser Woche, mit Vergleich zu Erwartung und Vorperiode. Rohstoffmärkte und deren direkter Einfluss auf Aktienmärkte (Pflicht, auch wenn knapp).
+
+⑥ SONDERSITUATIONEN & MIKROÖKONOMIE
+Quartalszahlen, Gewinnwarnungen, M&A, IPOs, Dividenden, Rückkaufprogramme, Rating-Änderungen, regulatorische Eingriffe, Branchennews. Dividenden, ETF-Flows, Insider-Trades, Short Interest: nur aufnehmen, wenn in dieser Woche wirklich markant – kein Standardbefüllen. Sektorrotation und Fondsbewegungen: nur bei auffälligen Signalen. Pro Sondersituation: Beobachtung → Auswirkung → Bedeutung.
+
+⑦ WELTPOLITISCHE & FINANZPOLITISCHE LAGE [Pflicht]
+Geopolitik: Ukraine, Taiwan, Nahost, Handelskonflikte, Sanktionen, Wahlen – nur laufende oder neue Entwicklungen dieser Woche. Einfluss auf Kapitalflüsse und Risikobereitschaft konkret benennen, nicht abstrakt beschreiben.
+
+⑧ FAZIT & HANDLUNGSMÖGLICHKEITEN [Pflicht]
+Marktstimmung: Risk-on oder Risk-off? Begründet mit konkreten Indikatoren. Chancen und Risiken der kommenden Woche: je 2–3 konkrete Punkte, keine Allgemeinplätze. Wichtige Termine nächste Woche: Zinsentscheide, Makrodaten, Earnings, politische Ereignisse – mit Datum und erwarteter Marktrelevanz. Watchlist: max. 5 Werte oder Sektoren, ohne Value/Growth-Kategorisierung, mit kurzem Grund pro Eintrag. 3-Monats-Einschätzung: Wohin tendiert der Markt strukturell? Konkrete These, keine Absicherung nach allen Seiten.
+
+Hier sind die Tages-Digests der vergangenen Woche:
+{weekly_data}"""
 
 WEEKLY_PROMPT = """Du bist ein Senior News-Analyst. Hier sind die 7 täglichen Digests der vergangenen Woche.
 
@@ -167,10 +255,12 @@ async def summarize_daily(articles: list[Article], settings: dict, prompt_focus:
         indent=2,
     )
     prompts = PROMPT_MAP.get(subscription_type, PROMPT_MAP["news"])
+    today = date.today()
     prompt = prompts["daily"].format(
         collected_data=collected_data,
         prompt_focus=prompt_focus,
         language=language,
+        date=today.strftime("%d.%m.%Y"),
     )
     return await _call_claude(prompt, settings["daily_model"])
 
@@ -195,12 +285,20 @@ async def summarize_notification(digest_markdown: str, settings: dict, prompt_fo
     return result[:3900]
 
 
-async def summarize_weekly(daily_digests: list[str], settings: dict, prompt_focus: str = "", language: str = "Deutsch") -> str:
+async def summarize_weekly(daily_digests: list[str], settings: dict, prompt_focus: str = "", language: str = "Deutsch", subscription_type: str = "news") -> str:
     language = _resolve_language(language)
     weekly_data = "\n\n---\n\n".join(daily_digests)
-    prompt = WEEKLY_PROMPT.format(
+    template = WEEKLY_PROMPT_MAP.get(subscription_type, WEEKLY_PROMPT)
+    today = date.today()
+    iso = today.isocalendar()
+    week_start = today - timedelta(days=today.weekday())
+    week_end = week_start + timedelta(days=6)
+    prompt = template.format(
         weekly_data=weekly_data,
         prompt_focus=prompt_focus,
         language=language,
+        week_number=iso[1],
+        week_start=week_start.strftime("%d.%m.%Y"),
+        week_end=week_end.strftime("%d.%m.%Y"),
     )
     return await _call_claude(prompt, settings["weekly_model"])

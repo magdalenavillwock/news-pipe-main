@@ -127,25 +127,13 @@ subscriptions:
 
   wirtschafts-news:
     name: "Wirtschafts-News Deutschland"
-    description: "Tägliche Wirtschafts- und Finanznews aus Deutschland und Europa"
+    description: "Tägliches Finanz-Morning-Briefing und Wochenanalyse für deutsche/europäische Märkte"
     language: de
-    type: news
+    type: finance
     ntfy:
       enabled: true
       server: https://ntfy.sh
       topic: news-pipe-wirtschafts-news
-    prompt_focus: |
-      Fokus auf deutsche und europaeische Wirtschaft:
-      - DAX, MDAX, SDAX: Kursbewegende Nachrichten, Quartalsberichte, Gewinnwarnungen.
-      - Deutsche Leitunternehmen: Volkswagen, BMW, Mercedes, SAP, Siemens, Deutsche Bank,
-        Allianz, BASF, Bayer — neue Meldungen einzeln aufzaehlen.
-      - Konjunkturdaten: BIP, Inflation, Arbeitsmarkt, ifo-Geschaeftsklimaindex — mit Einordnung.
-      - EZB/Geldpolitik: Zinsentscheidungen, Anleihekaufprogramme, EZB-Statements.
-      - EU-Wirtschaftspolitik: Regulierung, Handelspolitik, Beihilfen, Green Deal.
-      - Insolvenzen und Restrukturierungen in Deutschland besonders hervorheben.
-      - Geopolitische Entwicklungen mit direktem Einfluss auf deutsche Exportwirtschaft.
-      Ignoriere Sportnachrichten, Boulevard, Lifestyle und rein US-fokussierte Themen ohne
-      Bezug zur deutschen/europaeischen Wirtschaft.
     sources:
       leitmedien:
         - name: Handelsblatt Schlagzeilen
