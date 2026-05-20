@@ -11,3 +11,4 @@ jobs:
     with:
       subscription: ai-news
     secrets: inherit
+
