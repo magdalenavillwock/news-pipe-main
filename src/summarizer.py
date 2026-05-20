@@ -158,7 +158,7 @@ FINANCE_WEEKLY_PROMPT = """Gib ausschließlich die fertige Wochenanalyse aus –
 
 Du bist ein erfahrener Finanzanalyst. Erstelle eine vollständige Wochenanalyse für KW {week_number}, Zeitraum {week_start} bis {week_end}.
 
-Nutze Websuche. Quellen: TradingView, Handelsblatt, Reuters, Bloomberg, CNBC, finanzen.net, Yahoo Finance, Wall Street Journal, SeekingAlpha, Deutsche Börse, ggf. X/Twitter bei Marktrelevanz. Jede faktische Aussage: Quelle + Veröffentlichungsdatum. Widersprüchliche Analysteneinschätzungen werden explizit gegenübergestellt, nicht harmonisiert.
+Nutze Websuche wenn verfügbar. Ist keine Websuche verfügbar, basiere die Analyse ausschließlich auf den bereitgestellten Tages-Digests – diese enthalten aktuelle Nachrichtendaten der Woche. Quellen: TradingView, Handelsblatt, Reuters, Bloomberg, CNBC, finanzen.net, Yahoo Finance, Wall Street Journal, SeekingAlpha, Deutsche Börse, ggf. X/Twitter bei Marktrelevanz. Jede faktische Aussage: Quelle + Veröffentlichungsdatum (aus den Digest-Daten). Widersprüchliche Analysteneinschätzungen werden explizit gegenübergestellt, nicht harmonisiert.
 
 Sprache: Deutscher Satzbau durchgehend. Fachbegriffe nach Deutscher Börse und Coachingunterlagen. Detailgrad: +20 % gegenüber Standardanalysen – das bedeutet konkrete Zahlen, keine Phrasen.
 
