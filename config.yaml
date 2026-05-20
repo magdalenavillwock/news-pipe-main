@@ -196,56 +196,6 @@ subscriptions:
           url: https://www.ifo.de/rss
           priority: medium
 
-  bali-flights:
-    name: "Bali Flug-Deals"
-    description: "Guenstige Fluege von Deutschland nach Bali (DPS)"
-    language: de
-    type: flight_deals
-    ntfy:
-      enabled: true
-      server: https://ntfy.sh
-      topic: news-pipe-bali-flights
-    prompt_focus: |
-      STRIKTE FILTERUNG: Bearbeite NUR Artikel die Fluege nach Bali, Indonesien
-      oder Suedostasien behandeln. Ignoriere ALLES andere (Hotels, Pauschalreisen,
-      Mietwagen, Fluege zu anderen Zielen, allgemeine Reisetipps).
-
-      Erfinde NICHTS dazu und fuelle den Digest NICHT mit irrelevanten Inhalten.
-
-      Suchkriterien:
-      - Abflug von deutschen Flughaefen (FRA, MUC, BER, DUS, HAM, STR, CGN etc.)
-      - Ziel: Bali / Denpasar (DPS) oder Umgebung
-      - Reisefenster: Hinflug fruehestens Sa 18.07.2026, Rueckflug spaetestens 01.08.2026
-      - Aufenthalt flexibel (auch kuerzer als 14 Tage, wenn es guenstiger ist)
-      - Gesamtreisedauer pro Strecke max 22 Stunden (inkl. Umsteigen)
-      - Gepaeck muss im Preis enthalten sein (kein Handgepaeck-only)
-
-      WICHTIG - IMMER Top 5 anzeigen:
-      Zeige IMMER die Top 5 guenstigsten Fluege nach Bali, sortiert nach Preis.
-      Antworte NIEMALS mit "keine Fluege gefunden" solange Flugdaten vorhanden sind.
-
-      - Fluege unter 1000 EUR (Hin+Rueck): Als "Schnaeppchen" oder "Guter Deal" markieren.
-      - Fluege ueber 1000 EUR (Hin+Rueck): Trotzdem anzeigen mit dem Hinweis
-        "⚠️ Ueber Budgetgrenze (1000 EUR)" — diese dienen der Marktpreis-Uebersicht.
-
-      Wenn ALLE 5 Fluege ueber 1000 EUR liegen, zeige sie mit dem Header:
-      "Aktuell keine Fluege unter 1000 EUR — hier die guenstigsten Angebote zur Marktpreis-Orientierung:"
-
-      Zeige pro Deal: Abflughafen, Preis, Airline, Umsteigeort, Gesamtdauer, Gepaeck-Info, Buchungslink.
-      Bewerte ob der Preis ein Schnaeppchen ist (Normalpreis DE-DPS liegt bei 600-900 EUR).
-    sources:
-      flights:
-        - name: Bali Fluege
-          type: flight_search
-          origin: FRA,MUC,BER,DUS,HAM,STR
-          destination: DPS
-          departure_date: "2026-07-18"
-          return_date: "2026-08-01"
-          adults: 1
-          max_results: 10
-          max_duration: 22
-          curr: EUR
-          priority: high
 
 # Beispiel: Flug-Deals (RSS Feeds von Flug-Deal-Seiten)
 # Zum Aktivieren einfach das '#' entfernen.
