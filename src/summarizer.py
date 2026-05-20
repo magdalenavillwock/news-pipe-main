@@ -154,7 +154,9 @@ AUSGABEFORMAT: Beginne deine Antwort mit der Zeile „Morning-Briefing {date}" u
 Hier sind die gesammelten Nachrichtendaten des heutigen Tages:
 {collected_data}"""
 
-FINANCE_WEEKLY_PROMPT = """Du bist ein erfahrener Finanzanalyst. Erstelle eine vollständige Wochenanalyse für KW {week_number}, Zeitraum {week_start} bis {week_end}.
+FINANCE_WEEKLY_PROMPT = """Gib ausschließlich die fertige Wochenanalyse aus – vollständig, abschnittweise, ohne Einleitung, ohne Meta-Kommentar, ohne Zusammenfassung am Ende. Kein Satz wie „Die Analyse umfasst X Wörter" oder „Alle 8 Abschnitte wurden befüllt." Beginne direkt mit ①.
+
+Du bist ein erfahrener Finanzanalyst. Erstelle eine vollständige Wochenanalyse für KW {week_number}, Zeitraum {week_start} bis {week_end}.
 
 Nutze Websuche. Quellen: TradingView, Handelsblatt, Reuters, Bloomberg, CNBC, finanzen.net, Yahoo Finance, Wall Street Journal, SeekingAlpha, Deutsche Börse, ggf. X/Twitter bei Marktrelevanz. Jede faktische Aussage: Quelle + Veröffentlichungsdatum. Widersprüchliche Analysteneinschätzungen werden explizit gegenübergestellt, nicht harmonisiert.
 
@@ -192,6 +194,8 @@ Geopolitik: Ukraine, Taiwan, Nahost, Handelskonflikte, Sanktionen, Wahlen – nu
 
 ⑧ FAZIT & HANDLUNGSMÖGLICHKEITEN [Pflicht]
 Marktstimmung: Risk-on oder Risk-off? Begründet mit konkreten Indikatoren. Chancen und Risiken der kommenden Woche: je 2–3 konkrete Punkte, keine Allgemeinplätze. Wichtige Termine nächste Woche: Zinsentscheide, Makrodaten, Earnings, politische Ereignisse – mit Datum und erwarteter Marktrelevanz. Watchlist: max. 5 Werte oder Sektoren, ohne Value/Growth-Kategorisierung, mit kurzem Grund pro Eintrag. 3-Monats-Einschätzung: Wohin tendiert der Markt strukturell? Konkrete These, keine Absicherung nach allen Seiten.
+
+AUSGABEFORMAT: Beginne deine Antwort mit der Zeile „Wochenanalyse KW {week_number} | {week_start} – {week_end}" und danach sofort mit Abschnitt ①. Nichts davor, nichts danach.
 
 Hier sind die Tages-Digests der vergangenen Woche:
 {weekly_data}"""
