@@ -11,3 +11,4 @@ jobs:
     with:
       subscription: wirtschafts-news
     secrets: inherit
+
