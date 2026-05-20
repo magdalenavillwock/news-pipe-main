@@ -63,7 +63,7 @@ def save_json(articles: list[Article], digest_date: date, subscription_id: str, 
     return output_path
 
 
-async def run_subscription(sub_id: str, sub_config: dict, settings: dict, output_config: dict) -> None:
+async def run_subscription(sub_id: str, sub_config: dict, settings: dict, output_config: dict, _override_date: Optional[date] = None) -> None:
     """Run the digest pipeline for a single subscription."""
     sub_name = sub_config["name"]
     language = sub_config.get("language", "de")
@@ -95,7 +95,7 @@ async def run_subscription(sub_id: str, sub_config: dict, settings: dict, output
         logger.warning(f"[{sub_id}] No articles collected, skipping")
         return
 
-    today = date.today()
+    today = _override_date if _override_date else date.today()
 
     digest_markdown = await summarize_daily(articles, settings, prompt_focus, language, subscription_type)
 
@@ -126,7 +126,7 @@ async def run_subscription(sub_id: str, sub_config: dict, settings: dict, output
     logger.info(f"[{sub_id}] Digest completed successfully")
 
 
-async def run_daily(config_path=None, _config_override=None, subscription_filter=None) -> None:
+async def run_daily(config_path=None, _config_override=None, subscription_filter=None, _override_date: Optional[date] = None) -> None:
     config = _config_override or load_config(config_path)
     log_level = config.get("settings", {}).get("log_level", "INFO")
     logging.basicConfig(level=getattr(logging, log_level), format="%(asctime)s %(name)s %(levelname)s %(message)s")
@@ -143,7 +143,7 @@ async def run_daily(config_path=None, _config_override=None, subscription_filter
         if subscription_filter and sub_id != subscription_filter:
             continue
         try:
-            await run_subscription(sub_id, sub_config, settings, output_config)
+            await run_subscription(sub_id, sub_config, settings, output_config, _override_date)
         except Exception as e:
             logger.error(f"[{sub_id}] Failed: {e}", exc_info=True)
 
@@ -151,12 +151,17 @@ async def run_daily(config_path=None, _config_override=None, subscription_filter
 
 
 def main():
+    import argparse
     from dotenv import load_dotenv
     load_dotenv()
 
-    # Optional: run single subscription via CLI arg
-    sub_filter = sys.argv[1] if len(sys.argv) > 1 else None
-    asyncio.run(run_daily(subscription_filter=sub_filter))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("subscription", nargs="?", help="Subscription ID to run")
+    parser.add_argument("--date", help="Override date (YYYY-MM-DD)")
+    args = parser.parse_args()
+
+    override_date = date.fromisoformat(args.date) if args.date else None
+    asyncio.run(run_daily(subscription_filter=args.subscription, _override_date=override_date))
 
 
 if __name__ == "__main__":

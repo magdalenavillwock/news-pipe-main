@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: "0 5 * * 1-5"
   workflow_dispatch:
+    inputs:
+      date:
+        description: "Datum ueberschreiben (YYYY-MM-DD), leer = heute"
+        required: false
+        default: ""
 permissions:
   contents: write
 jobs:
@@ -10,5 +15,5 @@ jobs:
     uses: ./.github/workflows/run-subscription.yml
     with:
       subscription: wirtschafts-news
+      date: ${{ inputs.date || '' }}
     secrets: inherit
-
