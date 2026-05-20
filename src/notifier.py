@@ -1,4 +1,5 @@
 # src/notifier.py
+import json
 import logging
 import os
 
@@ -9,38 +10,38 @@ from src.models import DigestResult
 logger = logging.getLogger(__name__)
 
 
-async def notify(digest: DigestResult, ntfy_config: dict) -> None:
-    """Send push notification for a digest via Ntfy.
-
-    Args:
-        digest: The digest result to notify about.
-        ntfy_config: Subscription-level ntfy config with server, topic, enabled.
-    """
+def _build_notification(digest: DigestResult, ntfy_config: dict) -> dict | None:
     if not ntfy_config.get("enabled", False):
-        return
+        return None
 
-    server = ntfy_config["server"]
-    topic = ntfy_config["topic"]
-    url = f"{server}/{topic}"
-
-    repo = os.environ.get("GITHUB_REPOSITORY", "ahlerjam/news-pipe")
+    repo = os.environ.get("GITHUB_REPOSITORY", "magdalenavillwock/news-pipe-main")
     ref_name = os.environ.get("GITHUB_REF_NAME", "")
     ref = os.environ.get("GITHUB_REF", "")
     branch = ref_name or (ref.replace("refs/heads/", "") if ref.startswith("refs/heads/") else "master")
     github_url = f"https://github.com/{repo}/blob/{branch}/output/{digest.subscription_id}/daily/{digest.date}.md"
-    logger.info(f"Ntfy link: GITHUB_REF_NAME={ref_name!r} GITHUB_REF={ref!r} branch={branch!r} url={github_url}")
+    logger.info(f"Ntfy link: branch={branch!r} url={github_url}")
 
-    body = digest.notification_summary or digest.top3_summary
+    return {
+        "server": ntfy_config["server"],
+        "topic": ntfy_config["topic"],
+        "github_url": github_url,
+        "title": f"{digest.subscription_name} - {digest.date}",
+        "body": digest.notification_summary or digest.top3_summary,
+    }
 
+
+async def _send(notification: dict) -> None:
+    url = f"{notification['server']}/{notification['topic']}"
+    github_url = notification["github_url"]
     try:
         async with httpx.AsyncClient() as client:
             response = await client.post(
                 url,
-                content=body.encode("utf-8"),
+                content=notification["body"].encode("utf-8"),
                 headers={
-                    "Title": f"{digest.subscription_name} - {digest.date}",
+                    "Title": notification["title"],
                     "Click": github_url,
-                    "Actions": f"view, Open Digest, {github_url}",
+                    "Actions": f"view, Vollstaendiger Digest, {github_url}",
                     "Tags": "robot,newspaper",
                     "Priority": "default",
                     "Markdown": "yes",
@@ -49,6 +50,35 @@ async def notify(digest: DigestResult, ntfy_config: dict) -> None:
             if response.status_code >= 400:
                 logger.error(f"Ntfy returned {response.status_code}: {response.text}")
             else:
-                logger.info(f"Ntfy notification sent to {topic} (HTTP {response.status_code})")
+                logger.info(f"Ntfy notification sent to {notification['topic']} (HTTP {response.status_code})")
     except httpx.HTTPError as e:
         logger.error(f"Failed to send Ntfy notification: {e}")
+
+
+async def notify(digest: DigestResult, ntfy_config: dict) -> None:
+    queue_path = os.environ.get("NOTIFY_QUEUE_FILE")
+    notification = _build_notification(digest, ntfy_config)
+    if notification is None:
+        return
+
+    if queue_path:
+        with open(queue_path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(notification, ensure_ascii=False) + "\n")
+        logger.info(f"Notification queued to {queue_path}")
+    else:
+        await _send(notification)
+
+
+async def flush_notifications(queue_path: str) -> None:
+    try:
+        with open(queue_path, encoding="utf-8") as f:
+            lines = [l.strip() for l in f if l.strip()]
+    except FileNotFoundError:
+        logger.info("No notification queue file found, nothing to send")
+        return
+
+    for line in lines:
+        notification = json.loads(line)
+        await _send(notification)
+
+    os.remove(queue_path)

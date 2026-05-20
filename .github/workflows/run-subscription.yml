@@ -33,6 +33,7 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          NOTIFY_QUEUE_FILE: /tmp/news_pipe_notify.json
       - name: Commit digest
         run: |
           git config user.name "News Pipe Bot"
@@ -40,6 +41,8 @@ jobs:
           git add output/ data/
           git diff --staged --quiet || git commit -m "${{ inputs.subscription }}: Digest $(date +%Y-%m-%dT%H:%M)"
           git pull --rebase && git push
+      - name: Send notifications
+        run: python -c "import asyncio; from src.notifier import flush_notifications; asyncio.run(flush_notifications('/tmp/news_pipe_notify.json'))"
       - name: Cleanup old digests
         run: |
           find output/${{ inputs.subscription }}/ data/${{ inputs.subscription }}/ -type f -mtime +90 -delete 2>/dev/null || true
