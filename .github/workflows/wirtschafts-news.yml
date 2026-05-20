@@ -1,0 +1,13 @@
+name: "Wirtschafts-News Deutschland"
+on:
+  schedule:
+    - cron: "0 5 * * 1-5"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run:
+    uses: ./.github/workflows/run-subscription.yml
+    with:
+      subscription: wirtschafts-news
+    secrets: inherit

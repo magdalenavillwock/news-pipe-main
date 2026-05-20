@@ -1,0 +1,172 @@
+[
+  {
+    "title": "An update on recent Claude Code quality reports",
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-04-26T00:50:05+00:00",
+    "summary": "An update on recent Claude Code quality reports",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "Anthropic created a test marketplace for agent-on-agent commerce",
+    "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-04-25T21:43:37+00:00",
+    "summary": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Maine’s governor vetoes data center moratorium",
+    "url": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-04-25T20:57:08+00:00",
+    "summary": "L.D. 307 would have imposed the country’s first statewide moratorium on new data centers — lasting, in this case, until November 1, 2027.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "OpenAI CEO apologizes to Tumbler Ridge community",
+    "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-04-25T17:17:56+00:00",
+    "summary": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Why Cohere is merging with Aleph Alpha",
+    "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-04-25T16:00:00+00:00",
+    "summary": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl’s owner, Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by American players.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Why Tokyo is the most important tech destination of 2026",
+    "url": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-04-25T15:03:00+00:00",
+    "summary": "SusHi Tech Tokyo 2026 has four tightly defined technology domains, each backed by live demonstrations, dedicated exhibit floors, and sessions featuring the people actually building and funding these technologies globally.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Apple under Ternus: what comes next for the tech giant’s hardware strategy",
+    "url": "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-04-25T15:00:00+00:00",
+    "summary": "John Ternus, Apple's incoming CEO, is a hardware guy, signaling Apple may be putting devices back at the center of its strategy.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "steven2358/awesome-generative-ai (11907★)",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-10-20T11:18:17+00:00",
+    "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5387★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "py-why/EconML (4610★)",
+    "url": "https://github.com/py-why/EconML",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-04-30T21:02:52+00:00",
+    "summary": "ALICE (Automated Learning and Intelligence for Causation and Economics) is a Microsoft Research project aimed at applying Artificial Intelligence concepts to economic decision making. One of its  goals is to build a toolkit that combines state-of-the-art machine learning techniques with econometrics in order to bring automation to complex causal inference problems. To date, the ALICE Python SDK (econml) implements orthogonal machine learning algorithms such as the double machine learning work of Chernozhukov et al. This toolkit is designed to measure the causal effect of some treatment variable(s) t on an outcome variable y, controlling for a set of features x.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3295★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Josh-XT/AGiXT (3180★)",
+    "url": "https://github.com/Josh-XT/AGiXT",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-04-17T19:35:00+00:00",
+    "summary": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (2913★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1001★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wx-chevalier/AI-Notes (775★)",
+    "url": "https://github.com/wx-chevalier/AI-Notes",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2016-01-26T06:14:46+00:00",
+    "summary": ":books: [.md & .ipynb] Series of Artificial Intelligence & Deep Learning, including Mathematics Fundamentals, Python Practices, NLP Application, etc. 💫 人工智能与深度学习实战，数理统计篇 | 机器学习篇 | 深度学习篇 | 自然语言处理篇 | 工具实践 Scikit & Tensoflow & PyTorch 篇 | 行业应用 & 课程笔记",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "LumingSun/ML4DB-paper-list (774★)",
+    "url": "https://github.com/LumingSun/ML4DB-paper-list",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-09-10T11:16:49+00:00",
+    "summary": "Papers for database systems powered by artificial intelligence (machine learning for database)",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "divelab/AIRS (759★)",
+    "url": "https://github.com/divelab/AIRS",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-02-01T17:05:09+00:00",
+    "summary": "Artificial Intelligence Research for Science (AIRS)",
+    "content": null,
+    "priority": "low"
+  }
+]

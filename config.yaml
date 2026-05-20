@@ -1,0 +1,296 @@
+settings:
+  daily_model: claude-sonnet-4-20250514
+  weekly_model: claude-opus-4-6
+  request_timeout: 30
+  max_retries: 3
+  log_level: INFO
+  cleanup_days: 90
+  max_articles_per_source: 10
+  max_age_hours: 26
+
+subscriptions:
+  ai-news:
+    name: "AI & ML News"
+    description: "Tägliche AI/ML News mit Fokus auf Claude Code Features"
+    language: de
+    type: news
+    ntfy:
+      enabled: true
+      server: https://ntfy.sh
+      topic: news-push-ai
+    prompt_focus: |
+      Besonderer Fokus auf Anthropic und Claude:
+      - Liste ALLE neuen Features, Bugfixes und Änderungen aus Claude Code Release Notes detailliert auf.
+        Jedes Feature einzeln als Aufzählungspunkt mit kurzer Erklärung.
+      - Claude SDK Updates (Python/TypeScript): Neue Methoden, Breaking Changes, wichtige Fixes.
+      - Anthropic Ankündigungen: Neue Modelle, Preisänderungen, Policy-Updates.
+      - Wissenschaftliche Paper zu LLMs und AI Safety besonders hervorheben.
+    sources:
+      anthropic:
+        - name: Anthropic Engineering
+          type: rss
+          url: https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_engineering_rss.xml
+          priority: high
+        - name: Claude Code Releases
+          type: github_releases
+          repo: anthropics/claude-code
+          priority: high
+        - name: Claude SDK Python
+          type: github_releases
+          repo: anthropics/anthropic-sdk-python
+          priority: high
+        - name: Claude SDK TypeScript
+          type: github_releases
+          repo: anthropics/anthropic-sdk-typescript
+          priority: high
+        - name: Claude Agent SDK
+          type: github_releases
+          repo: anthropics/claude-agent-sdk
+          priority: high
+      big_labs:
+        - name: OpenAI Blog
+          type: rss
+          url: https://openai.com/blog/rss.xml
+          priority: medium
+        - name: Google DeepMind
+          type: rss
+          url: https://deepmind.google/blog/rss.xml
+          priority: medium
+        - name: Google AI Blog
+          type: rss
+          url: https://blog.google/technology/ai/rss/
+          priority: medium
+        - name: Microsoft AI Blog
+          type: rss
+          url: https://news.microsoft.com/source/feed/
+          priority: medium
+        - name: Meta Engineering
+          type: rss
+          url: https://engineering.fb.com/feed/
+          priority: medium
+        - name: Apple ML Research
+          type: rss
+          url: https://machinelearning.apple.com/rss.xml
+          priority: medium
+        - name: AWS AI Blog
+          type: rss
+          url: https://aws.amazon.com/blogs/machine-learning/feed/
+          priority: medium
+        - name: NVIDIA AI Blog
+          type: rss
+          url: https://blogs.nvidia.com/feed/
+          priority: medium
+      news:
+        - name: The Verge AI
+          type: rss
+          url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+          priority: medium
+        - name: TechCrunch AI
+          type: rss
+          url: https://techcrunch.com/category/artificial-intelligence/feed/
+          priority: medium
+        - name: Ars Technica
+          type: rss
+          url: https://feeds.arstechnica.com/arstechnica/technology-lab
+          priority: low
+        - name: VentureBeat
+          type: rss
+          url: https://venturebeat.com/feed/
+          priority: low
+      platforms:
+        - name: HuggingFace Blog
+          type: rss
+          url: https://huggingface.co/blog/feed.xml
+          priority: medium
+        - name: HuggingFace Transformers
+          type: github_releases
+          repo: huggingface/transformers
+          priority: medium
+      research:
+        - name: ArXiv cs.AI
+          type: arxiv
+          arxiv_category: cs.AI
+          max_results: 5
+          priority: medium
+        - name: ArXiv cs.CL
+          type: arxiv
+          arxiv_category: cs.CL
+          max_results: 5
+          priority: medium
+      tools:
+        - name: GitHub Trending AI
+          type: github_trending
+          query: "artificial intelligence OR machine learning OR LLM"
+          min_stars: 100
+          days_back: 7
+          priority: low
+
+  wirtschafts-news:
+    name: "Wirtschafts-News Deutschland"
+    description: "Tägliche Wirtschafts- und Finanznews aus Deutschland und Europa"
+    language: de
+    type: news
+    ntfy:
+      enabled: true
+      server: https://ntfy.sh
+      topic: news-pipe-wirtschafts-news
+    prompt_focus: |
+      Fokus auf deutsche und europaeische Wirtschaft:
+      - DAX, MDAX, SDAX: Kursbewegende Nachrichten, Quartalsberichte, Gewinnwarnungen.
+      - Deutsche Leitunternehmen: Volkswagen, BMW, Mercedes, SAP, Siemens, Deutsche Bank,
+        Allianz, BASF, Bayer — neue Meldungen einzeln aufzaehlen.
+      - Konjunkturdaten: BIP, Inflation, Arbeitsmarkt, ifo-Geschaeftsklimaindex — mit Einordnung.
+      - EZB/Geldpolitik: Zinsentscheidungen, Anleihekaufprogramme, EZB-Statements.
+      - EU-Wirtschaftspolitik: Regulierung, Handelspolitik, Beihilfen, Green Deal.
+      - Insolvenzen und Restrukturierungen in Deutschland besonders hervorheben.
+      - Geopolitische Entwicklungen mit direktem Einfluss auf deutsche Exportwirtschaft.
+      Ignoriere Sportnachrichten, Boulevard, Lifestyle und rein US-fokussierte Themen ohne
+      Bezug zur deutschen/europaeischen Wirtschaft.
+    sources:
+      leitmedien:
+        - name: Handelsblatt Schlagzeilen
+          type: rss
+          url: https://feeds.cms.handelsblatt.com/schlagzeilen
+          priority: high
+        - name: Wirtschaftswoche
+          type: rss
+          url: https://feeds.cms.wiwo.de/rss/schlagzeilen
+          priority: high
+        - name: FAZ Wirtschaft
+          type: rss
+          url: https://www.faz.net/rss/aktuell/wirtschaft/
+          priority: high
+        - name: Manager Magazin
+          type: rss
+          url: https://www.manager-magazin.de/news/index.rss
+          priority: high
+      nachrichten:
+        - name: Tagesschau Wirtschaft
+          type: rss
+          url: https://www.tagesschau.de/wirtschaft/index~rss2.xml
+          priority: medium
+        - name: Spiegel Wirtschaft
+          type: rss
+          url: https://www.spiegel.de/wirtschaft/index.rss
+          priority: medium
+        - name: n-tv Wirtschaft
+          type: rss
+          url: https://www.n-tv.de/wirtschaft/rss
+          priority: medium
+      finanzen:
+        - name: Handelsblatt Finanzen
+          type: rss
+          url: https://feeds.cms.handelsblatt.com/finanzen
+          priority: medium
+        - name: FinanzNachrichten Konjunktur
+          type: rss
+          url: https://www.finanznachrichten.de/rss-nachrichten-wirtschaft-konjunktur
+          priority: medium
+        - name: Bloomberg Markets
+          type: rss
+          url: https://feeds.bloomberg.com/markets/news.rss
+          priority: medium
+      forschung:
+        - name: ifo Institut
+          type: rss
+          url: https://www.ifo.de/rss
+          priority: medium
+
+  bali-flights:
+    name: "Bali Flug-Deals"
+    description: "Guenstige Fluege von Deutschland nach Bali (DPS)"
+    language: de
+    type: flight_deals
+    ntfy:
+      enabled: true
+      server: https://ntfy.sh
+      topic: news-pipe-bali-flights
+    prompt_focus: |
+      STRIKTE FILTERUNG: Bearbeite NUR Artikel die Fluege nach Bali, Indonesien
+      oder Suedostasien behandeln. Ignoriere ALLES andere (Hotels, Pauschalreisen,
+      Mietwagen, Fluege zu anderen Zielen, allgemeine Reisetipps).
+
+      Erfinde NICHTS dazu und fuelle den Digest NICHT mit irrelevanten Inhalten.
+
+      Suchkriterien:
+      - Abflug von deutschen Flughaefen (FRA, MUC, BER, DUS, HAM, STR, CGN etc.)
+      - Ziel: Bali / Denpasar (DPS) oder Umgebung
+      - Reisefenster: Hinflug fruehestens Sa 18.07.2026, Rueckflug spaetestens 01.08.2026
+      - Aufenthalt flexibel (auch kuerzer als 14 Tage, wenn es guenstiger ist)
+      - Gesamtreisedauer pro Strecke max 22 Stunden (inkl. Umsteigen)
+      - Gepaeck muss im Preis enthalten sein (kein Handgepaeck-only)
+
+      WICHTIG - IMMER Top 5 anzeigen:
+      Zeige IMMER die Top 5 guenstigsten Fluege nach Bali, sortiert nach Preis.
+      Antworte NIEMALS mit "keine Fluege gefunden" solange Flugdaten vorhanden sind.
+
+      - Fluege unter 1000 EUR (Hin+Rueck): Als "Schnaeppchen" oder "Guter Deal" markieren.
+      - Fluege ueber 1000 EUR (Hin+Rueck): Trotzdem anzeigen mit dem Hinweis
+        "⚠️ Ueber Budgetgrenze (1000 EUR)" — diese dienen der Marktpreis-Uebersicht.
+
+      Wenn ALLE 5 Fluege ueber 1000 EUR liegen, zeige sie mit dem Header:
+      "Aktuell keine Fluege unter 1000 EUR — hier die guenstigsten Angebote zur Marktpreis-Orientierung:"
+
+      Zeige pro Deal: Abflughafen, Preis, Airline, Umsteigeort, Gesamtdauer, Gepaeck-Info, Buchungslink.
+      Bewerte ob der Preis ein Schnaeppchen ist (Normalpreis DE-DPS liegt bei 600-900 EUR).
+    sources:
+      flights:
+        - name: Bali Fluege
+          type: flight_search
+          origin: FRA,MUC,BER,DUS,HAM,STR
+          destination: DPS
+          departure_date: "2026-07-18"
+          return_date: "2026-08-01"
+          adults: 1
+          max_results: 10
+          max_duration: 22
+          curr: EUR
+          priority: high
+
+# Beispiel: Flug-Deals (RSS Feeds von Flug-Deal-Seiten)
+# Zum Aktivieren einfach das '#' entfernen.
+#
+#  flight-deals:
+#    name: "Günstige Flüge"
+#    description: "Flug-Deals und Error Fares"
+#    language: de
+#    ntfy:
+#      enabled: true
+#      server: https://ntfy.sh
+#      topic: news-push-flights
+#    prompt_focus: |
+#      Fokus auf die günstigsten Angebote. Sortiere nach Preis.
+#      Zeige Start, Ziel, Preis, Airline und Reisezeitraum.
+#      Bewerte ob das Angebot wirklich ein Schnäppchen ist.
+#    sources:
+#      deals:
+#        - name: Secret Flying
+#          type: rss
+#          url: https://www.secretflying.com/feed/
+#          priority: high
+#        - name: The Points Guy
+#          type: rss
+#          url: https://thepointsguy.com/feed/
+#          priority: medium
+#
+#  tech-security:
+#    name: "Tech Security"
+#    description: "Security Advisories und CVEs"
+#    language: de
+#    ntfy:
+#      enabled: true
+#      server: https://ntfy.sh
+#      topic: news-push-security
+#    prompt_focus: |
+#      Fokus auf kritische Sicherheitslücken und Patches.
+#      Bewerte den Schweregrad und gib konkrete Handlungsempfehlungen.
+#    sources:
+#      security:
+#        - name: CISA Alerts
+#          type: rss
+#          url: https://www.cisa.gov/cybersecurity-advisories/all.xml
+#          priority: high
+
+output:
+  base_dir: output
+  data_dir: data

@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Quantifying infrastructure noise in agentic coding evals",
+    "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-04-05T00:44:32+00:00",
+    "summary": "Quantifying infrastructure noise in agentic coding evals",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "National Robotics Week — Latest Physical AI Research, Breakthroughs and Resources",
+    "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
+    "source": "NVIDIA AI Blog",
+    "category": "big_labs",
+    "published": "2026-04-04T17:00:59+00:00",
+    "summary": "This National Robotics Week, NVIDIA is highlighting the breakthroughs that are bringing AI into the physical world — as well as the growing wave of robots transforming industries, from agricultural and manufacturing to energy and beyond. Advancements in robot learning, simulation and foundation models are accelerating development, enabling robots to move from training in virtual [&#8230;]",
+    "content": "<div id=\"bsf_rt_marker\"></div><p><span style=\"font-weight: 400;\">This </span><a href=\"https://www.nationalroboticsweek.org/\" target=\"_blank\"><span style=\"font-weight: 400;\">National Robotics Week</span></a><span style=\"font-weight: 400;\">, NVIDIA is highlighting the breakthroughs that are bringing AI into the physical world — as well as the growing wave of robots transforming industries, from agricultural and manufacturing to energy and beyond.</span></p>\n<p><span style=\"font-weight: 400;\">Advancements in robot learning, simulation and foundation models are accelerating development, enabling robots to move from training in virtual environments to real-world deployment faster than ever.</span></p>\n<p><span style=\"font-weight: 400;\">With NVIDIA platforms for </span><a href=\"https://www.nvidia.com/en-us/use-cases/robotics-simulation/\" target=\"_blank\"><span style=\"font-weight: 400;\">simulation</span></a><span style=\"font-weight: 400;\">, </span><a href=\"https://www.nvidia.com/en-us/use-cases/synthetic-data-physical-ai/\" target=\"_blank\"><span style=\"font-weight: 400;\">synthetic data</span></a><span style=\"font-weight: 400;\"> and </span><a href=\"https://www.nvidia.com/en-us/use-cases/robot-learning/\" target=\"_blank\"><span style=\"font-weight: 400;\">AI-powered robot learning</span></a><span style=\"font-weight: 400;\">, developers now have the tools to build machines that can perceive, reason and act in complex environments.</span></p>\n<p><span style=\"font-weight: 400;\">Check back here all week for coverage on the latest NVIDIA </span><a href=\"https://www.nvidia.com/en-us/glossary/generative-physical-ai/\" target=\"_blank\"><span style=\"font-weight: 400;\">physical AI</span></a><span style=\"font-weight: 400;\"> technologies.</span></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "A folk musician became a target for AI fakes and a copyright troll",
+    "url": "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-04-04T17:52:10+00:00",
+    "summary": "In January, folk artist Murphy Campbell discovered several songs on her Spotify profile that did not belong there. They were songs that she had recorded, but she'd never uploaded them to Spotify, and something was off about the vocals. She quickly surmised that someone had pulled performances of the songs she posted to YouTube, created [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Musician Murphy Campbell in a black and white photo that appears to be taken on an old-school large format film camera.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/0040566978_25.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tMurphy Campbell is at the center of a brewing storm around AI and a broken copyright system. | Image: Murphy Campbell\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">In January, folk artist Murphy Campbell discovered several songs on her Spotify profile that <a href=\"https://www.instagram.com/murphydoesnotmatter/reel/DTvZayRiZ4q/\">did not belong there</a>. They were songs that she had recorded, but she'd never uploaded them to Spotify, and something was off about the vocals.</p>\n<p class=\"has-text-align-none\">She quickly surmised that someone had pulled performances of the songs she posted to YouTube, created AI covers, and uploaded them to streaming platforms under her name. I ran one of the songs, \"Four Marys\", through two different AI detectors, and it seemed to support her suspicions with both saying it was probably AI-generated.</p>\n<p class=\"has-text-align-none\">Campbell was shocked, \"I was kind of under the impression that we had a little b …</p>\n<p><a href=\"https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Really, you made this without AI? Prove it",
+    "url": "https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-04-04T13:00:00+00:00",
+    "summary": "\"This looks like AI.\" It's a phrase I dread seeing as a writer who dabbles in illustration and amateur photography. In a world where generative AI technology is increasingly adept at mimicking the work of humans, people are naturally skeptical when online platforms refuse to label even obvious AI content. This leads me to one [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"A crowd of robots surrounding someone with a robot captcha for a head.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Human-made-ai-free-labels-hero.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-drop-cap has-text-align-none\">\"This looks like AI.\"</p>\n<p class=\"has-text-align-none\">It's a phrase I dread seeing as a writer who dabbles in illustration and amateur photography. In a world where generative AI technology is increasingly adept at mimicking the work of humans, people are naturally skeptical when online platforms <a href=\"https://www.theverge.com/ai-artificial-intelligence/882956/ai-deepfake-detection-labels-c2pa-instagram-youtube\">refuse to label even obvious AI content</a>.</p>\n<p class=\"has-text-align-none\">This leads me to one conclusion: maybe we should start labeling human-made text, images, audio, and video with something akin to a universally recognized Fair Trade logo. The machines sure as hell aren't motivated to label their work, but the creators at risk of being displaced most definitely are.</p>\n<p class=\"has-text-align-none\">Fortunately, I'm not alone in my thinki …</p>\n<p><a href=\"https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
+    "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-04-04T16:32:22+00:00",
+    "summary": "It’s about to become more expensive for Claude Code subscribers to use Anthropic’s coding assistant with OpenClaw and other third-party tools.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "OCSF explained: The shared data language security teams have been missing",
+    "url": "https://venturebeat.com/security/ocsf-explained-the-shared-data-language-security-teams-have-been-missing",
+    "source": "VentureBeat",
+    "category": "news",
+    "published": "2026-04-04T18:06:19+00:00",
+    "summary": "<p>The security industry has spent the last year talking about models, copilots, and agents, but a quieter shift is happening one layer below all of that: Vendors are lining up around a shared way to describe security data. The Open Cybersecurity Schema Framework<i> (</i>OCSF), is emerging as one of the strongest candidates for that job.</p><p>It gives vendors, enterprises, and practitioners a common way to represent <a href=\"https://venturebeat.com/security/claude-code-512000-line-source-leak-attack-paths-audit-security-leaders?_gl=1*1bnj2g2*_up*MQ..*_ga*MjA4NDYxMTU5MS4xNzc1MjYyMDM1*_ga_SCH1J7LNKY*czE3NzUyNjIwMzMkbzEkZzAkdDE3NzUyNjIwMzMkajYwJGwwJGgw*_ga_B8TDS1LEXQ*czE3NzUyNjIwMzQkbzEkZzAkdDE3NzUyNjIwMzQkajYwJGwwJGgw\">security events</a>, findings, objects, and context. That means less time rewriting field names and custom parsers and more time correlating detections, running analytics, and building workflows that can work across products. In a market where every security team is stitching together endpoint, identity, cloud, SaaS, and AI telemetry, a common infrastructure long felt like a pipe dream, and OCSF now puts it within reach.</p><h2>OCSF in plain language</h2><p>OCSF is an open-source framework for cybersecurity schemas. It’s vendor neutral by design and deliberately agnostic to storage format, data collection, and ETL choices. In practical terms, it gives application teams and data engineers a shared structure for events so analysts can work with a more consistent language for threat detection and investigation.</p><p>That sounds dry until you look at the daily work inside a <a href=\"https://venturebeat.com/security/axios-npm-supply-chain-attack-rat-maintainer-token-2026?_gl=1*18t0sen*_up*MQ..*_ga*MjA4NDYxMTU5MS4xNzc1MjYyMDM1*_ga_SCH1J7LNKY*czE3NzUyNjIwMzMkbzEkZzAkdDE3NzUyNjIwMzMkajYwJGwwJGgw*_ga_B8TDS1LEXQ*czE3NzUyNjIwMzQkbzEkZzAkdDE3NzUyNjIwMzQkajYwJGwwJGgw\">security operations center</a> (SOC). Security teams have to spend a lot of effort normalizing data from different tools so that they can correlate events. For example, detecting an employee logging in from San Francisco at 10 a.m. on their laptop, then accessing a cloud resource from New York at 10:02 a.m. could reveal a leaked credential. </p><p>Setting up a system that can correlate those events, however, is no easy task: Different tools describe the same idea with different fields, nesting structures, and assumptions. OCSF was built to lower this tax. It helps vendors map their own schemas into a common model and helps customers move data through lakes, pipelines, security incident and event management (SIEM) tools without requiring time consuming translation at every hop.</p><h2>The last two years have been unusually fast</h2><p>Most of OCSF’s visible acceleration has happened in the last two years. The project was <a href=\"https://venturebeat.com/security/black-hat-2022-reveals-enterprise-security-trends\">announced in August 2022</a> by Amazon AWS and Splunk, building on worked contributed by Symantec, Broadcom, and other well known infrastructure giants Cloudflare, CrowdStrike, IBM, Okta, Palo Alto Networks, Rapid7, Salesforce, Securonix, Sumo Logic, Tanium, Trend Micro, and Zscaler.</p><p><i>The OCSF community has kept up a steady cadence of releases over the last two years</i></p><p>The community has grown quickly. AWS said in August 2024 that OCSF had expanded from a 17-company initiative into a community with more than 200 participating organizations and 800 contributors, which expanded to 900 wen OCSF joined the Linux Foundation in November 2024. </p><h2>OCSF is showing up across the industry</h2><p>In the observability and security space, OCSF is everywhere. AWS Security Lake converts natively supported AWS logs and events into OCSF and stores them in Parquet. AWS AppFabric can output OCSF — normalized audit data. AWS Security Hub findings use OCSF, and AWS publishes an extension for cloud-specific resource details. </p><p>Splunk can translate incoming data into OCSF with edge processor and ingest processor. Cribl supports seamless converting streaming data into OCSF and compatible formats.</p><p>Palo Alto Networks can forward Strata sogging Service data into Amazon Security Lake in OCSF. CrowdStrike positions itself on both sides of the OCSF pipe, with Falcon data translated into OCSF for Security Lake and Falcon Next-Gen SIEM positioned to ingest and parse OCSF-formatted data. OCSF is one of those rare standards that has crossed the chasm from an abstract standard into standard operational plumbing across the industry.</p><h2>AI is giving the OCSF story fresh urgency</h2><p>When enterprises deploy AI infrastructure, large language models (LLMs) sit at the core, surrounded by complex distributed systems such as model gateways, agent runtimes, vector stores, tool calls, retrieval systems, and policy engines. These components generate new forms of telemetry, much of which spans product boundaries. Security teams across the SOC are increasingly focused on capturing and analyzing this data. The central question often becomes what an agentic AI system actually did, rather than only the text it produced, and whether its actions led to any security breaches.</p><p>That puts more pressure on the underlying data model. An AI assistant that calls the wrong tool, retrieves the wrong data, or chains together a risky sequence of actions creates a security event that needs to be understood across systems. A shared security schema becomes more valuable in that world, especially when AI is also being used on the analytics side to correlate more data, faster.</p><h2>For OCSF, 2025 was all about AI</h2><p>Imagine a company uses an AI assistant to help employees look up internal documents and trigger tools like ticketing systems or code repositories. One day, the assistant starts pulling the wrong files, calling tools it should not use, and exposing sensitive information in its responses. </p><p>Updates in OCSF versions 1.5.0, 1.6.0, and 1.7.0 help security teams piece together what happened by flagging unusual behavior, showing who had access to the connected systems, and tracing the assistant’s tool calls step by step. Instead of only seeing the final answer the AI gave, the team can investigate the full chain of actions that led to the problem.</p><h2>What&#x27;s on the horizon</h2><p>Imagine a company uses an AI customer support bot, and one day the bot begins giving long, detailed answers that include internal troubleshooting guidance meant only for staff. With the kinds of changes being developed for OCSF 1.8.0, the security team could see which model handled the exchange, which provider supplied it, what role each message played, and how the token counts changed across the conversation. </p><p>A sudden spike in prompt or completion tokens could signal that the bot was fed an unusually large hidden prompt, pulled in too much background data from a vector database, or generated an overly long response that increased the chance of sensitive information leaking. That gives investigators a practical clue about where the interaction went off course, instead of leaving them with only the final answer.</p><h2>Why this matters to the broader market</h2><p>The bigger story is that OCSF has moved quickly from being a community effort to becoming a real standard that security products use every day. Over the past two years, it has gained stronger governance, frequent releases, and practical support across data lakes, ingest pipelines, SIEM workflows, and partner ecosystems. </p><p>In a world where AI expands the security landscape through scams, abuse, and new attack paths, security teams rely on OCSF to connect data from many systems without losing context along the way to keep your data safe. </p><p><i>Nikhil Mungel has been building distributed systems and AI teams at SaaS companies for more than 15 years.</i></p>",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "steven2358/awesome-generative-ai (11747★)",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-10-20T11:18:17+00:00",
+    "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "py-why/EconML (4577★)",
+    "url": "https://github.com/py-why/EconML",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-04-30T21:02:52+00:00",
+    "summary": "ALICE (Automated Learning and Intelligence for Causation and Economics) is a Microsoft Research project aimed at applying Artificial Intelligence concepts to economic decision making. One of its  goals is to build a toolkit that combines state-of-the-art machine learning techniques with econometrics in order to bring automation to complex causal inference problems. To date, the ALICE Python SDK (econml) implements orthogonal machine learning algorithms such as the double machine learning work of Chernozhukov et al. This toolkit is designed to measure the causal effect of some treatment variable(s) t on an outcome variable y, controlling for a set of features x.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3263★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Josh-XT/AGiXT (3166★)",
+    "url": "https://github.com/Josh-XT/AGiXT",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-04-17T19:35:00+00:00",
+    "summary": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (2798★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "nivu/ai_all_resources (1457★)",
+    "url": "https://github.com/nivu/ai_all_resources",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-12-26T09:43:16+00:00",
+    "summary": "A curated list of Best Artificial Intelligence Resources",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (989★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "divelab/AIRS (753★)",
+    "url": "https://github.com/divelab/AIRS",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-02-01T17:05:09+00:00",
+    "summary": "Artificial Intelligence Research for Science (AIRS)",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hazratali/awesome-ai-summerschool (539★)",
+    "url": "https://github.com/hazratali/awesome-ai-summerschool",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-01-10T07:14:36+00:00",
+    "summary": "A list of summer schools on Artificial Intelligence, Machine Learning, and Healthcare",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "SHI-Yu-Zhe/awesome-agi-cocosci (373★)",
+    "url": "https://github.com/SHI-Yu-Zhe/awesome-agi-cocosci",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-09-13T06:52:58+00:00",
+    "summary": "An awesome & curated list for Artificial General Intelligence, an emerging inter-discipline field that combines artificial intelligence and computational cognitive sciences.",
+    "content": null,
+    "priority": "low"
+  }
+]

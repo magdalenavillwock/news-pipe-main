@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Quantifying infrastructure noise in agentic coding evals",
+    "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-04-06T06:46:37+00:00",
+    "summary": "Quantifying infrastructure noise in agentic coding evals",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "Industrial policy for the Intelligence Age",
+    "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+    "source": "OpenAI Blog",
+    "category": "big_labs",
+    "published": "2026-04-06T02:30:00+00:00",
+    "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Suno is a music copyright nightmare",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-04-05T16:00:00+00:00",
+    "summary": "AI music platform Suno's policy is that it does not permit the use of copyrighted material. You can upload your own tracks to remix or set your original lyrics to AI-generated music. But, it's supposed to recognize and stop you from using other people's songs and lyrics. Now, no system is perfect, but it turns [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Suno logo on a glitchy backgrounds.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STKB368_SUNO_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">AI music platform Suno's policy is that it does not permit the use of <a href=\"https://www.theverge.com/news/782448/riaa-suno-ai-lawsuit-update-stream-ripping-youtube\">copyrighted material</a>. You can upload your own tracks to remix or set your original lyrics to AI-generated music. But, it's supposed to recognize and stop you from using other people's songs and lyrics. Now, no system is perfect, but it turns out that Suno's copyright filters are incredibly easy to fool.</p>\n<p class=\"has-text-align-none\">With minimal effort and some free software, Suno will spit out AI-generated imitations of popular songs like Beyonc&eacute;'s \"Freedom,\" Black Sabbath's \"Paranoid,\" and Aqua's \"Barbie Girl\" that are alarmingly close to the original. Most people will likely be able to tell the dif …</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "I let Gemini in Google Maps plan my day and it went surprisingly well",
+    "url": "https://www.theverge.com/tech/907015/gemini-google-maps-hands-on",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-04-05T14:00:00+00:00",
+    "summary": "You may be familiar with Gemini as the thing that's in every Google service you use - whether you want it or not. While it's been a constant, sometimes unwelcome presence in Gmail for at least the past year, it's a relatively new addition to Maps. And you know what? It's kind of great. To [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/IMG_0562.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tTake me to the tacos, Gemini.\t</figcaption>\n</figure>\n<p class=\"has-drop-cap has-text-align-none\">You may be familiar with Gemini as the thing that's in every Google service you use - whether you want it or not. </p>\n<p class=\"has-text-align-none\">While it's been a constant, sometimes unwelcome presence in Gmail for at least the past year, it's <a href=\"https://www.theverge.com/tech/893262/google-maps-gemini-ai-ask-maps-immersive-navigation\">a relatively new addition to Maps</a>. And you know what? It's kind of great.</p>\n<p class=\"has-text-align-none\">To put it to the test, I had Gemini plan a day-long itinerary for me around the city. After an hour or so of having Gemini find stuff for me - playgrounds near the new light rail extension, kid-friendly restaurants with vehicle themes, you get the gist - I was impressed. Some of the suggestions were obvious, but I also bookmarked a handful of spots not on m …</p>\n<p><a href=\"https://www.theverge.com/tech/907015/gemini-google-maps-hands-on\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Grammarly’s sloppelganger saga",
+    "url": "https://www.theverge.com/column/906606/grammarly-expert-review-ai-saga",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-04-05T12:00:00+00:00",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the ups and downs of AI, follow Stevie Bonifield. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Most people probably know Grammarly for its browser [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"An illustration of a hand with extra fingers where a head should be\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268400_Grammarlys_sloppelganger_saga_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\"><em>This is </em><a href=\"https://www.theverge.com/the-stepback-newsletter\">The Stepback</a><em>, a weekly newsletter breaking down one essential story from the tech world. For more on the ups and downs of AI, </em><a href=\"https://www.theverge.com/authors/stevie-bonifield\"><em>follow Stevie Bonifield</em></a><em>. </em>The Stepback<em> arrives in our subscribers' inboxes at 8AM ET. Opt in for </em>The Stepback<em> </em><a href=\"https://www.theverge.com/newsletters\"><em>here</em></a><em>.</em> </p>\n<h2 class=\"wp-block-heading\">How it started</h2>\n<p class=\"has-text-align-none\">Most people probably know Grammarly for its browser extension that suggests how to spruce up your emails, but over the past few years, it's been eyeing bigger ambitions. In October, the company formerly known as Grammarly made a public pivot to rebrand as <a href=\"https://www.theverge.com/news/808472/grammarly-superhuman-ai-rebrand-relaunch\">an AI company called Superhuman</a>. The new name was adopted from Superhuman Mail, an AI email platform that Grammarly acquired i …</p>\n<p><a href=\"https://www.theverge.com/column/906606/grammarly-expert-review-ai-saga\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
+    "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-04-05T18:51:37+00:00",
+    "summary": "AI skeptics aren’t the only ones warning users not to unthinkingly trust models’ outputs — that’s what the AI companies say themselves in their terms of service.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Can orbital data centers help justify a massive valuation for SpaceX?",
+    "url": "https://techcrunch.com/2026/04/05/can-orbital-data-centers-help-justify-a-massive-valuation-for-spacex/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-04-05T15:40:58+00:00",
+    "summary": "On the latest episode of TechCrunch’s Equity podcast, we debated Elon Musk's vision for data centers in space.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "In Japan, the robot isn’t coming for your job; it’s filling the one nobody wants",
+    "url": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-04-05T14:00:00+00:00",
+    "summary": "Driven by labor shortages, Japan is pushing physical AI from pilot projects into real-world deployment.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "OCSF explained: The shared data language security teams have been missing",
+    "url": "https://venturebeat.com/security/ocsf-explained-the-shared-data-language-security-teams-have-been-missing",
+    "source": "VentureBeat",
+    "category": "news",
+    "published": "2026-04-05T18:07:41+00:00",
+    "summary": "<p>The security industry has spent the last year talking about models, copilots, and agents, but a quieter shift is happening one layer below all of that: Vendors are lining up around a shared way to describe security data. The Open Cybersecurity Schema Framework<i> (</i>OCSF), is emerging as one of the strongest candidates for that job.</p><p>It gives vendors, enterprises, and practitioners a common way to represent <a href=\"https://venturebeat.com/security/claude-code-512000-line-source-leak-attack-paths-audit-security-leaders?_gl=1*1bnj2g2*_up*MQ..*_ga*MjA4NDYxMTU5MS4xNzc1MjYyMDM1*_ga_SCH1J7LNKY*czE3NzUyNjIwMzMkbzEkZzAkdDE3NzUyNjIwMzMkajYwJGwwJGgw*_ga_B8TDS1LEXQ*czE3NzUyNjIwMzQkbzEkZzAkdDE3NzUyNjIwMzQkajYwJGwwJGgw\">security events</a>, findings, objects, and context. That means less time rewriting field names and custom parsers and more time correlating detections, running analytics, and building workflows that can work across products. In a market where every security team is stitching together endpoint, identity, cloud, SaaS, and AI telemetry, a common infrastructure long felt like a pipe dream, and OCSF now puts it within reach.</p><h2>OCSF in plain language</h2><p>OCSF is an open-source framework for cybersecurity schemas. It’s vendor neutral by design and deliberately agnostic to storage format, data collection, and ETL choices. In practical terms, it gives application teams and data engineers a shared structure for events so analysts can work with a more consistent language for threat detection and investigation.</p><p>That sounds dry until you look at the daily work inside a <a href=\"https://venturebeat.com/security/axios-npm-supply-chain-attack-rat-maintainer-token-2026?_gl=1*18t0sen*_up*MQ..*_ga*MjA4NDYxMTU5MS4xNzc1MjYyMDM1*_ga_SCH1J7LNKY*czE3NzUyNjIwMzMkbzEkZzAkdDE3NzUyNjIwMzMkajYwJGwwJGgw*_ga_B8TDS1LEXQ*czE3NzUyNjIwMzQkbzEkZzAkdDE3NzUyNjIwMzQkajYwJGwwJGgw\">security operations center</a> (SOC). Security teams have to spend a lot of effort normalizing data from different tools so that they can correlate events. For example, detecting an employee logging in from San Francisco at 10 a.m. on their laptop, then accessing a cloud resource from New York at 10:02 a.m. could reveal a leaked credential. </p><p>Setting up a system that can correlate those events, however, is no easy task: Different tools describe the same idea with different fields, nesting structures, and assumptions. OCSF was built to lower this tax. It helps vendors map their own schemas into a common model and helps customers move data through lakes, pipelines, security incident and event management (SIEM) tools without requiring time consuming translation at every hop.</p><h2>The last two years have been unusually fast</h2><p>Most of OCSF’s visible acceleration has happened in the last two years. The project was <a href=\"https://venturebeat.com/security/black-hat-2022-reveals-enterprise-security-trends\">announced in August 2022</a> by Amazon AWS and Splunk, building on worked contributed by Symantec, Broadcom, and other well known infrastructure giants Cloudflare, CrowdStrike, IBM, Okta, Palo Alto Networks, Rapid7, Salesforce, Securonix, Sumo Logic, Tanium, Trend Micro, and Zscaler.</p><p><i>The OCSF community has kept up a steady cadence of releases over the last two years</i></p><p>The community has grown quickly. AWS said in August 2024 that OCSF had expanded from a 17-company initiative into a community with more than 200 participating organizations and 800 contributors, which expanded to 900 wen OCSF joined the Linux Foundation in November 2024. </p><h2>OCSF is showing up across the industry</h2><p>In the observability and security space, OCSF is everywhere. AWS Security Lake converts natively supported AWS logs and events into OCSF and stores them in Parquet. AWS AppFabric can output OCSF — normalized audit data. AWS Security Hub findings use OCSF, and AWS publishes an extension for cloud-specific resource details. </p><p>Splunk can translate incoming data into OCSF with edge processor and ingest processor. Cribl supports seamless converting streaming data into OCSF and compatible formats.</p><p>Palo Alto Networks can forward Strata sogging Service data into Amazon Security Lake in OCSF. CrowdStrike positions itself on both sides of the OCSF pipe, with Falcon data translated into OCSF for Security Lake and Falcon Next-Gen SIEM positioned to ingest and parse OCSF-formatted data. OCSF is one of those rare standards that has crossed the chasm from an abstract standard into standard operational plumbing across the industry.</p><h2>AI is giving the OCSF story fresh urgency</h2><p>When enterprises deploy AI infrastructure, large language models (LLMs) sit at the core, surrounded by complex distributed systems such as model gateways, agent runtimes, vector stores, tool calls, retrieval systems, and policy engines. These components generate new forms of telemetry, much of which spans product boundaries. Security teams across the SOC are increasingly focused on capturing and analyzing this data. The central question often becomes what an agentic AI system actually did, rather than only the text it produced, and whether its actions led to any security breaches.</p><p>That puts more pressure on the underlying data model. An AI assistant that calls the wrong tool, retrieves the wrong data, or chains together a risky sequence of actions creates a security event that needs to be understood across systems. A shared security schema becomes more valuable in that world, especially when AI is also being used on the analytics side to correlate more data, faster.</p><h2>For OCSF, 2025 was all about AI</h2><p>Imagine a company uses an AI assistant to help employees look up internal documents and trigger tools like ticketing systems or code repositories. One day, the assistant starts pulling the wrong files, calling tools it should not use, and exposing sensitive information in its responses. </p><p>Updates in OCSF versions 1.5.0, 1.6.0, and 1.7.0 help security teams piece together what happened by flagging unusual behavior, showing who had access to the connected systems, and tracing the assistant’s tool calls step by step. Instead of only seeing the final answer the AI gave, the team can investigate the full chain of actions that led to the problem.</p><h2>What&#x27;s on the horizon</h2><p>Imagine a company uses an AI customer support bot, and one day the bot begins giving long, detailed answers that include internal troubleshooting guidance meant only for staff. With the kinds of changes being developed for OCSF 1.8.0, the security team could see which model handled the exchange, which provider supplied it, what role each message played, and how the token counts changed across the conversation. </p><p>A sudden spike in prompt or completion tokens could signal that the bot was fed an unusually large hidden prompt, pulled in too much background data from a vector database, or generated an overly long response that increased the chance of sensitive information leaking. That gives investigators a practical clue about where the interaction went off course, instead of leaving them with only the final answer.</p><h2>Why this matters to the broader market</h2><p>The bigger story is that OCSF has moved quickly from being a community effort to becoming a real standard that security products use every day. Over the past two years, it has gained stronger governance, frequent releases, and practical support across data lakes, ingest pipelines, SIEM workflows, and partner ecosystems. </p><p>In a world where AI expands the security landscape through scams, abuse, and new attack paths, security teams rely on OCSF to connect data from many systems without losing context along the way to keep your data safe. </p><p><i>Nikhil Mungel has been building distributed systems and AI teams at SaaS companies for more than 15 years.</i></p>",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Claude, OpenClaw and the new reality: AI agents are here — and so is the chaos",
+    "url": "https://venturebeat.com/technology/claude-openclaw-and-the-new-reality-ai-agents-are-here-and-so-is-the-chaos",
+    "source": "VentureBeat",
+    "category": "news",
+    "published": "2026-04-05T18:06:13+00:00",
+    "summary": "<p>The age of agentic AI is upon us — whether we like it or not. What started with an innocent question-answer banter with ChatGPT back in 2022 has become an existential debate on job security and the rise of the machines. </p><p>More recently, fears of reaching artificial general intelligence (AGI) have become more real with the advent of  powerful autonomous agents like Claude Cowork and <a href=\"https://venturebeat.com/security/openclaw-500000-instances-no-enterprise-kill-switch\">OpenClaw</a>. Having played with these tools for some time, here is a comparison.</p><p>First, we have OpenClaw (formerly known as Moltbot and Clawdbot). Surpassing 150,000 GitHub stars in days, OpenClaw is already being deployed on local machines with deep system access. This is like a robot “maid” (Irona for <i>Richie Rich</i> fans, for instance) that you give the keys to your house. It’s supposed to clean it, and you give it the necessary autonomy to take actions and manage your belongings (files and data) as it pleases. The whole purpose is to perform the task at hand — inbox triaging, auto-replies, content curation, travel planning, and more.</p><p>Next we have Google’s <a href=\"https://antigravity.google/\">Antigravity</a>, a coding agent with an IDE that accelerates the path from prompt to production. You can interactively create complete application projects and modify specific details over individual prompts. This is like having a junior developer that can not only code, but build, test, integrate, and fix issues. In the realworld, this is like hiring an electrician: They are really good at a specific job and you only need to give them access to a specific item (your electric junction box). </p><p>Finally, we have the mighty Claude. The release of Anthropic&#x27;s Cowork, which featured AI agents for automating legal tasks like contract review and NDA triage, caused a sharp sell-off in legal-tech and software-as-a-service (SaaS) stocks (referred to as the <a href=\"https://venturebeat.com/infrastructure/intuit-is-betting-its-40-years-of-small-business-data-can-outlast-the\">SaaSpocalypse</a>). Claude has anyway been the go-to chatbot; now with Cowork, it has domain knowledge for specific industries like legal and finance. This is like hiring an accountant. They know the domain inside-out and can complete taxes and manage invoices. Users provide specific access to highly-sensitive financial details.</p><h2>Making these tools work for you</h2><p>The key to making these tools more impactful is giving them more power, but that increases the <a href=\"https://venturebeat.com/security/openclaw-can-bypass-your-edr-dlp-and-iam-without-triggering-a-single-alert\">risk of misuse</a>. Users must trust providers like Anthorpic and Google to ensure that agent prompts will not cause harm, leak data, or provide unfair (illegal) advantage to certain vendors. OpenClaw is open-source, which complicates things, as there is no central governing authority. </p><p>While these technological advancements are amazing and meant for the greater good, all it takes is one or two adverse events to cause panic. Imagine the agentic electrician frying all your house circuits by connecting the wrong wire. In an agent scenario, this could be injecting incorrect code, breaking down a bigger system or adding hidden flaws that may not be immediately evident. Cowork could miss major saving opportunities when doing a user&#x27;s taxes; on the flip side, it could include illegal writeoffs. Claude can do unimaginable damage when it has more control and authority.</p><p>But in the middle of this chaos, there is an opportunity to really take advantage. With the right guardrails in place, agents can focus on specific actions and avoid making random, unaccounted-for decisions. Principles of responsible AI — accountability, transparency, reproducibility, security, privacy — are extremely important. Logging agent steps and human confirmation are absolutely critical. </p><p>Also, when agents deal with so many diverse systems, it&#x27;s important they speak the same language. Ontology becomes very important so that events can be tracked, monitored, and accounted for. A shared domain-specific ontology can define a “code of conduct.&quot; These ethics can help control the chaos. When tied together with a shared trust and distributed identity framework, we can build systems that enable agents to do truly useful work. </p><p>When done right, an agentic ecosystem can greatly offload the human “cognitive load” and enable our workforce to perform high-value tasks. Humans will benefit when agents handle the mundane.</p><p><i>Dattaraj Rao is innovation and R&amp;D architect at Persistent Systems. </i></p>",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "steven2358/awesome-generative-ai (11765★)",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-10-20T11:18:17+00:00",
+    "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "py-why/EconML (4579★)",
+    "url": "https://github.com/py-why/EconML",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-04-30T21:02:52+00:00",
+    "summary": "ALICE (Automated Learning and Intelligence for Causation and Economics) is a Microsoft Research project aimed at applying Artificial Intelligence concepts to economic decision making. One of its  goals is to build a toolkit that combines state-of-the-art machine learning techniques with econometrics in order to bring automation to complex causal inference problems. To date, the ALICE Python SDK (econml) implements orthogonal machine learning algorithms such as the double machine learning work of Chernozhukov et al. This toolkit is designed to measure the causal effect of some treatment variable(s) t on an outcome variable y, controlling for a set of features x.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3268★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Josh-XT/AGiXT (3167★)",
+    "url": "https://github.com/Josh-XT/AGiXT",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-04-17T19:35:00+00:00",
+    "summary": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (2800★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "nivu/ai_all_resources (1457★)",
+    "url": "https://github.com/nivu/ai_all_resources",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-12-26T09:43:16+00:00",
+    "summary": "A curated list of Best Artificial Intelligence Resources",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (993★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hazratali/awesome-ai-summerschool (541★)",
+    "url": "https://github.com/hazratali/awesome-ai-summerschool",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-01-10T07:14:36+00:00",
+    "summary": "A list of summer schools on Artificial Intelligence, Machine Learning, and Healthcare",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "SHI-Yu-Zhe/awesome-agi-cocosci (373★)",
+    "url": "https://github.com/SHI-Yu-Zhe/awesome-agi-cocosci",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-09-13T06:52:58+00:00",
+    "summary": "An awesome & curated list for Artificial General Intelligence, an emerging inter-discipline field that combines artificial intelligence and computational cognitive sciences.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hortonworks/cloudbreak (361★)",
+    "url": "https://github.com/hortonworks/cloudbreak",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2014-05-10T10:03:07+00:00",
+    "summary": "CDP Public Cloud is an integrated analytics and data management platform deployed on cloud services. It offers broad data analytics and artificial intelligence functionality along with secure user access and data governance features.",
+    "content": null,
+    "priority": "low"
+  }
+]

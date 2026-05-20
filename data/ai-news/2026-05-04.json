@@ -1,0 +1,152 @@
+[
+  {
+    "title": "An update on recent Claude Code quality reports",
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-05-03T18:24:46+00:00",
+    "summary": "An update on recent Claude Code quality reports",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "How the internet’s favorite squirrel dad made the hottest camera app of 2026",
+    "url": "https://www.theverge.com/tech/921690/dualshot-recorder-iphone-camera-app-derrick-downey-jr",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-05-03T13:00:00+00:00",
+    "summary": "It's not hyperbole to call DualShot Recorder an overnight sensation. It took only 12 hours from the time it was released to hit number one on the App Store's list of top paid apps. It was a surprise success - but what's even more surprising is the app's origin story: it all started with a [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Vrg_illo_squirrel_influencer.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tDowney at home in LA with one of his channel’s frequent guest stars. | Image: The Verge; Shutterstock\t</figcaption>\n</figure>\n<p class=\"has-drop-cap has-text-align-none\">It's not hyperbole to call <a href=\"https://apps.apple.com/us/app/dualshot-recorder/id6761159805\">DualShot Recorder</a> an overnight sensation. </p>\n<p class=\"has-text-align-none\">It took only 12 hours from the time it was released to hit number one on the App Store's list of top paid apps. It was a surprise success - but what's even more surprising is the app's origin story: it all started with a cadre of friendly neighborhood squirrels and their favorite caretaker.</p>\n<p class=\"has-text-align-none\">Derrick Downey Jr. built a career on short-form videos documenting his interactions with the squirrels that visit his patio in LA. His <a href=\"https://www.instagram.com/derrickdowneyjr/\">Instagram</a> and <a href=\"https://www.tiktok.com/@derrickdowneyjr?lang=en\">TikTok accounts</a> each have well over a million followers (myself included) who know well the regular cast of characters: Maxine, Richard, …</p>\n<p><a href=\"https://www.theverge.com/tech/921690/dualshot-recorder-iphone-camera-app-derrick-downey-jr\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "AI music is flooding streaming services — but who wants it?",
+    "url": "https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-05-03T12:00:00+00:00",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on how AI is changing music and the music industry, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started The use of generative AI [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Colorful soundwaves\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/GettyImages-1468752442.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\"><em>This is </em><a href=\"https://www.theverge.com/the-stepback-newsletter\">The Stepback</a><em>, a weekly newsletter breaking down one essential story from the tech world. For more on how AI is changing music and the music industry, follow <a href=\"https://www.theverge.com/authors/terrence-obrien\">Terrence O'Brien</a>. </em>The Stepback <em>arrives in our subscribers' inboxes at 8AM ET. Opt in for </em>The Stepback<em> <a href=\"https://www.theverge.com/newsletters\">here</a>.</em></p>\n<h2 class=\"wp-block-heading\">How it started</h2>\n<p class=\"has-text-align-none\">The use of generative AI in pop music started almost as a gimmick. There was a sense of experimentalism to 2018's <em>I AM AI</em> by <a href=\"https://www.theverge.com/2017/8/27/16197196/taryn-southern-album-artificial-intelligence-interview\">Taryn Southern</a> and 2019's <em>Proto</em> by <a href=\"https://www.theverge.com/2015/5/15/8584937/holly-herndon-platform-album-review\">Holly Herndon</a>, albums that were created with significant assistance from AI. Others got in on the action too, exploring the outer limits of tools like <a href=\"https://www.theverge.com/circuitbreaker/2018/3/13/17114760/google-nsynth-super-ai-touchscreen-synth\">Google's Magenta</a> and even training their own mod …</p>\n<p><a href=\"https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "‘This is fine’ creator says AI startup stole his art",
+    "url": "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-03T20:16:51+00:00",
+    "summary": "The ad comes from Artisan, the AI startup behind billboards urging businesses to \"stop hiring humans.\"",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors",
+    "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-03T18:00:09+00:00",
+    "summary": "A new study examines how large language models perform in a variety of medical contexts, including real emergency room cases — where at least one model seemed to be more accurate than human doctors.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "steven2358/awesome-generative-ai (11945★)",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-10-20T11:18:17+00:00",
+    "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5397★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "aadi1011/AI-ML-Roadmap-from-scratch (3548★)",
+    "url": "https://github.com/aadi1011/AI-ML-Roadmap-from-scratch",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2024-05-26T05:26:18+00:00",
+    "summary": "Become skilled in Artificial Intelligence, Machine Learning, Generative AI, Deep Learning, Data Science, Natural Language Processing, Reinforcement Learning and more with this complete 0 to 100 repository.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3298★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Josh-XT/AGiXT (3182★)",
+    "url": "https://github.com/Josh-XT/AGiXT",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-04-17T19:35:00+00:00",
+    "summary": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (2955★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Born2Root/Fast-Font (1306★)",
+    "url": "https://github.com/Born2Root/Fast-Font",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-04-05T16:37:10+00:00",
+    "summary": "This font provides faster reading through facilitating the reading process by guiding the eyes through text with artificial fixation points.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1008★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hazratali/awesome-ai-summerschool (595★)",
+    "url": "https://github.com/hazratali/awesome-ai-summerschool",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-01-10T07:14:36+00:00",
+    "summary": "An awesome list of summer schools on Artificial Intelligence, Machine Learning, and Healthcare",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "vlang/vsl (393★)",
+    "url": "https://github.com/vlang/vsl",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-12-03T17:04:37+00:00",
+    "summary": "V library to develop Artificial Intelligence and High-Performance Scientific Computations",
+    "content": null,
+    "priority": "low"
+  }
+]

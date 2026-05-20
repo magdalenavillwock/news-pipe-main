@@ -1,0 +1,13 @@
+name: "AI & ML News"
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run:
+    uses: ./.github/workflows/run-subscription.yml
+    with:
+      subscription: ai-news
+    secrets: inherit

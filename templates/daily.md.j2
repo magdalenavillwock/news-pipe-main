@@ -1,0 +1,12 @@
+{# templates/daily.md.j2 #}
+# {{ subscription_name }} — {{ date }}
+
+{{ digest_markdown }}
+
+---
+
+*Quellen: {{ article_count }} Artikel aus {{ source_count }} von {{ total_configured }} konfigurierten Quellen*
+{% if missing_sources %}
+*Keine Daten von: {{ missing_sources | join(', ') }}*
+{% endif %}
+*Generiert am {{ generated_at }}*

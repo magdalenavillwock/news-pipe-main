@@ -1,0 +1,18 @@
+name: Token Renewal Reminder
+on:
+  schedule:
+    - cron: "0 9 1 */6 *"
+  workflow_dispatch:
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send reminder via Ntfy
+        run: |
+          curl -s \
+            -H "Title: Claude Token erneuern" \
+            -H "Priority: high" \
+            -H "Tags: warning,key" \
+            -d "Dein CLAUDE_CODE_OAUTH_TOKEN laeuft moeglicherweise bald ab. Erneuere ihn mit: claude setup-token && gh secret set CLAUDE_CODE_OAUTH_TOKEN" \
+            https://ntfy.sh/news-push-ai
