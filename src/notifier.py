@@ -24,9 +24,10 @@ async def notify(digest: DigestResult, ntfy_config: dict) -> None:
     url = f"{server}/{topic}"
 
     repo = os.environ.get("GITHUB_REPOSITORY", "ahlerjam/news-pipe")
-    github_url = f"https://github.com/{repo}/blob/main/output/{digest.subscription_id}/daily/{digest.date}.md"
+    branch = os.environ.get("GITHUB_REF_NAME", "master")
+    github_url = f"https://github.com/{repo}/blob/{branch}/output/{digest.subscription_id}/daily/{digest.date}.md"
 
-    body = digest.top3_summary
+    body = digest.notification_summary or digest.top3_summary
 
     try:
         async with httpx.AsyncClient() as client:
