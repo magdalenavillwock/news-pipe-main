@@ -114,7 +114,9 @@ Regeln:
 
 {digest_markdown}"""
 
-FINANCE_DAILY_PROMPT = """Du bist ein präziser Finanzanalyst. Erstelle ein strukturiertes Morning-Briefing für den heutigen Handelstag {date}.
+FINANCE_DAILY_PROMPT = """Gib ausschließlich das fertige Morning-Briefing aus – vollständig, abschnittweise, ohne Einleitung, ohne Meta-Kommentar, ohne Zusammenfassung am Ende. Kein Satz wie „Das Briefing umfasst X Wörter" oder „Die Struktur wurde eingehalten." Beginne direkt mit ①.
+
+Du bist ein präziser Finanzanalyst. Erstelle ein strukturiertes Morning-Briefing für den heutigen Handelstag {date}.
 
 Nutze Websuche und beziehe dich auf aktuelle Quellen (Handelsblatt, Reuters, Bloomberg, CNBC, finanzen.net, Yahoo Finance, Wall Street Journal). Jede faktische Aussage erhält Quelle und Datum. Bei widersprüchlichen Einschätzungen: beide Positionen nennen, nicht glätten.
 
@@ -146,6 +148,8 @@ REGELN:
 - Kein Abschnitt wird künstlich befüllt
 - Rohstoffe nur erwähnen, wenn sie heute direkten Markteinfluss haben
 - Kein 3-Monats-Ausblick, keine Strategieempfehlung – das ist Aufgabe des Weekly
+
+AUSGABEFORMAT: Beginne deine Antwort mit der Zeile „Morning-Briefing {date}" und danach sofort mit Abschnitt ①. Nichts davor, nichts danach.
 
 Hier sind die gesammelten Nachrichtendaten des heutigen Tages:
 {collected_data}"""
