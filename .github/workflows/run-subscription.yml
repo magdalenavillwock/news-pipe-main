@@ -39,10 +39,10 @@ jobs:
           git config user.email "bot@news-pipe.local"
           git add output/ data/
           git diff --staged --quiet || git commit -m "${{ inputs.subscription }}: Digest $(date +%Y-%m-%dT%H:%M)"
-          git push
+          git pull --rebase && git push
       - name: Cleanup old digests
         run: |
           find output/${{ inputs.subscription }}/ data/${{ inputs.subscription }}/ -type f -mtime +90 -delete 2>/dev/null || true
           git add -A output/ data/
           git diff --staged --quiet || git commit -m "${{ inputs.subscription }}: Cleanup digests older than 90 days"
-          git push
+          git pull --rebase && git push
