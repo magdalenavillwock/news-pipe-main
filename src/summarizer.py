@@ -246,7 +246,16 @@ REGELN:
 - Fehlen Daten trotz Websuche: explizit benennen statt erfinden
 - Kein Meta-Kommentar, keine Einleitung, keine Schlusszusammenfassung
 
-AUSGABE: Beginne mit „Wochenanalyse KW {week_number} | {week_start} – {week_end}", dann sofort ①.
+AUSGABE: Schreibe ausschließlich XML-Tags in exakt dieser Reihenfolge. Kein Text außerhalb der Tags.
+
+<AKTUALITAET>Inhalt für ① hier</AKTUALITAET>
+<TAKEAWAY>Inhalt für ② hier</TAKEAWAY>
+<MARKT>Inhalt für ③ hier</MARKT>
+<TECHNIK>Inhalt für ④ hier</TECHNIK>
+<MAKRO>Inhalt für ⑤ hier</MAKRO>
+<SONDER>Inhalt für ⑥ hier</SONDER>
+<POLITIK>Inhalt für ⑦ hier</POLITIK>
+<FAZIT>Inhalt für ⑧ hier</FAZIT>
 
 Hier sind die Tages-Digests der vergangenen Woche:
 {weekly_data}"""
