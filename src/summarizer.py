@@ -309,7 +309,32 @@ async def summarize_daily(articles: list[Article], settings: dict, prompt_focus:
         language=language,
         date=today.strftime("%d.%m.%Y"),
     )
-    return await _call_claude(prompt, settings["daily_model"])
+    raw = await _call_claude(prompt, settings["daily_model"])
+
+    if subscription_type == "finance":
+        sections = _extract_sections(raw, DAILY_REQUIRED + DAILY_OPTIONAL)
+        missing = [t for t in DAILY_REQUIRED if not sections.get(t)]
+        if missing:
+            logger.warning(f"[finance-daily] Missing sections after first call: {missing}")
+            retry_prompt = (
+                f"Folgende XML-Tags fehlen in deiner Antwort: "
+                f"{', '.join(f'<{t}>' for t in missing)}. "
+                f"Bitte ergänze ausschließlich die fehlenden Tags."
+            )
+            raw2 = await _call_claude(retry_prompt, settings["daily_model"])
+            for tag, val in _extract_sections(raw2, missing).items():
+                if val:
+                    sections[tag] = val
+            for t in DAILY_REQUIRED:
+                if not sections.get(t):
+                    logger.warning(f"[finance-daily] Section {t} still missing after retry, using fallback")
+                    sections[t] = "[Keine Daten verfügbar]"
+        return _render_finance_template(
+            "wirtschafts-news-daily.md.j2",
+            {"sections": sections, "date": today.strftime("%d.%m.%Y")},
+        )
+
+    return raw
 
 
 async def summarize_top3(digest_markdown: str, settings: dict, language: str = "Deutsch", subscription_type: str = "news") -> str:
