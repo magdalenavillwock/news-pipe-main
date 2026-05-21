@@ -2,7 +2,11 @@
 import asyncio
 import json
 import logging
+import re
 from datetime import date, timedelta
+from pathlib import Path
+
+from jinja2 import Environment, FileSystemLoader
 
 from src.models import Article
 
@@ -19,6 +23,26 @@ LANGUAGE_MAP = {
 def _resolve_language(code: str) -> str:
     """Map ISO 639-1 codes to full language names for prompts."""
     return LANGUAGE_MAP.get(code, code)
+
+
+DAILY_REQUIRED = ["OVERNIGHT", "INDIZES", "TERMINE", "RISIKO", "CHANCE"]
+DAILY_OPTIONAL = ["WATCHLIST"]
+WEEKLY_REQUIRED = ["AKTUALITAET", "TAKEAWAY", "MARKT", "TECHNIK", "MAKRO", "SONDER", "POLITIK", "FAZIT"]
+
+
+def _extract_sections(xml: str, tags: list[str]) -> dict[str, str | None]:
+    return {
+        tag: m.group(1).strip()
+        if (m := re.search(f"<{tag}>(.*?)</{tag}>", xml, re.DOTALL))
+        else None
+        for tag in tags
+    }
+
+
+def _render_finance_template(template_name: str, context: dict) -> str:
+    template_dir = Path(__file__).parent.parent / "templates"
+    env = Environment(loader=FileSystemLoader(str(template_dir)))
+    return env.get_template(template_name).render(**context)
 
 
 DAILY_PROMPT = """Du bist ein News-Analyst. Hier sind die gesammelten News und Updates der letzten 24 Stunden.
@@ -126,7 +150,14 @@ REGELN:
 - Kein 3-Monats-Ausblick, keine Strategieempfehlung — das ist Aufgabe des Weekly
 - Kein Meta-Kommentar, keine Einleitung, keine Schlusszusammenfassung
 
-AUSGABE: Beginne mit „Morning-Briefing {date}", dann sofort ①.
+AUSGABE: Schreibe ausschließlich XML-Tags in exakt dieser Reihenfolge. Kein Text außerhalb der Tags.
+
+<OVERNIGHT>Inhalt für Abschnitt ① hier</OVERNIGHT>
+<INDIZES>Inhalt für Abschnitt ② hier</INDIZES>
+<TERMINE>Inhalt für Abschnitt ③ hier</TERMINE>
+<RISIKO>Nur den Risiko-Text für Abschnitt ④ hier (ohne das Wort „Risiko:")</RISIKO>
+<CHANCE>Nur den Chance-Text für Abschnitt ④ hier (ohne das Wort „Chance:")</CHANCE>
+<WATCHLIST>Inhalt für ⑤ hier — leer lassen wenn kein konkreter Hinweis vorliegt: <WATCHLIST></WATCHLIST></WATCHLIST>
 
 Hier sind die gesammelten Nachrichtendaten des heutigen Tages:
 {collected_data}"""
@@ -215,7 +246,16 @@ REGELN:
 - Fehlen Daten trotz Websuche: explizit benennen statt erfinden
 - Kein Meta-Kommentar, keine Einleitung, keine Schlusszusammenfassung
 
-AUSGABE: Beginne mit „Wochenanalyse KW {week_number} | {week_start} – {week_end}", dann sofort ①.
+AUSGABE: Schreibe ausschließlich XML-Tags in exakt dieser Reihenfolge. Kein Text außerhalb der Tags.
+
+<AKTUALITAET>Inhalt für ① hier</AKTUALITAET>
+<TAKEAWAY>Inhalt für ② hier</TAKEAWAY>
+<MARKT>Inhalt für ③ hier</MARKT>
+<TECHNIK>Inhalt für ④ hier</TECHNIK>
+<MAKRO>Inhalt für ⑤ hier</MAKRO>
+<SONDER>Inhalt für ⑥ hier</SONDER>
+<POLITIK>Inhalt für ⑦ hier</POLITIK>
+<FAZIT>Inhalt für ⑧ hier</FAZIT>
 
 Hier sind die Tages-Digests der vergangenen Woche:
 {weekly_data}"""
@@ -285,7 +325,32 @@ async def summarize_daily(articles: list[Article], settings: dict, prompt_focus:
         language=language,
         date=today.strftime("%d.%m.%Y"),
     )
-    return await _call_claude(prompt, settings["daily_model"])
+    raw = await _call_claude(prompt, settings["daily_model"])
+
+    if subscription_type == "finance":
+        sections = _extract_sections(raw, DAILY_REQUIRED + DAILY_OPTIONAL)
+        missing = [t for t in DAILY_REQUIRED if not sections.get(t)]
+        if missing:
+            logger.warning(f"[finance-daily] Missing sections after first call: {missing}")
+            retry_prompt = (
+                f"Folgende XML-Tags fehlen in deiner Antwort: "
+                f"{', '.join(f'<{t}>' for t in missing)}. "
+                f"Bitte ergänze ausschließlich die fehlenden Tags."
+            )
+            raw2 = await _call_claude(retry_prompt, settings["daily_model"])
+            for tag, val in _extract_sections(raw2, missing).items():
+                if val:
+                    sections[tag] = val
+            for t in DAILY_REQUIRED:
+                if not sections.get(t):
+                    logger.warning(f"[finance-daily] Section {t} still missing after retry, using fallback")
+                    sections[t] = "[Keine Daten verfügbar]"
+        return _render_finance_template(
+            "wirtschafts-news-daily.md.j2",
+            {"sections": sections, "date": today.strftime("%d.%m.%Y")},
+        )
+
+    return raw
 
 
 async def summarize_top3(digest_markdown: str, settings: dict, language: str = "Deutsch", subscription_type: str = "news") -> str:
@@ -331,4 +396,34 @@ async def summarize_weekly(daily_digests: list[str], settings: dict, prompt_focu
         week_start=week_start.strftime("%d.%m.%Y"),
         week_end=week_end.strftime("%d.%m.%Y"),
     )
-    return await _call_claude(prompt, settings["weekly_model"])
+    raw = await _call_claude(prompt, settings["weekly_model"])
+
+    if subscription_type == "finance":
+        sections = _extract_sections(raw, WEEKLY_REQUIRED)
+        missing = [t for t in WEEKLY_REQUIRED if not sections.get(t)]
+        if missing:
+            logger.warning(f"[finance-weekly] Missing sections after first call: {missing}")
+            retry_prompt = (
+                f"Folgende XML-Tags fehlen in deiner Antwort: "
+                f"{', '.join(f'<{t}>' for t in missing)}. "
+                f"Bitte ergänze ausschließlich die fehlenden Tags."
+            )
+            raw2 = await _call_claude(retry_prompt, settings["weekly_model"])
+            for tag, val in _extract_sections(raw2, missing).items():
+                if val:
+                    sections[tag] = val
+            for t in WEEKLY_REQUIRED:
+                if not sections.get(t):
+                    logger.warning(f"[finance-weekly] Section {t} still missing after retry, using fallback")
+                    sections[t] = "[Keine Daten verfügbar]"
+        return _render_finance_template(
+            "wirtschafts-news-weekly.md.j2",
+            {
+                "sections": sections,
+                "week_number": iso[1],
+                "week_start": week_start.strftime("%d.%m.%Y"),
+                "week_end": week_end.strftime("%d.%m.%Y"),
+            },
+        )
+
+    return raw

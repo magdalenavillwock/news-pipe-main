@@ -1,0 +1,25 @@
+Morning-Briefing {{ date }}
+
+## ① OVERNIGHT & VORBÖRSLICH
+
+{{ sections.OVERNIGHT }}
+
+## ② TAGESÜBERBLICK: SCHLÜSSELINDIZES
+
+{{ sections.INDIZES }}
+
+## ③ HEUTIGE TERMINE & TRIGGER
+
+{{ sections.TERMINE }}
+
+## ④ EIN RISIKO, EINE CHANCE
+
+**Risiko:** {{ sections.RISIKO }}
+
+**Chance:** {{ sections.CHANCE }}
+{% if sections.WATCHLIST %}
+
+## ⑤ WATCHLIST-HINWEIS
+
+{{ sections.WATCHLIST }}
+{% endif %}
