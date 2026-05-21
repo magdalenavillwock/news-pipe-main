@@ -1,5 +1,5 @@
 settings:
-  daily_model: claude-sonnet-4-20250514
+  daily_model: claude-sonnet-4-6
   weekly_model: claude-opus-4-6
   request_timeout: 30
   max_retries: 3

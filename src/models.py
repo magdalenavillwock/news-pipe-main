@@ -45,3 +45,4 @@ class DigestResult:
     digest_markdown: str
     top3_summary: str
     notification_summary: str = ""
+    digest_type: str = "daily"
