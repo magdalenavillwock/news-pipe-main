@@ -150,7 +150,14 @@ REGELN:
 - Kein 3-Monats-Ausblick, keine Strategieempfehlung — das ist Aufgabe des Weekly
 - Kein Meta-Kommentar, keine Einleitung, keine Schlusszusammenfassung
 
-AUSGABE: Beginne mit „Morning-Briefing {date}", dann sofort ①.
+AUSGABE: Schreibe ausschließlich XML-Tags in exakt dieser Reihenfolge. Kein Text außerhalb der Tags.
+
+<OVERNIGHT>Inhalt für Abschnitt ① hier</OVERNIGHT>
+<INDIZES>Inhalt für Abschnitt ② hier</INDIZES>
+<TERMINE>Inhalt für Abschnitt ③ hier</TERMINE>
+<RISIKO>Nur den Risiko-Text für Abschnitt ④ hier (ohne das Wort „Risiko:")</RISIKO>
+<CHANCE>Nur den Chance-Text für Abschnitt ④ hier (ohne das Wort „Chance:")</CHANCE>
+<WATCHLIST>Inhalt für ⑤ hier — leer lassen wenn kein konkreter Hinweis vorliegt: <WATCHLIST></WATCHLIST></WATCHLIST>
 
 Hier sind die gesammelten Nachrichtendaten des heutigen Tages:
 {collected_data}"""
