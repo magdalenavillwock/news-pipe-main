@@ -23,16 +23,19 @@ jobs:
       - run: python weekly_summary.py ${{ inputs.subscription }}
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          NOTIFY_QUEUE_FILE: /tmp/news_pipe_notify.json
       - name: Commit summary
         run: |
           git config user.name "News Pipe Bot"
           git config user.email "bot@news-pipe.local"
           git add output/
           git diff --staged --quiet || git commit -m "${{ inputs.subscription }}: Weekly Summary $(date +%Y-%m-%d)"
-          git push
+          git pull --rebase && git push
+      - name: Send notifications
+        run: python -c "import asyncio; from src.notifier import flush_notifications; asyncio.run(flush_notifications('/tmp/news_pipe_notify.json'))"
       - name: Cleanup old summaries
         run: |
           find output/${{ inputs.subscription }}/weekly/ -type f -mtime +90 -delete 2>/dev/null || true
           git add -A output/
           git diff --staged --quiet || git commit -m "${{ inputs.subscription }}: Cleanup summaries older than 90 days"
-          git push
+          git pull --rebase && git push

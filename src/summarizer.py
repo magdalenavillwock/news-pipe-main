@@ -81,121 +81,141 @@ Regeln:
 
 {digest_markdown}"""
 
-FLIGHT_DEALS_PROMPT = """Du bist ein Flug-Deal-Analyst. Hier sind aktuelle Flugsuchergebnisse.
+FINANCE_DAILY_PROMPT = """Du bist ein präziser Finanzanalyst. Erstelle ein strukturiertes Morning-Briefing für den heutigen Handelstag {date}.
 
-Erstelle eine übersichtliche Flug-Deal-Liste auf {language}.
+Führe zunächst eine Websuche durch. Relevante Quellen: Handelsblatt, Reuters, Bloomberg, CNBC, finanzen.net, Yahoo Finance, Wall Street Journal. Suche gezielt nach:
+- Overnight-Bewegungen an Asien- und US-Märkten
+- Vorbörslichen Kursveränderungen DAX, S&P 500, Nasdaq
+- Makroterminkalendern für heute
+- Relevanten Unternehmens- oder Sektornachrichten seit gestern 18:00 Uhr
 
-{prompt_focus}
+Quellenregel: Belege faktische Aussagen mit Quelle und Datum, sofern aus der Websuche verfügbar. Wenn keine verifizierbare Quelle vorliegt, kennzeichne die Aussage explizit als Einschätzung. Widersprüchliche Analystenmeinungen werden gegenübergestellt, nicht harmonisiert.
 
-Regeln:
-- Sortiere nach Preis (günstigster zuerst)
-- Zeige pro Flug: Abflughafen, Preis, Airline, Stopps, Gesamtdauer, Buchungslink
-- Verlinke auf Buchungsseiten wo möglich
-- Antworte nur mit der formatierten Liste, kein Meta-Kommentar
+Sprache: Deutscher Satzbau durchgehend. Englische Börsenfachbegriffe (bullish, bearish, RSI, Futures etc.) sind zulässig, englische Satzstrukturen nicht.
 
-Hier sind die gesammelten Daten:
-{collected_data}"""
-
-FLIGHT_TOP3_PROMPT = """Fasse die Top 3 günstigsten Flüge in maximal 500 Zeichen zusammen. Nur Fließtext, keine Markdown-Formatierung. {language}.
-
-{digest_markdown}"""
-
-FLIGHT_NOTIFICATION_PROMPT = """Du bist ein Flug-Deal-Redakteur. Erstelle aus den folgenden Flug-Deals eine kompakte Zusammenfassung für eine Push-Notification.
-
-Regeln:
-- Maximal 3900 Zeichen (harte Grenze!)
-- Verwende Markdown-Formatierung (fett, Aufzählungen)
-- Zeige pro Flug: Abflughafen → Ziel, Preis, Airline, Dauer
-- Sortiere nach Preis
-- Sprache: {language}
-- Kein Meta-Kommentar, nur der Inhalt
-
-{prompt_focus}
-
-{digest_markdown}"""
-
-FINANCE_DAILY_PROMPT = """Gib ausschließlich das fertige Morning-Briefing aus – vollständig, abschnittweise, ohne Einleitung, ohne Meta-Kommentar, ohne Zusammenfassung am Ende. Kein Satz wie „Das Briefing umfasst X Wörter" oder „Die Struktur wurde eingehalten." Beginne direkt mit ①.
-
-Du bist ein präziser Finanzanalyst. Erstelle ein strukturiertes Morning-Briefing für den heutigen Handelstag {date}.
-
-Nutze Websuche und beziehe dich auf aktuelle Quellen (Handelsblatt, Reuters, Bloomberg, CNBC, finanzen.net, Yahoo Finance, Wall Street Journal). Jede faktische Aussage erhält Quelle und Datum. Bei widersprüchlichen Einschätzungen: beide Positionen nennen, nicht glätten.
-
-Sprache: Deutscher Satzbau durchgehend. Keine englischen Satzstrukturen. Fachbegriffe gemäß Deutscher Börse.
+Fachbegriffe gemäß Deutscher Börse.
 
 ─────────────────────────────────────────
 STRUKTUR (Pflicht, diese Reihenfolge):
 ─────────────────────────────────────────
 
-① OVERNIGHT & VORBÖRSLICH [max. 150 Wörter]
-Was bewegte die Märkte seit gestern Abend? Asien-Schluss, US-Futures, relevante Ereignisse nach Börsenschluss. Nur wenn wirklich bewegt – sonst: „Keine wesentlichen Overnight-Bewegungen."
+① OVERNIGHT & VORBÖRSLICH [max. 200 Wörter]
+Was bewegte die Märkte seit gestern Abend? Asien-Schluss, US-Schluss, US Futures, relevante Ereignisse nach Börsenschluss. Nur wenn wirklich bewegt – sonst: „Keine wesentlichen Overnight-Bewegungen."
 
-② TAGESÜBERBLICK: SCHLÜSSELINDIZES [max. 100 Wörter]
+② TAGESÜBERBLICK: SCHLÜSSELINDIZES [max. 150 Wörter]
 DAX, S&P 500, Nasdaq – Vortagsschluss, vorbörsliche Tendenz. Einzelwerte nur bei Bewegungen >3 % oder konkretem Nachrichtentreiber.
 
-③ HEUTIGE TERMINE & TRIGGER [max. 150 Wörter]
-Makrodaten (z. B. CPI, Arbeitsmarkt, BIP-Revision), Zinsentscheide, Earnings-Berichte, politische Ereignisse. Format pro Termin: Uhrzeit – Ereignis – erwartete Marktreaktion (bullish / bearish / neutral, mit Begründung).
+③ HEUTIGE TERMINE & TRIGGER [max. 200 Wörter]
+Makrodaten (z. B. CPI, Arbeitsmarkt, BIP-Revision), Zinsentscheide, Earnings-Berichte, politische Ereignisse. Format pro Termin:
+Uhrzeit – Ereignis – erwartete Marktreaktion (bullish / bearish / neutral, mit Begründung).
 
-④ EIN RISIKO, EINE CHANCE [je max. 3 Sätze]
-Das konkreteste Abwärtsrisiko heute. Die konkreteste Aufwärtschance heute. Keine allgemeinen Aussagen wie „Märkte könnten steigen."
+④ EIN RISIKO, EINE CHANCE [je max. 100 Wörter]
+Das konkreteste Abwärtsrisiko heute. Die konkreteste Aufwärtschance heute.
+Keine allgemeinen Aussagen wie „Märkte könnten steigen."
+Jede Aussage enthält mindestens eine konkrete Zahl (Kurs, %, Schwellenwert oder Datum).
 
 ⑤ WATCHLIST-HINWEIS [optional, nur wenn relevant]
-Maximal 2 Werte oder Sektoren mit auffälliger Lage. Nur aufnehmen, wenn ein konkreter Grund vorliegt.
+Maximal 3 Werte oder Sektoren mit auffälliger Lage. Nur aufnehmen, wenn ein konkreter Grund vorliegt — kein Auffüllen.
 
 ─────────────────────────────────────────
 REGELN:
 ─────────────────────────────────────────
-- Gesamtlänge: 400–600 Wörter
+- Gesamtlänge: 450-750 Wörter
 - Kein Abschnitt wird künstlich befüllt
 - Rohstoffe nur erwähnen, wenn sie heute direkten Markteinfluss haben
-- Kein 3-Monats-Ausblick, keine Strategieempfehlung – das ist Aufgabe des Weekly
+- Kein 3-Monats-Ausblick, keine Strategieempfehlung — das ist Aufgabe des Weekly
+- Kein Meta-Kommentar, keine Einleitung, keine Schlusszusammenfassung
 
-AUSGABEFORMAT: Beginne deine Antwort mit der Zeile „Morning-Briefing {date}" und danach sofort mit Abschnitt ①. Nichts davor, nichts danach.
+AUSGABE: Beginne mit „Morning-Briefing {date}", dann sofort ①.
 
 Hier sind die gesammelten Nachrichtendaten des heutigen Tages:
 {collected_data}"""
 
-FINANCE_WEEKLY_PROMPT = """Gib ausschließlich die fertige Wochenanalyse aus – vollständig, abschnittweise, ohne Einleitung, ohne Meta-Kommentar, ohne Zusammenfassung am Ende. Kein Satz wie „Die Analyse umfasst X Wörter" oder „Alle 8 Abschnitte wurden befüllt." Beginne direkt mit ①.
+FINANCE_TOP3_PROMPT = """Fasse die drei wichtigsten Marktnews des heutigen Tages {date} in maximal 600 Zeichen zusammen. Priorisiere nach direktem Kurseinfluss. Nur Fließtext, keine Markdown-Formatierung. Sprache: Deutsch.
 
-Du bist ein erfahrener Finanzanalyst. Erstelle eine vollständige Wochenanalyse für KW {week_number}, Zeitraum {week_start} bis {week_end}.
+{digest_markdown}"""
 
-Nutze Websuche wenn verfügbar. Ist keine Websuche verfügbar, basiere die Analyse ausschließlich auf den bereitgestellten Tages-Digests – diese enthalten aktuelle Nachrichtendaten der Woche. Quellen: TradingView, Handelsblatt, Reuters, Bloomberg, CNBC, finanzen.net, Yahoo Finance, Wall Street Journal, SeekingAlpha, Deutsche Börse, ggf. X/Twitter bei Marktrelevanz. Jede faktische Aussage: Quelle + Veröffentlichungsdatum (aus den Digest-Daten). Widersprüchliche Analysteneinschätzungen werden explizit gegenübergestellt, nicht harmonisiert.
+FINANCE_NOTIFICATION_PROMPT = """Du bist ein Finanzredakteur. Erstelle aus den wichtigsten Marktnews des heutigen Tages {date} eine kompakte Zusammenfassung für eine Push-Notification.
 
-Sprache: Deutscher Satzbau durchgehend. Fachbegriffe nach Deutscher Börse und Coachingunterlagen. Detailgrad: +20 % gegenüber Standardanalysen – das bedeutet konkrete Zahlen, keine Phrasen.
+Führe eine Websuche nach den relevantesten Finanznachrichten des heutigen Tages durch.
 
-─────────────────────────────────────────
-VOLLSTÄNDIGKEITSBEDINGUNG:
-─────────────────────────────────────────
-Die Analyse gilt erst als vollständig, wenn alle 8 Abschnitte mit Quellenangaben ausgefüllt sind UND Abschnitt 7 (Weltpolitik) sowie Abschnitt 8 (Fazit & Strategie) substanziell befüllt sind – nicht mit Platzhaltern.
+Regeln:
+- Harte Zeichengrenze: 3900 Zeichen — wird diese überschritten, kürze ohne Rückfrage
+- Priorisiere nach direktem Kurseinfluss; Themen ohne Marktbewegung werden weggelassen
+- Markdown-Formatierung: fett, Aufzählungen, ## Überschriften
+- Verlinke auf Originalquellen wo aus der Websuche verfügbar: [Text](URL)
+- Sprache: Deutsch
+- Kein Meta-Kommentar, nur Inhalt
+
+{prompt_focus}
+
+{digest_markdown}"""
+
+FINANCE_WEEKLY_PROMPT = """Du bist ein erfahrener Finanzanalyst. Erstelle eine vollständige Wochenanalyse für KW {week_number}, Zeitraum {week_start} bis {week_end}.
+
+Führe eine umfassende Websuche durch. Quellen: TradingView, Handelsblatt, Reuters, Bloomberg, CNBC, finanzen.net, Yahoo Finance, Wall Street Journal, SeekingAlpha, Deutsche Börse. Suche gezielt nach:
+- Wochenperformance der Hauptindizes (DAX, S&P 500, Nasdaq, EuroStoxx 50, Nikkei, Hang Seng)
+- Rohstoffpreisen (WTI, Brent, Gold, Silber) für den Zeitraum {week_start}–{week_end}
+- Relevanten Makrodaten und Notenbankentscheidungen der Woche
+- Bedeutenden Quartalszahlen, M&A-Ereignissen, geopolitischen Entwicklungen
+
+Quellenregel: Belege faktische Aussagen mit Quelle und Veröffentlichungsdatum, sofern aus der Websuche verfügbar. Nicht verifizierbare Einschätzungen werden als solche gekennzeichnet. Widersprüchliche Analysteneinschätzungen werden explizit gegenübergestellt, nicht harmonisiert.
+
+Detailgrad: Jeder Abschnitt enthält mindestens eine konkrete Zahl (Kurs, %, Basispunkte oder Datum). Keine Aussage ohne quantitativen Anker.
+
+Sprache: Deutscher Satzbau durchgehend. Englische Börsenfachbegriffe (bullish, bearish, RSI, Spread etc.) sind zulässig, englische Satzstrukturen nicht.
+
+Fachbegriffe nach Deutscher Börse.
 
 ─────────────────────────────────────────
 STRUKTUR:
 ─────────────────────────────────────────
 
 ① AKTUALITÄTS-CHECK
-Gab es in den letzten 48 Stunden Ereignisse, die frühere Wocheneinschätzungen überholen? (Zinsentscheide, Überraschungsdaten, geopolitische Eskalation, Großereignisse) Falls nein: explizit bestätigen.
+Gab es in den letzten 48 Stunden Ereignisse, die frühere Wocheneinschätzungen überholen?
+Falls nein: explizit bestätigen.
 
 ② ONE-MINUTE-TAKEAWAY
-3–5 Sätze. Die wichtigsten Erkenntnisse der Woche für jemanden, der nur diesen Abschnitt liest. Keine Phrasen. Konkrete Zahlen und Treiber.
+3–5 Sätze. Die wichtigsten Erkenntnisse der Woche. Keine Phrasen.
+Konkrete Zahlen und Treiber — jede Aussage mit quantitativem Anker.
 
 ③ MARKTÜBERBLICK: INDIZES & EINZELWERTE
-Wochenperformance: DAX, S&P 500, Dow Jones, Nasdaq, EuroStoxx 50, Nikkei, Hang Seng – prozentuale Veränderung, Kontext. Währungen: EUR/USD, ggf. USD/JPY, DXY. Rohstoffe (Pflicht): Öl (WTI & Brent), Gold, Silber; weitere (Kupfer, Erdgas) nur bei auffälliger Bewegung. Einzelwerte: nur bei Bewegungen >5 % oder klarem Nachrichtentreiber. Pro Wert: Beobachtung → Auswirkung → Bedeutung.
+Wochenperformance: DAX, S&P 500, Dow Jones, Nasdaq, EuroStoxx 50, Nikkei, Hang Seng.
+Währungen: EUR/USD, ggf. USD/JPY, DXY.
+Rohstoffe (Pflicht): Öl (WTI & Brent), Gold, Silber — je mit konkretem Wochenverlauf.
+Einzelwerte: nur bei Bewegungen >5 % oder klarem Nachrichtentreiber.
 
 ④ TECHNISCHE ANALYSE
-Für DAX und S&P 500 verpflichtend: RSI (überkauft/überverkauft?), gleitende Durchschnitte (50-Tage, 200-Tage – Lage dazu?), dominante Trendstruktur, Unterstützung/Widerstand. Fibonacci und Volatilität (VIX, VDAX) nur bei auffälligen Konstellationen – nicht standardmäßig. Für andere Indizes/Rohstoffe: nur wenn technisch eine besondere Lage vorliegt.
+DAX und S&P 500 verpflichtend: RSI (aktueller Wert), gleitende Durchschnitte (50/200-Tage, aktuelle Kursnähe), Trendstruktur, konkrete Unterstützungs- und Widerstandsmarken mit Niveaus in Punkten.
 
 ⑤ MAKROÖKONOMISCHER KONTEXT
-Geldpolitik: FED, EZB, BOJ – Entscheidungen, Protokolle, Signale. Was hat sich verändert? Konjunkturdaten: Inflation, Arbeitsmarkt, BIP – nur veröffentlichte Daten dieser Woche, mit Vergleich zu Erwartung und Vorperiode. Rohstoffmärkte und deren direkter Einfluss auf Aktienmärkte (Pflicht, auch wenn knapp).
+Geldpolitik: FED, EZB, BOJ — konkrete Aussagen oder Entscheidungen der Woche.
+Konjunkturdaten: Inflation, Arbeitsmarkt, BIP — nur veröffentlichte Zahlen dieser Woche.
+Rohstoffmärkte und direkter Einfluss auf Aktienmärkte (Pflicht).
 
 ⑥ SONDERSITUATIONEN & MIKROÖKONOMIE
-Quartalszahlen, Gewinnwarnungen, M&A, IPOs, Dividenden, Rückkaufprogramme, Rating-Änderungen, regulatorische Eingriffe, Branchennews. Dividenden, ETF-Flows, Insider-Trades, Short Interest: nur aufnehmen, wenn in dieser Woche wirklich markant – kein Standardbefüllen. Sektorrotation und Fondsbewegungen: nur bei auffälligen Signalen. Pro Sondersituation: Beobachtung → Auswirkung → Bedeutung.
+Quartalszahlen, M&A, IPOs, Rating-Änderungen, regulatorische Eingriffe.
+Pro Sondersituation: Beobachtung → Auswirkung → Bedeutung.
 
 ⑦ WELTPOLITISCHE & FINANZPOLITISCHE LAGE [Pflicht]
-Geopolitik: Ukraine, Taiwan, Nahost, Handelskonflikte, Sanktionen, Wahlen – nur laufende oder neue Entwicklungen dieser Woche. Einfluss auf Kapitalflüsse und Risikobereitschaft konkret benennen, nicht abstrakt beschreiben.
+Geopolitik: Ukraine, Taiwan, Nahost, Handelskonflikte, Wahlen.
+Einfluss auf Kapitalflüsse und Risikobereitschaft konkret benennen — keine allgemeinen Formulierungen.
 
 ⑧ FAZIT & HANDLUNGSMÖGLICHKEITEN [Pflicht]
-Marktstimmung: Risk-on oder Risk-off? Begründet mit konkreten Indikatoren. Chancen und Risiken der kommenden Woche: je 2–3 konkrete Punkte, keine Allgemeinplätze. Wichtige Termine nächste Woche: Zinsentscheide, Makrodaten, Earnings, politische Ereignisse – mit Datum und erwarteter Marktrelevanz. Watchlist: max. 5 Werte oder Sektoren, ohne Value/Growth-Kategorisierung, mit kurzem Grund pro Eintrag. 3-Monats-Einschätzung: Wohin tendiert der Markt strukturell? Konkrete These, keine Absicherung nach allen Seiten.
+Marktstimmung: Risk-on oder Risk-off? Begründet mit konkreten Indikatoren.
+Chancen und Risiken der kommenden Woche: je 2–3 konkrete Punkte mit Zahlen.
+Wichtige Termine nächste Woche: Datum, Ereignis, erwartete Marktrelevanz.
+Watchlist: max. 5 Werte oder Sektoren mit kurzem Grund und aktuellem Kursniveau.
+3-Monats-Einschätzung: Konkrete These mit Richtung und Bedingung — keine Absicherung nach allen Seiten.
 
-AUSGABEFORMAT: Beginne deine Antwort mit der Zeile „Wochenanalyse KW {week_number} | {week_start} – {week_end}" und danach sofort mit Abschnitt ①. Nichts davor, nichts danach.
+─────────────────────────────────────────
+REGELN:
+─────────────────────────────────────────
+- Kein Abschnitt wird mit Platzhaltern oder Phrasen befüllt
+- Fehlen Daten trotz Websuche: explizit benennen statt erfinden
+- Kein Meta-Kommentar, keine Einleitung, keine Schlusszusammenfassung
+
+AUSGABE: Beginne mit „Wochenanalyse KW {week_number} | {week_start} – {week_end}", dann sofort ①.
 
 Hier sind die Tages-Digests der vergangenen Woche:
 {weekly_data}"""
@@ -221,15 +241,10 @@ PROMPT_MAP = {
         "top3": TOP3_PROMPT,
         "notification": NOTIFICATION_PROMPT,
     },
-    "flight_deals": {
-        "daily": FLIGHT_DEALS_PROMPT,
-        "top3": FLIGHT_TOP3_PROMPT,
-        "notification": FLIGHT_NOTIFICATION_PROMPT,
-    },
     "finance": {
         "daily": FINANCE_DAILY_PROMPT,
-        "top3": TOP3_PROMPT,
-        "notification": NOTIFICATION_PROMPT,
+        "top3": FINANCE_TOP3_PROMPT,
+        "notification": FINANCE_NOTIFICATION_PROMPT,
     },
 }
 
@@ -276,18 +291,25 @@ async def summarize_daily(articles: list[Article], settings: dict, prompt_focus:
 async def summarize_top3(digest_markdown: str, settings: dict, language: str = "Deutsch", subscription_type: str = "news") -> str:
     language = _resolve_language(language)
     prompts = PROMPT_MAP.get(subscription_type, PROMPT_MAP["news"])
-    prompt = prompts["top3"].format(digest_markdown=digest_markdown, language=language)
+    today = date.today()
+    prompt = prompts["top3"].format(
+        digest_markdown=digest_markdown,
+        language=language,
+        date=today.strftime("%d.%m.%Y"),
+    )
     result = await _call_claude(prompt, settings["daily_model"])
-    return result[:500]
+    return result[:600]
 
 
 async def summarize_notification(digest_markdown: str, settings: dict, prompt_focus: str = "", language: str = "Deutsch", subscription_type: str = "news") -> str:
     language = _resolve_language(language)
     prompts = PROMPT_MAP.get(subscription_type, PROMPT_MAP["news"])
+    today = date.today()
     prompt = prompts["notification"].format(
         digest_markdown=digest_markdown,
         prompt_focus=prompt_focus,
         language=language,
+        date=today.strftime("%d.%m.%Y"),
     )
     result = await _call_claude(prompt, settings["daily_model"])
     return result[:3900]

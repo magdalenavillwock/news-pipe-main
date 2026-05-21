@@ -14,11 +14,22 @@ def _build_notification(digest: DigestResult, ntfy_config: dict) -> dict | None:
     if not ntfy_config.get("enabled", False):
         return None
 
-    repo = os.environ.get("GITHUB_REPOSITORY", "magdalenavillwock/news-pipe-main")
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    if not repo:
+        return None
     ref_name = os.environ.get("GITHUB_REF_NAME", "")
     ref = os.environ.get("GITHUB_REF", "")
     branch = ref_name or (ref.replace("refs/heads/", "") if ref.startswith("refs/heads/") else "master")
-    github_url = f"https://github.com/{repo}/blob/{branch}/output/{digest.subscription_id}/daily/{digest.date}.md"
+
+    if digest.digest_type == "weekly":
+        iso = digest.date.isocalendar()
+        filename = f"{iso[0]}-W{iso[1]:02d}.md"
+        subdir = "weekly"
+    else:
+        filename = f"{digest.date}.md"
+        subdir = "daily"
+
+    github_url = f"https://github.com/{repo}/blob/{branch}/output/{digest.subscription_id}/{subdir}/{filename}"
     logger.info(f"Ntfy link: branch={branch!r} url={github_url}")
 
     return {

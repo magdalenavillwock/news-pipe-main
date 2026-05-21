@@ -64,6 +64,7 @@ async def run_subscription_weekly(sub_id: str, sub_config: dict, settings: dict,
         digest_markdown=weekly_markdown,
         top3_summary=top3,
         notification_summary=notification_summary,
+        digest_type="weekly",
     )
 
     ntfy_config = sub_config.get("ntfy", {})
