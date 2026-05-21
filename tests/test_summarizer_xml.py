@@ -190,3 +190,68 @@ async def test_summarize_daily_news_type_unchanged():
         result = await summarize_daily([], settings, subscription_type="news")
 
     assert result == raw_output
+
+
+# --- summarize_weekly (finance branch) ---
+
+SAMPLE_WEEKLY_XML = """
+<AKTUALITAET>Keine Ereignisse der letzten 48 Stunden überholen frühere Einschätzungen.</AKTUALITAET>
+<TAKEAWAY>DAX +1,2% auf Wochenbasis. S&P 500 +0,8%. Nvidia-Zahlen überzeugen.</TAKEAWAY>
+<MARKT>DAX: 18.600 (+1,2%). S&P 500: 5.340 (+0,8%). Gold: 2.380 USD (+0,5%).</MARKT>
+<TECHNIK>DAX RSI: 58 (neutral). 50-Tage-MA: 18.100 (Kurs darüber). Widerstand: 18.800.</TECHNIK>
+<MAKRO>EZB hält Zinsen bei 3,75%. US CPI April: 3,1% (unter Erwartung). Bullish für Anleihen.</MAKRO>
+<SONDER>Nvidia Q1: Umsatz +262% YoY. Commerzbank widersteht Unicredit-Übernahme.</SONDER>
+<POLITIK>EU-US-Handelsdeal unterzeichnet. Ukraine-Waffenstillstandsgespräche ohne Ergebnis.</POLITIK>
+<FAZIT>Risk-on-Stimmung. Chance: Tech-Sektor. Risiko: CPI-Daten nächste Woche.</FAZIT>
+"""
+
+
+@pytest.mark.asyncio
+async def test_summarize_weekly_finance_returns_structured_markdown():
+    """finance type weekly extracts XML and renders via template."""
+    settings = {"weekly_model": "claude-opus-4-6"}
+
+    with patch("src.summarizer._call_claude", new_callable=AsyncMock) as mock_claude:
+        mock_claude.return_value = SAMPLE_WEEKLY_XML
+        from src.summarizer import summarize_weekly
+        result = await summarize_weekly(["digest1", "digest2"], settings, subscription_type="finance")
+
+    assert "Wochenanalyse KW" in result
+    assert "## ① AKTUALITÄTS-CHECK" in result
+    assert "## ⑧ FAZIT & HANDLUNGSMÖGLICHKEITEN" in result
+    mock_claude.assert_called_once()
+
+
+@pytest.mark.asyncio
+async def test_summarize_weekly_finance_retries_on_missing_section():
+    """Missing required section triggers a retry call."""
+    incomplete = "\n".join(
+        f"<{t}>Inhalt {t}</{t}>"
+        for t in ["AKTUALITAET", "TAKEAWAY", "MARKT", "TECHNIK", "MAKRO", "SONDER", "POLITIK"]
+        # FAZIT missing
+    )
+    retry_xml = "<FAZIT>Risk-on. Watchlist: Nvidia.</FAZIT>"
+
+    settings = {"weekly_model": "claude-opus-4-6"}
+
+    with patch("src.summarizer._call_claude", new_callable=AsyncMock) as mock_claude:
+        mock_claude.side_effect = [incomplete, retry_xml]
+        from src.summarizer import summarize_weekly
+        result = await summarize_weekly([], settings, subscription_type="finance")
+
+    assert mock_claude.call_count == 2
+    assert "Risk-on. Watchlist: Nvidia." in result
+
+
+@pytest.mark.asyncio
+async def test_summarize_weekly_news_type_unchanged():
+    """news type returns raw Claude output."""
+    settings = {"weekly_model": "claude-opus-4-6"}
+    raw = "# Weekly AI News\n\nContent."
+
+    with patch("src.summarizer._call_claude", new_callable=AsyncMock) as mock_claude:
+        mock_claude.return_value = raw
+        from src.summarizer import summarize_weekly
+        result = await summarize_weekly(["d1"], settings, subscription_type="news")
+
+    assert result == raw

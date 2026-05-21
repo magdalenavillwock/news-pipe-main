@@ -387,4 +387,34 @@ async def summarize_weekly(daily_digests: list[str], settings: dict, prompt_focu
         week_start=week_start.strftime("%d.%m.%Y"),
         week_end=week_end.strftime("%d.%m.%Y"),
     )
-    return await _call_claude(prompt, settings["weekly_model"])
+    raw = await _call_claude(prompt, settings["weekly_model"])
+
+    if subscription_type == "finance":
+        sections = _extract_sections(raw, WEEKLY_REQUIRED)
+        missing = [t for t in WEEKLY_REQUIRED if not sections.get(t)]
+        if missing:
+            logger.warning(f"[finance-weekly] Missing sections after first call: {missing}")
+            retry_prompt = (
+                f"Folgende XML-Tags fehlen in deiner Antwort: "
+                f"{', '.join(f'<{t}>' for t in missing)}. "
+                f"Bitte ergänze ausschließlich die fehlenden Tags."
+            )
+            raw2 = await _call_claude(retry_prompt, settings["weekly_model"])
+            for tag, val in _extract_sections(raw2, missing).items():
+                if val:
+                    sections[tag] = val
+            for t in WEEKLY_REQUIRED:
+                if not sections.get(t):
+                    logger.warning(f"[finance-weekly] Section {t} still missing after retry, using fallback")
+                    sections[t] = "[Keine Daten verfügbar]"
+        return _render_finance_template(
+            "wirtschafts-news-weekly.md.j2",
+            {
+                "sections": sections,
+                "week_number": iso[1],
+                "week_start": week_start.strftime("%d.%m.%Y"),
+                "week_end": week_end.strftime("%d.%m.%Y"),
+            },
+        )
+
+    return raw
