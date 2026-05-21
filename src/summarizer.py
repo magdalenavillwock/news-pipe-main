@@ -2,7 +2,11 @@
 import asyncio
 import json
 import logging
+import re
 from datetime import date, timedelta
+from pathlib import Path
+
+from jinja2 import Environment, FileSystemLoader
 
 from src.models import Article
 
@@ -19,6 +23,26 @@ LANGUAGE_MAP = {
 def _resolve_language(code: str) -> str:
     """Map ISO 639-1 codes to full language names for prompts."""
     return LANGUAGE_MAP.get(code, code)
+
+
+DAILY_REQUIRED = ["OVERNIGHT", "INDIZES", "TERMINE", "RISIKO", "CHANCE"]
+DAILY_OPTIONAL = ["WATCHLIST"]
+WEEKLY_REQUIRED = ["AKTUALITAET", "TAKEAWAY", "MARKT", "TECHNIK", "MAKRO", "SONDER", "POLITIK", "FAZIT"]
+
+
+def _extract_sections(xml: str, tags: list[str]) -> dict[str, str | None]:
+    return {
+        tag: m.group(1).strip()
+        if (m := re.search(f"<{tag}>(.*?)</{tag}>", xml, re.DOTALL))
+        else None
+        for tag in tags
+    }
+
+
+def _render_finance_template(template_name: str, context: dict) -> str:
+    template_dir = Path(__file__).parent.parent / "templates"
+    env = Environment(loader=FileSystemLoader(str(template_dir)))
+    return env.get_template(template_name).render(**context)
 
 
 DAILY_PROMPT = """Du bist ein News-Analyst. Hier sind die gesammelten News und Updates der letzten 24 Stunden.
