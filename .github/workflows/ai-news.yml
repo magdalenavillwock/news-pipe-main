@@ -1,7 +1,7 @@
 name: "AI & ML News"
 on:
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "30 3 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -11,4 +11,3 @@ jobs:
     with:
       subscription: ai-news
     secrets: inherit
-
