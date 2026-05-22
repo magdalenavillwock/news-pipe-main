@@ -1,7 +1,7 @@
 name: "Wirtschafts-News Deutschland"
 on:
   schedule:
-    - cron: "0 5 * * 1-5"
+    - cron: "30 3 * * 1-5"
   workflow_dispatch:
     inputs:
       date:
