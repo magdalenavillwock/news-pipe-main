@@ -1,0 +1,402 @@
+[
+  {
+    "title": "An update on recent Claude Code quality reports",
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-05-23T00:57:36+00:00",
+    "summary": "An update on recent Claude Code quality reports",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "v2.1.150",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150",
+    "source": "Claude Code Releases",
+    "category": "anthropic",
+    "published": "2026-05-23T04:03:51+00:00",
+    "summary": "## What's changed\n\n- Internal infrastructure improvements (no user-facing changes)\n",
+    "content": "## What's changed\n\n- Internal infrastructure improvements (no user-facing changes)\n",
+    "priority": "high"
+  },
+  {
+    "title": "v2.1.149",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+    "source": "Claude Code Releases",
+    "category": "anthropic",
+    "published": "2026-05-22T22:09:29+00:00",
+    "summary": "## What's changed\n\n- `/usage` now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost\n- `/diff` detail view can now be scrolled with the keyboard (arrows, `j`/`k`, `PgUp`/`PgDn`, `Space`, `Home`/`End`)\n- Markdown output now renders GFM task list checkboxes (`- [ ] todo` / `- [x] done`) instead of plain bullets\n- Enterprise: added the `allowAllClaudeAiMcps` managed setting to load claude.ai cloud MCP connectors alongside `manage",
+    "content": "## What's changed\n\n- `/usage` now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost\n- `/diff` detail view can now be scrolled with the keyboard (arrows, `j`/`k`, `PgUp`/`PgDn`, `Space`, `Home`/`End`)\n- Markdown output now renders GFM task list checkboxes (`- [ ] todo` / `- [x] done`) instead of plain bullets\n- Enterprise: added the `allowAllClaudeAiMcps` managed setting to load claude.ai cloud MCP connectors alongside `managed-mcp.json`\n- Fixed a PowerShell permission bypass: built-in `cd` functions (`cd..`, `cd\\`, `cd~`, `X:`) changed the working directory undetected, letting a later command read outside the workspace\n- Fixed the sandbox write allowlist in git worktrees covering the entire main repository root instead of only the shared `.git` directory (with `hooks/` and `config` denied)\n- Fixed PowerShell prefix/wildcard allow rules (e.g. `PowerShell(dotnet.exe build *)`) not pre-approving native executables and scripts\n- Fixed a permission-analysis gap where the parser trusted stale variable-tracking values for `PWD`/`OLDPWD`/`DIRSTACK` across `cd`/`pushd`/`popd`\n- Fixed `find` in the Bash tool exhausting the macOS system file/vnode table and crashing the host on large directory trees\n- Fixed the managed-settings approval dialog leaving the terminal frozen after accepting at startup\n- Fixed `/ultraplan` and remote session creation failing with \"Could not capture uncommitted changes\" when the working tree has no real changes\n- Fixed `otelHeadersHelper` failing silently when the script path contains spaces; helper failures are now reported in `/doctor` and the debug log\n- Fixed the thinking spinner staying amber across tool calls and onto fresh thinking bursts\n- Fixed collapsed Bash output reporting the wrong hidden-line count for outputs with many short lines\n- Fixed slash-command argument-hint clipping trailing typed characters when the hint overflows the input box\n- Fixed argument-hint and progressive arg suggestions not appearing after Tab-completing a skill whose frontmatter `name:` differs from its directory basename\n- Fixed the status bar showing the user's baseline `/effort` setting instead of the effort level applied by skill/agent `effort:` frontmatter\n- Fixed Ctrl+O transcript view freezing at the moment it was opened instead of tailing new messages\n- Fixed editing a recalled prompt-history entry losing the edit when navigating further up/down with arrow keys\n- Fixed `/config` exit summary reporting phantom changes to auto-compact and theme when toggling unrelated settings\n- Fixed `/insights` crashing when cached session-meta files are missing optional fields\n- Fixed malformed PowerShell and History tool calls with missing input being misclassified as reads in transcript collapsing\n- Fixed renaming a Remote Control session from claude.ai or the Claude mobile app not updating the local session name for `claude --resume`\n- Fixed a race where a just-submitted prompt could appear twice in the up-arrow history\n- Fixed tapping the \"Jump to bottom\" pill in fullscreen mode not dismissing it immediately\n- Improved `/feedback` reports to include the conversation that happened before context compaction, making issues from earlier in long sessions easier to triage\n",
+    "priority": "high"
+  },
+  {
+    "title": "v0.104.1",
+    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.104.1",
+    "source": "Claude SDK Python",
+    "category": "anthropic",
+    "published": "2026-05-22T15:36:38+00:00",
+    "summary": "## 0.104.1 (2026-05-21)\n\nFull Changelog: [v0.104.0...v0.104.1](https://github.com/anthropics/anthropic-sdk-python/compare/v0.104.0...v0.104.1)\n\n### Bug Fixes\n\n* **streaming:** carry encrypted_content through beta compaction accumulator ([#1821](https://github.com/anthropics/anthropic-sdk-python/issues/1821)) ([f7a720c](https://github.com/anthropics/anthropic-sdk-python/commit/f7a720c514cc5e428b310f46249ca1c807894c2e))",
+    "content": "## 0.104.1 (2026-05-21)\n\nFull Changelog: [v0.104.0...v0.104.1](https://github.com/anthropics/anthropic-sdk-python/compare/v0.104.0...v0.104.1)\n\n### Bug Fixes\n\n* **streaming:** carry encrypted_content through beta compaction accumulator ([#1821](https://github.com/anthropics/anthropic-sdk-python/issues/1821)) ([f7a720c](https://github.com/anthropics/anthropic-sdk-python/commit/f7a720c514cc5e428b310f46249ca1c807894c2e))",
+    "priority": "high"
+  },
+  {
+    "title": "v0.3.150",
+    "url": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.150",
+    "source": "Claude Agent SDK",
+    "category": "anthropic",
+    "published": "2026-05-23T04:03:49+00:00",
+    "summary": "## What's changed\n\n- Updated to parity with Claude Code v2.1.150\n\n## Update\n\n```sh\nnpm install @anthropic-ai/claude-agent-sdk@0.3.150\n# or\nyarn add @anthropic-ai/claude-agent-sdk@0.3.150\n# or\npnpm add @anthropic-ai/claude-agent-sdk@0.3.150\n# or\nbun add @anthropic-ai/claude-agent-sdk@0.3.150\n```\n",
+    "content": "## What's changed\n\n- Updated to parity with Claude Code v2.1.150\n\n## Update\n\n```sh\nnpm install @anthropic-ai/claude-agent-sdk@0.3.150\n# or\nyarn add @anthropic-ai/claude-agent-sdk@0.3.150\n# or\npnpm add @anthropic-ai/claude-agent-sdk@0.3.150\n# or\nbun add @anthropic-ai/claude-agent-sdk@0.3.150\n```\n",
+    "priority": "high"
+  },
+  {
+    "title": "v0.3.149",
+    "url": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.149",
+    "source": "Claude Agent SDK",
+    "category": "anthropic",
+    "published": "2026-05-22T22:09:19+00:00",
+    "summary": "## What's changed\n\n- Fixed `options.env` dropping `CLAUDE_AGENT_SDK_VERSION` (used for `User-Agent` and telemetry) when a custom environment is supplied, and corrected the `Options.env` docs to state that the value replaces the subprocess environment rather than merging with `process.env`\n\n## Update\n\n```sh\nnpm install @anthropic-ai/claude-agent-sdk@0.3.149\n# or\nyarn add @anthropic-ai/claude-agent-sdk@0.3.149\n# or\npnpm add @anthropic-ai/claude-agent-sdk@0.3.149\n# or\nbun add @anthropic-ai/claude-a",
+    "content": "## What's changed\n\n- Fixed `options.env` dropping `CLAUDE_AGENT_SDK_VERSION` (used for `User-Agent` and telemetry) when a custom environment is supplied, and corrected the `Options.env` docs to state that the value replaces the subprocess environment rather than merging with `process.env`\n\n## Update\n\n```sh\nnpm install @anthropic-ai/claude-agent-sdk@0.3.149\n# or\nyarn add @anthropic-ai/claude-agent-sdk@0.3.149\n# or\npnpm add @anthropic-ai/claude-agent-sdk@0.3.149\n# or\nbun add @anthropic-ai/claude-agent-sdk@0.3.149\n```\n",
+    "priority": "high"
+  },
+  {
+    "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+    "source": "Google AI Blog",
+    "category": "big_labs",
+    "published": "2026-05-22T18:00:00+00:00",
+    "summary": "Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage",
+    "content": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\">A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
+    "priority": "medium"
+  },
+  {
+    "title": "Bing introduces a smarter way to explore images",
+    "url": "https://blogs.bing.com/search/May-2026/A-Smarter-Way-to-Explore-Images-Has-Come-to-Bing",
+    "source": "Microsoft AI Blog",
+    "category": "big_labs",
+    "published": "2026-05-22T17:37:55+00:00",
+    "summary": "<p>The post <a href=\"https://blogs.bing.com/search/May-2026/A-Smarter-Way-to-Explore-Images-Has-Come-to-Bing\">Bing introduces a smarter way to explore images</a> appeared first on <a href=\"https://news.microsoft.com/source\">Source</a>.</p>",
+    "content": "<article class=\"mssrc-posts font-- has--theme\" id=\"single-24942\">\n\t<div class=\"acf-innerblocks-container\"></div></article><p>The post <a href=\"https://blogs.bing.com/search/May-2026/A-Smarter-Way-to-Explore-Images-Has-Come-to-Bing\">Bing introduces a smarter way to explore images</a> appeared first on <a href=\"https://news.microsoft.com/source\">Source</a>.</p>",
+    "priority": "medium"
+  },
+  {
+    "title": "XBOX Game Studios Shop launches with official merchandise from favorite titles",
+    "url": "https://news.xbox.com/en-us/2026/05/21/introducing-the-xbox-game-studios-shop/",
+    "source": "Microsoft AI Blog",
+    "category": "big_labs",
+    "published": "2026-05-22T16:32:31+00:00",
+    "summary": "<p>The post <a href=\"https://news.xbox.com/en-us/2026/05/21/introducing-the-xbox-game-studios-shop/\">XBOX Game Studios Shop launches with official merchandise from favorite titles</a> appeared first on <a href=\"https://news.microsoft.com/source\">Source</a>.</p>",
+    "content": "<article class=\"mssrc-posts font-- has--theme\" id=\"single-24940\">\n\t<div class=\"acf-innerblocks-container\"></div>\t\t\t<section class=\"post-tags\">\n\t\t\t\t<div class=\"post-tags__content wp-block-columns\">\n\t\t\t\t\t<div class=\"post-tags__header wp-block-column flex-basis-25 has-text-align-right\">\n\t\t\t\t\t\t<h4 class=\"sr-only\">Tags: </h4>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"post-tags__body wp-block-column flex-basis-60\">\n\t\t\t\t\t\t<ul class=\"post-tags__list\"><li class=\"post-tags__item\"><a class=\"kicker inline-block post__meta--tags\" href=\"https://news.microsoft.com/source/tag/gaming/\">Gaming</a></li></ul>\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</section>\n\t\t\t</article><p>The post <a href=\"https://news.xbox.com/en-us/2026/05/21/introducing-the-xbox-game-studios-shop/\">XBOX Game Studios Shop launches with official merchandise from favorite titles</a> appeared first on <a href=\"https://news.microsoft.com/source\">Source</a>.</p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Smarter AI agents, built to run on smaller models",
+    "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
+    "source": "Microsoft AI Blog",
+    "category": "big_labs",
+    "published": "2026-05-22T16:25:45+00:00",
+    "summary": "<p>The post <a href=\"https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/\">Smarter AI agents, built to run on smaller models</a> appeared first on <a href=\"https://news.microsoft.com/source\">Source</a>.</p>",
+    "content": "<article class=\"mssrc-posts font-- has--theme\" id=\"single-24938\">\n\t<div class=\"acf-innerblocks-container\"></div>\t\t\t<section class=\"post-tags\">\n\t\t\t\t<div class=\"post-tags__content wp-block-columns\">\n\t\t\t\t\t<div class=\"post-tags__header wp-block-column flex-basis-25 has-text-align-right\">\n\t\t\t\t\t\t<h4 class=\"sr-only\">Tags: </h4>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"post-tags__body wp-block-column flex-basis-60\">\n\t\t\t\t\t\t<ul class=\"post-tags__list\"><li class=\"post-tags__item\"><a class=\"kicker inline-block post__meta--tags\" href=\"https://news.microsoft.com/source/tag/ai/\">AI</a></li></ul>\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</section>\n\t\t\t</article><p>The post <a href=\"https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/\">Smarter AI agents, built to run on smaller models</a> appeared first on <a href=\"https://news.microsoft.com/source\">Source</a>.</p>",
+    "priority": "medium"
+  },
+  {
+    "title": "11 startups to watch at Microsoft Build 2026",
+    "url": "https://www.microsoft.com/en-us/startups/blog/11-startups-to-watch-at-microsoft-build-2026/",
+    "source": "Microsoft AI Blog",
+    "category": "big_labs",
+    "published": "2026-05-22T15:07:10+00:00",
+    "summary": "<p>The post <a href=\"https://www.microsoft.com/en-us/startups/blog/11-startups-to-watch-at-microsoft-build-2026/\">11 startups to watch at Microsoft Build 2026</a> appeared first on <a href=\"https://news.microsoft.com/source\">Source</a>.</p>",
+    "content": "<article class=\"mssrc-posts font-- has--theme\" id=\"single-24936\">\n\t<div class=\"acf-innerblocks-container\"></div>\t\t\t<section class=\"post-tags\">\n\t\t\t\t<div class=\"post-tags__content wp-block-columns\">\n\t\t\t\t\t<div class=\"post-tags__header wp-block-column flex-basis-25 has-text-align-right\">\n\t\t\t\t\t\t<h4 class=\"sr-only\">Tags: </h4>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"post-tags__body wp-block-column flex-basis-60\">\n\t\t\t\t\t\t<ul class=\"post-tags__list\"><li class=\"post-tags__item\"><a class=\"kicker inline-block post__meta--tags\" href=\"https://news.microsoft.com/source/tag/events/\">Events</a></li></ul>\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</section>\n\t\t\t</article><p>The post <a href=\"https://www.microsoft.com/en-us/startups/blog/11-startups-to-watch-at-microsoft-build-2026/\">11 startups to watch at Microsoft Build 2026</a> appeared first on <a href=\"https://news.microsoft.com/source\">Source</a>.</p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Google&#8217;s AI search is so broken it can &#8216;disregard&#8217; what you&#8217;re looking for",
+    "url": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-05-22T20:39:54+00:00",
+    "summary": "Google's AI Overviews are running into an interesting problem right now. Earlier on Friday, if you searched for the term \"disregard,\" the AI Overview section would include a response like what you'd see from a more traditional AI chatbot instead of the typical AI summary, as spotted on X. As you can see in the [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/Screenshot-2026-05-22-at-8.44.28AM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Google's AI Overviews are running into an interesting problem right now. Earlier on Friday, if you searched for the term \"disregard,\" the AI Overview section would include a response like what you'd see from a more traditional AI chatbot instead of the typical AI summary, as <a href=\"https://x.com/ariadotwav/status/2057738319316816097?s=46\">spotted on X</a>. As you can see in the image at the top of this story, I got an AI Overview response that said, \"Got it. If you need anything else or have a new question later, just let me know!\"</p>\n<p class=\"has-text-align-none\">As of Friday afternoon, however, Google isn't showing an AI Overview for the term \"disregard\" at all - instead, it shows a list of news stories about the issue first. Google hasn' …</p>\n<p><a href=\"https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Elon, stop trying to make Grok happen",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-05-22T17:17:06+00:00",
+    "summary": "There is a harsh truth about Elon Musk's \"truth-seeking\" AI chatbot Grok: It's not very good, and not many people are using it. That's the takeaway of a new Reuters report, which found that Grok barely appears in federal records of how the US government used AI last year. It's not the only sign xAI's [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/VRG_Illo_STK022_K_Radtke_Musk_Smiles.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">There is a harsh truth about Elon Musk's \"truth-seeking\" AI chatbot Grok: It's not very good, and not many people are using it. That's the takeaway of a new <a href=\"https://www.reuters.com/world/grok-falls-flat-washington-undercutting-spacexs-ai-growth-story-2026-05-21/\"><em>Reuters</em> report</a>, which found that Grok barely appears in federal records of how the US government used AI last year. It's not the only sign xAI's signature chatbot is in trouble, even as Musk puts it at the heart of what could be the <a href=\"https://www.theverge.com/business/902219/spacex-ipo-details\">biggest IPO in history</a>.</p>\n<p class=\"has-text-align-none\"><em>Reuters</em> reviewed more than 400 examples of government AI use where specific vendors were named. Grok or xAI, it found, appeared in only three - each of those for basic uses like document drafting or social media management, and always …</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "The literary world isn’t prepared for AI",
+    "url": "https://www.theverge.com/tech/936073/ai-writing-granta-commonwealth-prize",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-05-22T14:30:00+00:00",
+    "summary": "Since 2012, the British literary magazine Granta has published the regional winners of the annual Commonwealth Short Story Prize. This year, however, there was something off about one of the selections for the prestigious award: It appears to have been written by AI. Jamir Nazir's \"The Serpent in the Grove\" has many of the hallmarks [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Animation of a word document cursor blinking on a sheet of paper in a typewriter.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/257664_7_writing_apps_CVirginia.gif?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Since 2012, the British literary magazine <em>Granta</em> has published the regional winners of the annual Commonwealth Short Story Prize. This year, however, there was something off about one of the selections for the prestigious award: It appears to have been written by AI.</p>\n<p class=\"has-text-align-none\">Jamir Nazir's <a href=\"https://granta.com/the-serpent-in-the-grove/\">\"The Serpent in the Grove\"</a> has many of the hallmarks of LLM-generated prose - mixed metaphors, anaphora, lists of threes. (I'm aware this, too, is a list of threes, and I promise I wrote this post myself, unassisted, as I write all things.) I'll admit I was initially unconvinced by the allegation that Nazir's story had been generated by AI. I know people are using …</p>\n<p><a href=\"https://www.theverge.com/tech/936073/ai-writing-granta-commonwealth-prize\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Spotify says its AI remix tool is for superfans, but I&#8217;m not convinced",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/936072/spotify-umg-ai-music-remix-cover-superfan",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-05-22T14:20:00+00:00",
+    "summary": "AI covers and remixes of songs are already a blight on the internet. Spotify, YouTube, TikTok, and Instagram are awash in flat reggae versions of \"Smells Like Teen Spirit,\" dinky country renditions of The Weeknd, and monotonous Motown reimaginings of AC/DC. Now, a new tool from Spotify will make them even easier to generate and [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"A repeating image of someone talking in front of a microphone\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK467_AI_MUSIC_CVirginia_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tPrompt something better than Beyoncé’s “Break My Soul,” I dare you. | Image: Cath Virginia / The Verge | Photo from Getty Images\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">AI covers and remixes of songs are already a blight on the internet. Spotify, YouTube, TikTok, and Instagram are awash in flat reggae versions of \"Smells Like Teen Spirit,\" dinky country renditions of The Weeknd, and monotonous Motown reimaginings of AC/DC. Now, a <a href=\"https://www.theverge.com/ai-artificial-intelligence/935379/spotify-umg-ai-covers-remix\">new tool from Spotify</a> will make them even easier to generate and share.</p>\n<p class=\"has-text-align-none\">Spotify and Universal Music Group (UMG) signed a licensing deal that will allow users to generate remixes and covers from UMG's catalog. How exactly it will work, beyond being \"powered by generative AI technology,\" or how much it will cost, is unclear. They're positioning this as a premium subscription add-on  …</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/936072/spotify-umg-ai-music-remix-cover-superfan\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Samsung&#8217;s memory chip employees negotiated $340,000 bonuses this year",
+    "url": "https://www.theverge.com/tech/936002/samsung-memory-chip-employees-deal-strike-bonus",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-05-22T11:05:25+00:00",
+    "summary": "Details have emerged about a tentative deal struck between Samsung and semiconductor employees who had threatened to strike. The deal reportedly makes some workers eligible for average annual bonuses of $340,000. The proposed 18-day strike had hinged on Samsung's bonus cap for employees in the semiconductor division and followed a substantial rise in the possible [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Members of the Samsung Electronics labour union hold signs reading &quot;Change it to be transparent!&quot; as they stage a mass rally demanding the removal of a cap on performance bonuses, outside the company&#039;s foundry and semiconductor factory in Pyeongtaek on April 23, 2026\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2272013055.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t48,000 Samsung workers had threatened to strike unless bonus caps were lifted. | Photo: Jung Yeon-je / AFP via Getty Images\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Details have emerged about a <a href=\"https://www.theverge.com/tech/934432/samsung-electronics-strike-memory-chip-supply\">tentative deal</a> struck between Samsung and semiconductor employees who had threatened to strike. The deal <a href=\"https://www.bloomberg.com/news/articles/2026-05-21/samsung-chip-workers-to-get-average-340-000-bonus-in-ai-boom\">reportedly</a> makes some workers eligible for average annual bonuses of $340,000.</p>\n<p class=\"has-text-align-none\">The proposed 18-day strike had hinged on Samsung's bonus cap for employees in the semiconductor division and followed a substantial rise in the possible bonuses available to employees of SK Hynix, another South Korean chipmaker enjoying a boom thanks to demand for AI components.</p>\n<p class=\"has-text-align-none\">Under the terms of the new deal, <a href=\"https://www.reuters.com/business/world-at-work/samsungs-deal-with-union-hailed-victory-bonuses-less-generous-than-sk-hynixs-2026-05-21/\"><em>Reuters</em></a> reports that all &#8203;chip workers will receive 50 percent of their annual salary as a regular bonus in cash. Further …</p>\n<p><a href=\"https://www.theverge.com/tech/936002/samsung-memory-chip-employees-deal-strike-bonus\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "AI is being used to resurrect the voices of dead pilots",
+    "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-22T23:03:33+00:00",
+    "summary": "People used AI on a spectrogram image of cockpit recordings to reconstruct them, forcing the NTSB to temporarily block access to its docket system.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Google goes for the glitter with disco-ball icons: ‘Are y’all sure you still want this?’",
+    "url": "https://techcrunch.com/2026/05/22/google-goes-for-the-glitter-with-disco-ball-icons-are-yall-sure-you-still-want-this/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-22T21:02:36+00:00",
+    "summary": "You can now disco ball-ify your entire Pixel home screen, says Google.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "How VCs and founders use inflated ‘ARR’ to crown AI startups",
+    "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-22T20:40:48+00:00",
+    "summary": "Some AI startups are stretching traditional revenue metrics when talking about progress publicly. And their investors are fully aware.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Elon Musk can’t hear you over the sound of his $1.75 trillion IPO",
+    "url": "https://techcrunch.com/podcast/elon-musk-cant-hear-you-over-the-sound-of-his-1-75-trillion-ipo/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-22T18:17:07+00:00",
+    "summary": "The SpaceX S-1 is finally here, and the story it tells goes&#160;way further&#160;than rockets. The filing runs to 36 pages of risk factors alone, and the numbers inside match the ambition: a&#160;$28 trillion&#160;total addressable market, a pay package tied to&#160;establishing&#160;a Mars colony, and a valuation target that would make it the largest IPO in American [&#8230;]",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "You can no longer Google the word ‘disregard’",
+    "url": "https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-22T16:16:48+00:00",
+    "summary": "After Google Search's AI update, the word \"disregard\" now effectively breaks the search interface.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "We tried Google’s AI glasses and they’re almost there",
+    "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-22T15:37:15+00:00",
+    "summary": "Google demoed prototype Android XR glasses that overlay Gemini-powered translation, navigation, and other information directly into your field of view.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "SpaceX files to go public, and the math requires a little faith",
+    "url": "https://techcrunch.com/video/spacex-files-to-go-public-and-the-math-requires-a-little-faith/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-22T14:30:00+00:00",
+    "summary": "The SpaceX S-1 is finally here, and the story it tells goes&#160;way further&#160;than rockets. The filing runs to 36 pages of risk factors alone, and the numbers inside match the ambition: a&#160;$28 trillion&#160;total addressable market, a pay package tied to&#160;establishing&#160;a Mars colony, and a valuation target that would make it the largest IPO in American [&#8230;]",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Texas AG sues Meta over claims that WhatsApp doesn't provide end-to-end encryption",
+    "url": "https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/",
+    "source": "Ars Technica",
+    "category": "news",
+    "published": "2026-05-22T18:13:05+00:00",
+    "summary": "Critics note a lack of factual support in lawsuit filed by US Senate candidate.",
+    "content": "<p>The Texas Attorney General has sued Meta over allegations that the company’s WhatsApp messenger, used by more than 3 billion people, doesn’t provide the end-to-end encryption (E2EE) it has long claimed.</p>\n<p>Since at least 2016, Meta (then named Facebook) has said WhatsApp provides robust end-to-end encryption, meaning that messages are encrypted on a sender’s device with keys that are available only to the receiver's. By definition, E2EE means that no one else—including the platform itself—can read the plaintext messages.</p>\n<p>In sworn testimony before two US Senate committees in 2018, CEO Mark Zuckerberg <a href=\"https://www.congress.gov/event/115th-congress/senate-event/LC64510/text\">said</a> Meta does “not see any of the content in WhatsApp; it is fully encrypted” and that “Facebook systems do not see the content of messages being transferred over WhatsApp.” The engine for this E2EE is the Signal protocol, an open source code base that multiple third-party experts have said lives up to its promises.</p><p><a href=\"https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/#comments\">Comments</a></p>",
+    "priority": "low"
+  },
+  {
+    "title": "A hacker group is poisoning open source code at an unprecedented scale",
+    "url": "https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/",
+    "source": "Ars Technica",
+    "category": "news",
+    "published": "2026-05-22T10:30:14+00:00",
+    "summary": "GitHub is just the latest victim of TeamPCP, a gang that has carried out a spree of software supply chain attacks.",
+    "content": "<p>A so-called software <a href=\"https://www.wired.com/story/the-untold-story-of-solarwinds-the-boldest-supply-chain-hack-ever/\">supply chain attack</a>, in which hackers corrupt a legitimate piece of software to hide their own malicious code, was once a relatively rare event but one that haunted the cybersecurity world with its insidious threat of turning any innocent application into a dangerous foothold in a victim’s network. Now <a href=\"https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/\">one group of cybercriminals</a> has turned that occasional nightmare into a near-weekly episode, corrupting hundreds of open source tools, extorting victims for profit, and sowing a new level of distrust in an entire ecosystem used to create the world’s software.</p>\n<p>On Tuesday night, open source code platform GitHub announced that it had been breached by hackers in one such software supply chain attack: A GitHub developer had installed a “poisoned” extension for VSCode, a plug-in for a commonly used code editor that, like GitHub itself, is owned by Microsoft. As a result, the hackers behind the breach, an increasingly notorious group called TeamPCP, claim to have accessed around 4,000 of GitHub’s code repositories. GitHub’s statement confirmed that it had found at least 3,800 compromised repositories while noting that, based on its findings so far, they all contained GitHub’s own code, not that of customers.</p>\n<p>“We are here today to advertise GitHub’s source code and internal orgs for sale,” TeamPCP wrote on BreachForums, a forum and marketplace for cybercriminals. “Everything for the main platform is there and I very am happy to send samples to interested buyers to verify absolute authenticity.”</p><p><a href=\"https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/#comments\">Comments</a></p>",
+    "priority": "low"
+  },
+  {
+    "title": "Valid certificates, stolen accounts: how attackers broke npm's last trust signal",
+    "url": "https://venturebeat.com/security/npm-sigstore-provenance-stolen-identity-audit-grid-2026",
+    "source": "VentureBeat",
+    "category": "news",
+    "published": "2026-05-22T22:21:34+00:00",
+    "summary": "<p>On May 19, 633 malicious npm package versions <a href=\"https://www.endorlabs.com/learn/mini-shai-hulud-returns-42-malicious-npm-packages-fake-sigstore-badges-in-antv-ecosystem-attack\">passed Sigstore provenance verification</a>. They were cleared by the system because the attacker had generated valid signing certificates from a compromised maintainer account.</p><p>Sigstore worked exactly as designed: it verified the package was built in a CI environment, confirmed a valid certificate was issued, and recorded everything in the transparency log. What it cannot do is determine whether the person holding the credentials authorized the publish — and that gap turned the last automated trust signal in npm into camouflage.</p><p>One day earlier, StepSecurity <a href=\"https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised\">documented an attack on the Nx Console VS Code extension</a>, a widely used developer tool with more than 2.2 million lifetime installs. Version 18.95.0 was published using stolen credentials on May 18 and stayed live for under 40 minutes — but Nx internal telemetry showed approximately 6,000 activations during that window, most through auto-update, compared to just 28 official downloads. The payload harvested Claude Code configuration files, AWS keys, GitHub tokens, npm tokens, 1Password vault contents, and Kubernetes service account tokens.</p><p>The <a href=\"https://venturebeat.com/security/shai-hulud-worm-172-npm-pypi-packages-valid-provenance-ci-cd-audit\">Mini Shai-Hulud campaign</a>, attributed by multiple researchers to a financially motivated threat actor identified as TeamPCP, hit the npm registry at 01:39 UTC on May 19. <a href=\"https://www.endorlabs.com/learn/mini-shai-hulud-returns-42-malicious-npm-packages-fake-sigstore-badges-in-antv-ecosystem-attack\">Endor Labs detected the initial wave</a> when two dormant packages, jest-canvas-mock and size-sensor, published new versions containing an obfuscated 498KB Bun script — neither had been updated in over three years, making a sudden version with raw GitHub commit hash dependencies a detection signal, but only if the tooling is watching.</p><p>By 02:06 UTC, the worm had propagated across the @antv data visualization ecosystem and dozens of unscoped packages, including echarts-for-react (~1.1 million weekly downloads). Socket raised the total to 639 compromised versions across 323 unique packages in this wave. Across the full campaign lifecycle, Socket has tracked 1,055 malicious versions across 502 packages spanning npm, PyPI, and Composer.</p><p>StepSecurity confirmed the payload contained full Sigstore integration. The attacker didn&#x27;t just steal credentials; they could sign and publish downstream npm packages that carried valid provenance attestations.</p><p>These two incidents aren’t isolated. Research teams at Endor Labs, Socket, StepSecurity, Adversa AI, Johns Hopkins, Microsoft MSRC, and LayerX independently proved that the developer tool verification model is broken, and no vendor framework audits all of the attack surfaces that failed.</p><p>Seven attack surfaces failed in the 48 hours between May 18 and May 19 — npm provenance forgery, VS Code extension credential theft, MCP server auto-execution, CI/CD agent prompt injection, agent framework code execution, IDE credential storage exposure, and shadow AI data exposure — and the audit grid below maps each.</p><h2>The verification model is broken across all four major AI coding CLIs </h2><p>Adversa AI <a href=\"https://adversa.ai/blog/trustfall-coding-agent-security-flaw-rce-claude-cursor-gemini-cli-copilot/\">disclosed TrustFall</a> on May 7, demonstrating that Claude Code, Gemini CLI, Cursor CLI, and Copilot CLI all auto-execute project-defined MCP servers the moment a developer accepts a folder trust prompt. All four default to “Yes” or “Trust.” One keypress spawns an unsandboxed process with the developer’s full privileges.</p><p>The MCP server runs with enough privilege to read stored secrets and source code from other projects. On CI runners using Claude Code’s GitHub Action in headless mode, the trust dialog never renders. The attack executes with zero human interaction.</p><p>Johns Hopkins researchers Aonan Guan, Zhengyu Liu, and Gavin Zhong published “<a href=\"https://venturebeat.com/security/ai-agent-runtime-security-system-card-audit-comment-and-control-2026/\">Comment and Control</a>,” proving that a malicious instruction in a GitHub pull request title caused Claude Code Security Review to post its own API key as a comment. The same attack worked on Google’s Gemini CLI Action and GitHub’s Copilot Agent. Anthropic rated the vulnerability CVSS 9.4 Critical through its HackerOne program.</p><p>Microsoft MSRC <a href=\"https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/\">disclosed two critical Semantic Kernel vulnerabilities</a> on May 7. One routes attacker-controlled vector store fields into a Python eval() call; the other exposes a host-side file download method as a callable kernel function — meaning one poisoned document in a vector store launches a process on the host.</p><p>LayerX security researchers separately demonstrated that Cursor stores API keys and session tokens in unprotected storage, meaning any browser extension can access developer credentials without elevated permissions.</p><h2>The threat actors hunting these credentials doubled their operational tempo </h2><p>The <a href=\"https://www.verizon.com/business/resources/T1ae/reports/2026-dbir-data-breach-investigations-report.pdf\">Verizon 2026 Data Breach Investigations Report</a>, released May 19, found that 67% of employees access AI services from non-corporate accounts on corporate devices. Shadow AI is now the third most common non-malicious insider action in DLP datasets. Source code leads all data types submitted to unauthorized AI platforms — the same asset class the npm worm campaign targeted.</p><p>The <a href=\"https://www.crowdstrike.com/en-us/press-releases/crowdstrike-2026-financial-services-threat-landscape-report/\">CrowdStrike 2026 Financial Services Threat Landscape Report</a>, released May 14, documents the adversaries actively hunting the credential types these attacks harvest.</p><p>STARDUST CHOLLIMA tripled its operational tempo against financial entities in Q4 2025. CrowdStrike documented the group using AI-generated recruiter personas on LinkedIn and Telegram, sending malicious coding challenges that looked like technical assessments, and running fake video calls with synthetic environments. The targets are GitHub PATs, npm tokens, AWS keys, and CI/CD secrets. The shadow AI exposure in grid row 7 is the door they walk through.</p><h2>Developer Tool Stolen-Identity Audit Grid </h2><p>No vendor framework currently scopes all seven surfaces. This grid maps each one to the research that exposed it, what your stack cannot see, and the audit action to take before the next vendor renewal.</p><table><tbody><tr><td><p>Attack Surface</p></td><td><p>Disclosed By</p></td><td><p>What Verification Failed</p></td><td><p>What Your Stack Cannot See</p></td><td><p>Audit Action</p></td></tr><tr><td><p>1. npm provenance forgery</p></td><td><p>Endor Labs, Socket (May 19)</p></td><td><p>Sigstore certificates generated from stolen OIDC tokens pass automated verification</p></td><td><p>EDR and SAST do not validate whether the CI identity that signed a package authorized the publish</p></td><td><p>Require publish-time two-party approval for packages with more than 10,000 weekly downloads. Do not treat a green Sigstore badge as proof of legitimacy</p></td></tr><tr><td><p>2. VS Code extension credential theft</p></td><td><p>StepSecurity (May 18)</p></td><td><p>VS Code Marketplace accepted a malicious extension version published with a stolen contributor token</p></td><td><p>Extension auto-updates bypass endpoint detection. Marketplace window 12:30 to 12:48 UTC; overall exposure (including Open VSX) 12:30 to 13:09 UTC</p></td><td><p>Enforce minimum-age policies for extension updates. Pin critical extension versions. Audit all extensions with access to terminal or file system APIs</p></td></tr><tr><td><p>3. MCP server auto-execution</p></td><td><p>Adversa AI, TrustFall (May 7)</p></td><td><p>All four CLI trust dialogs default to “Yes/Trust” without enumerating which executables will spawn</p></td><td><p>EDR monitors process behavior, not what an LLM instructs an MCP server to do. WAF inspects HTTP payloads, not tool-call intent</p></td><td><p>Disable project-scoped MCP server auto-approval in Claude Code, Gemini CLI, Cursor CLI, and Copilot CLI. Block .mcp.json in CI pipelines unless explicitly allowlisted</p></td></tr><tr><td><p>4. CI/CD agent prompt injection</p></td><td><p>Johns Hopkins, Comment and Control (April 2026)</p></td><td><p>GitHub Actions workflows using pull_request_target inject secrets into runner environments that AI agents process as instructions</p></td><td><p>SIEM logs show an API call from a legitimate GitHub Action. The call itself is the attack. No anomalous network signature exists</p></td><td><p>Migrate AI code review workflows to pull_request trigger. Audit all workflows using pull_request_target with secret access for AI agent integrations</p></td></tr><tr><td><p>5. Agent framework code execution</p></td><td><p>Microsoft MSRC (May 7)</p></td><td><p>Semantic Kernel Python SDK routed vector store filter fields into eval(). .NET SDK exposed host file-write as a callable kernel function</p></td><td><p>Application firewalls inspect input payloads. They do not inspect how an orchestration framework parses those payloads internally</p></td><td><p>Update Semantic Kernel Python SDK to 1.39.4 and .NET SDK to 1.71.0. Audit all agent frameworks for functions tagged as model-callable that access host file system or shell</p></td></tr><tr><td><p>6. IDE credential storage exposure</p></td><td><p>LayerX (April 2026)</p></td><td><p>Cursor stores API keys and session tokens in unprotected storage accessible to any installed browser extension</p></td><td><p>DLP monitors data in transit. Cursor credentials at rest are invisible to DLP because no egress event occurs until the extension exfiltrates</p></td><td><p>Audit developer tools for credential storage practices. Require protected storage (OS keychain, encrypted credential stores) for all AI coding tool configurations</p></td></tr><tr><td><p>7. Shadow AI data exposure</p></td><td><p>Verizon 2026 DBIR (May 19)</p></td><td><p>67% of employees access AI services from non-corporate accounts on corporate devices. Source code is the leading data type submitted</p></td><td><p>CASB policies cover sanctioned SaaS. Non-corporate AI accounts on corporate devices operate outside CASB scope entirely</p></td><td><p>Deploy browser-layer AI governance that monitors non-corporate AI usage on corporate devices. Inventory AI browser extensions across the organization</p></td></tr></tbody></table><h2>Security director action plan</h2><p><b>Security directors may want to run this grid against current vendor contracts before Q2 renewals close </b>— asking each vendor which of the seven surfaces their product covers, and treating the non-answers as the gap map.</p><p><b>Any credential accessible from a developer machine or CI runner that installed affected npm packages between 01:39 and 02:18 UTC on May 19 should be considered compromised</b>. That includes GitHub PATs, npm tokens, AWS access keys, Kubernetes service account tokens, HashiCorp Vault tokens, SSH keys, and 1Password vault contents.</p><p><b>AI coding agent integrations running in CI/CD pipelines with pull_request_target workflows deserve a close look.</b> Each one is a prompt injection surface that processes PR comments as agent instructions.</p><p><b>Procurement teams evaluating AI coding tools should consider adding a stolen-identity resistance dimension to vendor assessments.</b> The question worth asking: can the vendor demonstrate how their tool distinguishes a legitimate maintainer publish from an attacker using compromised credentials? If they cannot, the tool is not a verification layer.</p><p>The developer tool supply chain has the same problem IAM had a decade ago: credentials prove who you claim to be, not who you are. IAM got a 10-year head start on compensating controls before nation-state groups turned credential theft into an industrial operation. The AI coding tool ecosystem is starting that clock now.</p>",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Your AI agents need a terminal, not just a vector database",
+    "url": "https://venturebeat.com/orchestration/your-ai-agents-need-a-terminal-not-just-a-vector-database",
+    "source": "VentureBeat",
+    "category": "news",
+    "published": "2026-05-22T21:05:07+00:00",
+    "summary": "<p>When agentic workflows fail, developers often assume the problem lies in the underlying model’s reasoning abilities. In reality, the limited information provided by the retrieval interface is often the primary limiting factor.</p><p>Researchers at multiple universities propose a technique called <a href=\"https://arxiv.org/abs/2605.05242\">direct corpus interaction</a> (DCI) that lets agents bypass embedding models entirely, searching raw corpora directly using standard command-line tools.</p><h2>The limits of classic retrieval</h2><p>In <a href=\"https://venturebeat.com/data/the-rag-era-is-ending-for-agentic-ai-a-new-compilation-stage-knowledge-layer-is-what-comes-next\">classic retrieval systems such as RAG</a>, documents are chunked, converted into vector representations (or embeddings), and indexed offline in a vector database. When an AI system processes a query, a retriever filters the entire database to return a ranked &quot;top-k&quot; list of document snippets that match the query. All evidence must pass through this scoring mechanism before any downstream reasoning occurs.</p><p>But modern agentic applications demand much more. &quot;Dense retrieval is very useful for broad semantic recall, but when an agent has to solve a multi-step task, it often needs to search for exact strings, numbers, versions, error codes, file paths, or sparse combinations of clues,&quot; the authors of the DCI paper said in comments provided to VentureBeat. &quot;These long-tail details are precisely where semantic similarity can be brittle.&quot;</p><p>Unlike static search, agents must also revise their search plans dynamically after observing partial or localized evidence. Exact lexical constraints and multi-step hypothesis refinement are difficult to execute with semantic retrievers. Because the retriever compresses access into a single step, any critical evidence filtered out by the similarity search cannot be recovered later, no matter how advanced the agent&#x27;s downstream reasoning capabilities are. As the authors explain, current retrieval pipelines can become a bottleneck because &quot;they decide too early what the agent is allowed to see.&quot;</p><h2>Direct corpus interaction</h2><p>This direct access addresses a core problem in enterprise environments: data staleness. Embedding indexes are always a snapshot of a specific moment in time, taking considerable compute and time to build and maintain.</p><p>&quot;In many enterprise settings, the data is not a stable document collection. It is daily financial reports, live logs, tickets, code commits, configuration files, incident timelines, and internal documents that keep changing,&quot; the authors said. DCI lets the agent reason over the current state of the workspace rather than yesterday&#x27;s vector index.</p><p>The agent operates in a terminal-like environment where its observations are raw tool outputs such as file paths, matched text spans, and surrounding lines. The core tools provided by DCI are few but highly expressive. Agents use commands like “find” and “glob” to navigate directory structures and locate files. For exact matching, they use “grep” and “rg” to locate specific keywords, regex patterns, and exact strings. When local inspection is needed, tools like “head,” “tail,” “sed,” “cat,” and lightweight Python scripts allow the agent to peek at the context surrounding a match or read specific file sections.</p><p>The agent can combine these tools via shell pipelines to execute complex search logic in a single step. An agent can pipe commands to enforce strict lexical constraints, such as searching a file for one term and piping the output to search for a second term. It can combine multiple weak clues across a corpus by finding a specific file type, searching for a keyword like &quot;report,&quot; and filtering for a year like &quot;2024.&quot; It can also immediately verify a hypothesis by inspecting the exact lines around a keyword match.</p><p>DCI delegates semantic interpretation directly to the agent instead of relying on embedding-based similarity search. The agent can formulate hypotheses, test exact lexical patterns, and extract detailed information that a traditional semantic retriever might miss.</p><p>The researchers propose two versions of this system. DCI-Agent-Lite is designed as a lightweight, low-cost setup built on the GPT-5.4 nano model and restricted purely to raw terminal interactions like bash commands and basic file reads. Because reading raw files can quickly fill up a smaller model&#x27;s memory, this version relies on lightweight runtime context-management strategies to sustain long-horizon exploration.</p><p>DCI-Agent-CC is the higher-performance version, designed for teams with more compute budget. It runs on <a href=\"https://venturebeat.com/orchestration/we-tested-anthropics-redesigned-claude-code-desktop-app-and-routines-heres-what-enterprises-should-know\">Claude Code</a> powered by Claude Sonnet 4.6. Claude Code provides stronger prompting, more robust tool orchestration, and superior built-in context handling, which improves the agent&#x27;s stability during complex, multi-step searches across heterogeneous datasets.</p><h2>DCI in action</h2><p>The researchers tested both versions of DCI across agentic search benchmarks like BrowseComp-Plus, knowledge-intensive QA with single-hop and multi-hop reasoning, and information retrieval ranking in tasks requiring domain-specific reasoning and scientific fact-checking.</p><p>They tested DCI against three baselines. The first included open-weight retrieval agents such as <a href=\"https://venturebeat.com/ai/beyond-rag-search-r1-integrates-search-engines-directly-into-reasoning-models\">Search-R1</a> and proprietary agents powered by frontier models like GPT-5 and Claude Sonnet 4.6, paired with standard retrievers. The second baseline included classical sparse retrievers like BM25 and dense retrievers like OpenAI&#x27;s text-embedding-3-large and Qwen3-Embedding-8B. The third baseline consisted of high-performing reasoning-oriented re-rankers like ReasonRank-32B and Rank-R1.</p><p>DCI systematically outperformed the baselines, <!-- -->according to the researchers<!-- -->. On the complex BrowseComp-Plus benchmark, swapping a traditional Qwen3 semantic retriever for DCI on a Claude Sonnet 4.6 backbone improved accuracy from 69.0% to 80.0% while reducing the API cost from $1,440 to $1,016. The return on investment for lightweight agents was also noticeable. DCI-Agent-Lite with GPT-5.4 nano competed with the OpenAI o3 model using traditional retrieval while cutting costs by more than $600.</p><p>On multi-hop QA benchmarks, DCI-Agent-CC reached an 83.0% average accuracy, improving on the strongest open-weight retrieval baseline by 30.7 points, according to the researchers.</p><p>The data shows that DCI has lower overall document recall than dense embedding models, but once it finds a relevant document, it extracts substantially more value from it.</p><p>&quot;If an enterprise AI lead asked where DCI is most clearly useful, I would point to tasks that require exact evidence localization in a dynamic workspace: debugging production incidents, searching large codebases, analyzing logs, compliance investigation, audit trails, or multi-document root-cause analysis,&quot; the researchers note.</p><p>In one complex deep-research task, the agent had to identify a specific soccer match based on 12 interlocking clues, including exact attendance, yellow cards, and player birth dates. A traditional retriever would fail by surfacing short, disconnected snippets. Instead, the DCI agent explored the file directory, read specific lines of a 1990 England versus Belgium match report to verify the exact number of substitutions, pulled a specific quote from an interview file, and verified the exact birth dates of two players by peeking into their Wikipedia text files. By chaining these simple commands, DCI ensures that no evidence is permanently lost behind a flawed semantic search algorithm.</p><h2>Limits and practical implementation of DCI</h2><p>DCI has a clear operating envelope where it scales excellently in search depth but struggles with search breadth. When the experimental corpus was expanded from 100,000 to 400,000 documents, the system&#x27;s accuracy dropped significantly and the average number of tool calls rose. While DCI is powerful once a promising document is found, the cost of locating that initial useful anchor document grows sharply as the size of the candidate space increases.</p><p>DCI also has lower broad document recall compared to dense embedding models. It trades exhaustive recall for high-resolution, local precision. If an enterprise workflow strictly requires finding every single relevant document across a massive dataset, DCI may not be the right tool.</p><p>Granting an agent expressive tools like an unrestricted bash shell increases latency and compute costs due to the high volume of iterative tool calls required to complete a search. It also creates significant context-management and security challenges for IT departments.</p><p>&quot;Tool calls can return large outputs; long trajectories can fill the context window; and raw terminal access requires sandboxing, permission control, and careful engineering,&quot; the authors said. To manage the context window, the researchers found that moderate truncation and compaction help the agent sustain longer searches, whereas overly aggressive summarization tends to discard useful evidence.</p><p>Because of these operational realities, DCI is not meant to be a mandatory replacement for existing vector infrastructure. Instead, it serves as a complementary one.</p><p>&quot;For orchestration engineers and data architects, our view is that the most practical near-term deployment pattern is hybrid,&quot; the authors said. Semantic retrieval can still provide high-recall candidate discovery when a user&#x27;s intent is broad or underspecified. &quot;DCI can then operate as a precision and verification layer: the agent can search within the retrieved documents, expand from them into neighboring files, check exact constraints, and combine weak signals across documents.&quot;</p><p>The researchers have released <a href=\"https://github.com/DCI-Agent/DCI-Agent-Lite\">the code for DCI</a> under the permissive MIT license.</p><p>&quot;Longer term, DCI changes how we think about enterprise data. Data will not only need to be stored for humans or indexed for search engines; it will need to be organized for agents that can inspect, compare, grep, trace, and verify,&quot; the authors conclude. &quot;File names, timestamps, stable identifiers, metadata, version history, and machine-readable structure become part of the retrieval interface.&quot;</p>",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "D&B's database of 642 million businesses was built for humans, not AI agents. So they rebuilt it.",
+    "url": "https://venturebeat.com/data/d-and-bs-database-of-642-million-businesses-was-built-for-humans-not-ai-agents-so-they-rebuilt-it",
+    "source": "VentureBeat",
+    "category": "news",
+    "published": "2026-05-22T13:00:00+00:00",
+    "summary": "<p>Dun &amp; Bradstreet has spent over 180 years building a comprehensive commercial database. Its Commercial Graph, covering 642 million businesses and their relationships, corporate hierarchies and risk profiles, was designed for people. Credit analysts, risk managers and sales professionals who could wait for query results and work through ambiguous entity matches. AI agents cannot do any of those things.</p><p>When D&amp;B&#x27;s customers started pushing agents into credit, procurement and supply chain workflows, the Commercial Graph that had reliably served nearly 200,000 customers globally became a problem. The systems built to serve human analysts were the wrong architecture for machines. So D&amp;B rebuilt.</p><p>&quot;We need to think about agents as our new consumer category, evolving from our standard credit analysts or sales and marketing professionals, et cetera, to also now catering to these customers&#x27; agents,&quot; Gary Kotovets, Chief Data and Analytics Officer at Dun &amp; Bradstreet, told VentureBeat.</p><h2>What broke when agents started querying</h2><p>The Commercial Graph was not a single database. It was a collection of separate systems built for different use cases and different markets, held together by custom integrations. Human analysts navigated that fragmentation through SQL queries or pre-built interfaces. Agents could not.</p><p>The scale of the underlying data compounded the problem. The database had nearly doubled in five years, expanding from more than 300 million to more than 642 million business records, with 11,000 fields per record, according to D&amp;B. The firm now runs approximately 100 billion data quality checks per month as records move through its systems. Querying that at the sub-second latency agents require, against a fragmented architecture, was not workable.</p><p>The relationships the graph tracked were also the wrong kind. Legacy systems recorded static connections between entities. A CEO was linked to a company. That was the line. Agents working on credit assessments or third-party risk need dynamic relationships: when that CEO leaves for a new company, which organization does their track record follow? When a subsidiary changes ownership, how does that propagate across a corporate hierarchy? Those questions required custom analyst work before. Agents cannot wait for custom analyst work.</p><p>The broader problem is not unique to D&amp;B. Kotovets said he has spoken with hundreds of CDOs and CIOs over the past six months and consistently heard the same constraint: they could not build what they wanted in AI because their data foundations were not standardized, normalized or agent-queryable. D&amp;B had that foundation, built over decades to serve human analysts. It still had to rebuild for agents.</p><h2>What they actually built</h2><p>The rebuild started with consolidation. D&amp;B migrated its fragmented databases to cloud infrastructure, redesigned the underlying schema and built a data fabric layer that normalizes records across markets while preserving regional compliance requirements. The result is a unified knowledge graph that tracks billions of relationships across 642 million companies, continuously updated and enriched by AI-driven data processing.</p><p>On top of that graph, D&amp;B built a structured access layer for agents. Raw SQL access at agent query volumes and latency requirements was not the answer. Instead, D&amp;B created a set of tools and skills available through MCP that package data with context and route agents to the right records for specific queries. A match and entity resolution engine sits behind every query, confirming that when an agent asks about a company, the answer resolves to a verified, specific entity rather than a name match.</p><h2>D&amp;B solved agent identity from both directions</h2><p>Rebuilding the graph and adding MCP access solved the data retrieval problem. It did not solve the identity problem. Agents are not humans, and the authentication model built for human users did not extend to machines.</p><p>D&amp;B built a new registration model for agents. They must map to a verified IP address and register an individual access key, treated as an authenticated identity in the same pipeline as a human user.</p><p>&quot;We actually have a concept of Know Your Agent, similar to know your customer, that does those additional verifications,&quot; Kotovets said.</p><p>That handles the inbound problem: knowing which company an agent belongs to and what data it is entitled to query. But D&amp;B also built for the outbound problem: what happens when a customer&#x27;s own multi-agent workflow loses track of which company it is analyzing.</p><p>In a workflow that chains a credit check agent, a KYC agent and a third-party risk agent, each queries D&amp;B at a different step. Without a mechanism to confirm they are all referencing the same entity, a workflow can complete while operating on divergent records.</p><p>&quot;They have to come back to our verification agent to ensure that they&#x27;re still talking to each other about the same entity,&quot; Kotovets said. &quot;It&#x27;s almost like a digital handshake, in a sense.&quot;</p><p>D&amp;B&#x27;s business verification agent can be embedded into any workflow as a persistent reference point and is available on Google&#x27;s A2A protocol regardless of which orchestration tool a customer uses.</p><h2>Four things enterprises must get right before deploying AI agents</h2><p>The rebuild exposed requirements that go beyond D&amp;B&#x27;s own stack.</p><ol><li><p><b>Data foundations come before agent infrastructure.</b> The CDOs and CIOs Kotovets spoke with over the past six months consistently hit the same wall: they cannot build what they want in AI until their data is clean, normalized and consolidated. D&amp;B had that foundation already. Most enterprises do not, and they will feel it.</p></li><li><p><b>Design for dynamic relationships, not static ones.</b> Enterprise data systems typically record point-in-time connections: a person belongs to a company, an asset belongs to a subsidiary. Agents working on credit, risk or supply chain decisions need to reason across relationships that shift over time. If the underlying data only captures the static line, the agent will too.</p></li><li><p><b>Build entity consistency checks into multi-agent workflows.</b> When multiple agents touch the same entity at different steps, there is no guarantee they are all referencing the same record by the time the workflow completes. That gap needs to be engineered for explicitly. Entity verification is a workflow design requirement, not an optional guardrail.</p></li><li><p><b>Embed lineage from the start, not as an afterthought.</b> Every agent-produced answer should carry a traceable path back to its source. In credit, risk and supply chain decisions, the cost of an error is concrete. Lineage needs to be built in before scaling, not added after problems surface.</p></li></ol><p>&quot;You could always click and see where it came from, and validate it all the way back to the original source,&quot; Kotovets said. &quot;That&#x27;s been the key for us in unlocking a lot of other capabilities, because we have that level of certainty in the things that we&#x27;ve done.&quot;</p>",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+    "source": "HuggingFace Blog",
+    "category": "platforms",
+    "published": "2026-05-23T00:02:03+00:00",
+    "summary": null,
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+    "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+    "source": "HuggingFace Blog",
+    "category": "platforms",
+    "published": "2026-05-22T15:25:59+00:00",
+    "summary": null,
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "mindsdb/minds-platform (39200★)",
+    "url": "https://github.com/mindsdb/minds-platform",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-08-02T17:56:45+00:00",
+    "summary": "Platform dedicated to building an open foundation for applied Artificial Intelligence, designed for people seeking production-ready AI systems they can truly control, extend and deploy anywhere.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "feder-cr/Jobs_Applier_AI_Agent_AIHawk (29793★)",
+    "url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2024-08-04T12:15:06+00:00",
+    "summary": "AIHawk aims to easy job hunt process by automating the job application process. Utilizing artificial intelligence, it enables users to apply for multiple jobs in a tailored way.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "owainlewis/awesome-artificial-intelligence (13913★)",
+    "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2015-01-27T09:27:48+00:00",
+    "summary": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "steven2358/awesome-generative-ai (12044★)",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-10-20T11:18:17+00:00",
+    "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "aimacode/aima-python (8739★)",
+    "url": "https://github.com/aimacode/aima-python",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2016-02-02T00:11:19+00:00",
+    "summary": "Python implementation of algorithms from Russell And Norvig's \"Artificial Intelligence - A Modern Approach\"",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5416★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "py-why/EconML (4638★)",
+    "url": "https://github.com/py-why/EconML",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-04-30T21:02:52+00:00",
+    "summary": "ALICE (Automated Learning and Intelligence for Causation and Economics) is a Microsoft Research project aimed at applying Artificial Intelligence concepts to economic decision making. One of its  goals is to build a toolkit that combines state-of-the-art machine learning techniques with econometrics in order to bring automation to complex causal inference problems. To date, the ALICE Python SDK (econml) implements orthogonal machine learning algorithms such as the double machine learning work of Chernozhukov et al. This toolkit is designed to measure the causal effect of some treatment variable(s) t on an outcome variable y, controlling for a set of features x.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3315★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Josh-XT/AGiXT (3192★)",
+    "url": "https://github.com/Josh-XT/AGiXT",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-04-17T19:35:00+00:00",
+    "summary": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3053★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  }
+]
