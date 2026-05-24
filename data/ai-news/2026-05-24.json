@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Google’s new anything-to-anything AI model is wild",
+    "url": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-05-23T11:00:00+00:00",
+    "summary": "Last year I deepfaked my kid's stuffed animal to make it look like his plush deer was on vacation. It was an experiment to see if I could re-create the events depicted in a Gemini ad Google was running, and I never showed the videos of Buddy the deer on his adventures to my four-year-old. [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Still from an AI-generated video of a stuffed deer white water rafting\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/ai-label-19.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tJust a stuffed deer having the time of his life. | Image: Gemini / The Verge\t</figcaption>\n</figure>\n<p class=\"has-drop-cap has-text-align-none\">Last year I <a href=\"https://www.theverge.com/tech/849998/gemini-ai-stuffed-animal-commercial\">deepfaked my kid's stuffed animal</a> to make it look like his plush deer was on vacation.</p>\n<p class=\"has-text-align-none\">It was an experiment to see if I could re-create the events depicted in a Gemini ad Google was running, and I never showed the videos of Buddy the deer on his adventures to my four-year-old. But it was a revealing exercise that made me think a lot about the difference between some harmless fun with generative AI and full-on slop. Maybe that Venn diagram is a perfect circle! Maybe not. But what I know for sure is that the tools to make realistic videos are surprisingly good, requiring surprisingly little effort and know-how. And that trend is c …</p>\n<p><a href=\"https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Ferrari is using IBM’s AI to create F1 superfans",
+    "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-23T15:08:00+00:00",
+    "summary": "IBM and Scuderia Ferrari HP take TechCrunch inside how they are redefining the fan experience.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Elon Musk has given up on solar power (on Earth)",
+    "url": "https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-23T13:00:00+00:00",
+    "summary": "Elon Muks's xAI has gone all in on natural gas, while SpaceX is obsessed with orbital data centers. What happened to the \"solar-electric economy\" he promised?",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "mindsdb/minds-platform (39208★)",
+    "url": "https://github.com/mindsdb/minds-platform",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-08-02T17:56:45+00:00",
+    "summary": "Platform dedicated to building an open foundation for applied Artificial Intelligence, designed for people seeking production-ready AI systems they can truly control, extend and deploy anywhere.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "steven2358/awesome-generative-ai (12052★)",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-10-20T11:18:17+00:00",
+    "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "aimacode/aima-python (8738★)",
+    "url": "https://github.com/aimacode/aima-python",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2016-02-02T00:11:19+00:00",
+    "summary": "Python implementation of algorithms from Russell And Norvig's \"Artificial Intelligence - A Modern Approach\"",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5417★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "py-why/EconML (4638★)",
+    "url": "https://github.com/py-why/EconML",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-04-30T21:02:52+00:00",
+    "summary": "ALICE (Automated Learning and Intelligence for Causation and Economics) is a Microsoft Research project aimed at applying Artificial Intelligence concepts to economic decision making. One of its  goals is to build a toolkit that combines state-of-the-art machine learning techniques with econometrics in order to bring automation to complex causal inference problems. To date, the ALICE Python SDK (econml) implements orthogonal machine learning algorithms such as the double machine learning work of Chernozhukov et al. This toolkit is designed to measure the causal effect of some treatment variable(s) t on an outcome variable y, controlling for a set of features x.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3315★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Josh-XT/AGiXT (3193★)",
+    "url": "https://github.com/Josh-XT/AGiXT",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-04-17T19:35:00+00:00",
+    "summary": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3054★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "EthicalML/awesome-artificial-intelligence-regulation (1439★)",
+    "url": "https://github.com/EthicalML/awesome-artificial-intelligence-regulation",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-10-07T09:21:04+00:00",
+    "summary": "This repository aims to map the ecosystem of artificial intelligence guidelines, principles, codes of ethics, standards, regulation and beyond.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1124★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  }
+]
