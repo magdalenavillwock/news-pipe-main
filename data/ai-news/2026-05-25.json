@@ -1,0 +1,152 @@
+[
+  {
+    "title": "An update on recent Claude Code quality reports",
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-05-25T07:45:20+00:00",
+    "summary": "An update on recent Claude Code quality reports",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
+    "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-05-24T12:00:00+00:00",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI mischief, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Hacking the first generation of AI chatbots was a laughably simple affair. [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Groucho Marx glasses on a computer processor.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK414_AI_CVIRGINIA_I__0005_3.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\"><em>This is </em><a href=\"https://www.theverge.com/the-stepback-newsletter\">The Stepback</a><em>, a weekly newsletter breaking down one essential story from the tech world. For more on AI mischief, <a href=\"https://www.theverge.com/authors/robert-hart\">follow Robert Hart</a>.</em> The Stepback<em> arrives in our subscribers' inboxes at 8AM ET. Opt in for </em>The Stepback <a href=\"https://www.theverge.com/newsletters\"><em>here</em></a><em>.</em></p>\n<h2 class=\"wp-block-heading has-text-align-none\">How it started</h2>\n<p class=\"has-text-align-none\">Hacking the first generation of AI chatbots was a laughably simple affair. You didn't need any technical know-how, backdoor access, or even a basic understanding of what a large language model was. You didn't need to code. To get an AI system that had cost billions to build to abandon its safety instructions, sometimes all you had to do was ask.</p>\n<p class=\"has-text-align-none\">These attacks, known as jailbreaks, had the quality …</p>\n<p><a href=\"https://www.theverge.com/column/935545/hackers-ai-chatbots\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Everyone is navigating AI security in real time — even Google",
+    "url": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-24T21:39:21+00:00",
+    "summary": "We're in the transition period -- all of us.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out",
+    "url": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-24T15:00:00+00:00",
+    "summary": "Like other AI wearables, Amazon's Bee offers an odd combination of convenience and privacy anxiety.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "AI agents are quietly generating chaos engineering failures enterprises don’t track yet",
+    "url": "https://venturebeat.com/orchestration/ai-agents-are-quietly-generating-chaos-engineering-failures-enterprises-dont-track-yet",
+    "source": "VentureBeat",
+    "category": "news",
+    "published": "2026-05-24T17:00:17+00:00",
+    "summary": "<p>There is a category of production incident that engineering teams are not tracking yet — because it doesn&#x27;t fit any existing postmortem template. </p><p>The agent initiated an action. The action was technically correct given the agent&#x27;s context. The context was incomplete. The infrastructure cascaded. And, by the time the incident review happened, three teams were arguing about whether it was an agent failure or an infrastructure failure,  because the frameworks for thinking about these two things have never been connected. </p><p>The scale of this exposure is no longer theoretical. <a href=\"https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-agent-survey.html\">Seventy-nine percent</a> of organizations now have some form of AI agent in production, with 96% planning expansion. Gartner predicts 33% of enterprise software will include agentic AI by 2028, but separately warns that <a href=\"https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027\">40% of those projects</a> will be canceled due to poor risk controls. </p><p>What neither statistic captures is the failure mode happening between those two numbers: Agents that are running, that are not canceled, and that are quietly generating infrastructure events no one has categorized as risk.</p><p>I&#x27;ve spent six years building infrastructure automation systems at enterprise scale, first at Cisco (leading AI-driven lifecycle platforms deployed across 20-plus global enterprise customers), then at Splunk (designing AI-assisted root cause analysis and observability workflows across thousands of enterprise environments). </p><p>During that time I also filed a patent on intent-based chaos engineering methodology. And across all of it, I kept watching organizations make the same structural mistake: Treating autonomous agents and chaos engineering as separate disciplines. They are not. They are the same discipline, and the gap between them is quietly generating the next wave of major production incidents.</p><h2>The judgment call that agents skip</h2><p>To understand why this matters, you need to understand what&#x27;s actually broken in how enterprises govern chaos today,  before you add agents to the picture.</p><p>Most mature engineering organizations have invested in chaos engineering programs. Game days, blast radius controls, SLO-gated experiments. When a human engineer initiates a chaos experiment, the sequence has a critical property: A human is making a judgment call about whether the system has capacity to absorb the perturbation right now. They check dashboards. They look at the error budget burn rate. They assess whether dependencies are stable. It&#x27;s imperfect and often intuitive, but there is at least a person in the loop asking the right question before anything runs.</p><p>When you introduce an autonomous remediation agent,  one that can restart services, reroute traffic, scale resources, or modify configurations in response to detected anomalies,  that question disappears. The agent sees an anomaly. The agent takes an action. The action is a chaos event. No SLO burn rate check. No blast radius calculation. No human judgment about whether right now is the right moment to introduce additional stress into a system that may already be under pressure from three other directions.</p><p>Here is the specific failure mode I have watched play out. A remediation agent detects elevated latency on a microservice and responds by restarting the service cluster; a reasonable action given its training data and its narrow view of the incident. What the agent doesn&#x27;t know: Three other services are in the middle of handling peak traffic. The shared connection pool is already at 87% utilization. A dependent database is running a background index rebuild. The restart triggers a thundering herd against the recovering service. </p><p>What started as a latency spike the agent was designed to fix becomes a cascade the agent was never designed to model. The blast radius of that agent action was not the service restart. It was everything downstream of the restart, in a system state the agent had no complete picture of.</p><p>Nobody&#x27;s chaos engineering program had tested for that specific combination. Nobody&#x27;s blast radius calculation had included the agent as an actor. Because we don&#x27;t think of agents as chaos injectors. We should. </p><p>According to the <a href=\"https://incidentdatabase.ai/\">AI Incidents Database</a>, reported AI-related incidents rose 21% from 2024 to 2025. That count almost certainly understates the actual exposure, because most organizations have no incident classification that captures an autonomous agent action as the initiating cause of a cascade. The incident gets logged as a service restart, a connection pool saturation, or a latency event. The agent is invisible in the postmortem.</p><h2>Absorb capacity is a resource; most systems don&#x27;t treat it that way</h2><p>The underlying problem is that enterprise systems have no shared language for absorb capacity — the real-time estimate of how much additional stress a system can take before it breaches its SLO commitments. Chaos engineering programs manage it implicitly, through human judgment and static thresholds that fire after a limit has already been crossed. Agents don&#x27;t manage it at all.</p><p>Through structured primary research with site reliability engineering (SRE) and platform engineering practitioners across organizations including Intuit and GPTZero, I&#x27;ve been developing a resilience budget model. The core idea is to treat absorb capacity as a continuously recomputed, consumable resource rather than a static threshold you try not to breach.</p><p>A resilience budget draws on four live signal classes. </p><ul><li><p>SLO burn rate is the primary input, because it directly encodes the distance between current system behavior and the commitment that actually matters. If a system is burning its monthly error budget at five times the expected rate, the resilience budget is near zero regardless of what CPU utilization looks like. </p></li><li><p>P99 latency trend matters more than absolute latency, because a service trending upward over forty minutes tells you something different than a service that has been stable at the same absolute value. </p></li><li><p>Dependency saturation state is the most commonly missed signal; a chaos experiment or an agent action that assumes a shared connection pool is freely available when it&#x27;s sitting at 87% will produce failure modes that nobody designed for. </p></li><li><p>Application behavioral signals,  session completion rates, API call pattern shifts, conversion degradation, and surface system stress earlier than infrastructure metrics do, because users feel the degradation before Prometheus reports it.</p></li></ul><p>What makes this a budget rather than a threshold is that it is consumable. Every chaos experiment draws from the available capacity. Every agent action draws from it. In multi-team organizations where multiple experiments and multiple agents may be acting simultaneously, the budget is shared. </p><p>Without a shared ledger of consumption, two teams running experiments against overlapping dependencies produce a combined blast radius that neither team planned. Add autonomous agents acting completely outside the ledger, and the accounting collapses.</p><h2>Where language models help,  and exactly where they fail</h2><p>Several engineering organizations are now running experiments using large language models (LLMs) to generate chaos hypotheses from dependency graphs and incident postmortem corpora. The results are directionally useful. Language models surface plausible failure modes that experienced SREs recognize as worth testing, and they generate hypotheses faster than manual processes, particularly when working from rich postmortem history.</p><p>The limit is dependency graph staleness, and it is a hard limit. A hypothesis generated from a graph that doesn&#x27;t reflect last month&#x27;s service extraction, or a new shared library dependency added two sprints ago, will propose an experiment with incorrect blast radius assumptions. The problem is not that the model makes a mistake, it&#x27;s that the model doesn&#x27;t know it&#x27;s making one. It will be confidently incorrect about a system boundary that no longer exists, and in chaos engineering, confident incorrectness in production means an unplanned outage. </p><p>Stanford&#x27;s <a href=\"https://stairlab.stanford.edu/\">Trustworthy AI Research Lab</a> found that model-level guardrails alone are insufficient: Fine-tuning attacks bypassed leading models in the majority of tested cases. The implication for chaos hypothesis generation is direct, a model that cannot reliably hold its own safety boundaries cannot be trusted to accurately model the blast radius of an action it has never seen in a dependency graph it has not verified.</p><p>When hypothesis generation draws instead from postmortem corpora, the staleness problem shrinks considerably. Postmortems describe failures that actually occurred in the system at a specific moment in time. The signal is inherently validated by production reality. This is the tractable near-term AI application in this space, and it is genuinely useful for organizations with mature incident documentation practices.</p><p>What AI cannot do,  and should not be asked to do, is make the execution decision when signals are ambiguous. That judgment requires awareness of things that live entirely outside any monitoring system: Pending deployments that changed the dependency landscape an hour ago, on-call staffing levels on a holiday weekend, a customer commitment that makes any additional risk unacceptable until Monday. </p><p>A model without access to that context should not be making that call. This is not a temporary limitation pending a more capable model. It is a structural constraint of what machine observability can represent, and building an agent architecture that ignores it is building one that will eventually make a consequential decision with incomplete information — and no human in the loop to catch it.</p><h2>What this means for how enterprises govern agents in production</h2><p>The governance implication is straightforward to describe and harder to implement than it sounds. Every autonomous agent action that touches infrastructure needs to register against the same live signal layer that governs chaos experiments. The same SLO burn rates, latency trends, dependency saturation states that a human engineer would check before initiating an experiment should gate what an agent is permitted to do and when. If the resilience budget is below a defined floor, the agent waits or escalates. It does not act.</p><p>Agent actions also need to be modeled as experiments, not just logged as events. When an agent restarts a service, the question isn&#x27;t only whether the restart completed successfully. It&#x27;s whether the blast radius of that action was proportionate to the available absorb capacity, and what cascading effects it produced across dependencies. That is chaos engineering data. It belongs in the budget model, feeding the next decision the agent or the team needs to make.</p><p>And when signals are genuinely ambiguous, when the budget score is unclear, when a recent deployment has changed the topology in ways the agent&#x27;s context window doesn&#x27;t capture, when dependency states are in flux,  the execution decision needs to go to a human. Not as a permanent limitation on agent autonomy, but as a hard engineering requirement for the current state of the technology. </p><p>A circuit breaker that hands ambiguous cases to a human is not a weakness in the agent architecture. It is the thing that makes the architecture trustworthy enough to actually run in production. Intent-based verification formalizes exactly this: Defining what correct agent behavior looks like before deployment, then continuously probing whether those boundaries hold under live system conditions.</p><p>The organizations that operate autonomous agents reliably at scale are not the ones with the most sophisticated models. They are the ones that understood, before something went badly wrong, that every agent action is a chaos event and built their governance layer accordingly. </p><p>The practical first step is unglamorous: Audit every autonomous agent currently touching infrastructure, map its action surface against your live SLO burn rate signals, and define explicit floor conditions below which the agent is required to wait or escalate. That audit will surface agents acting entirely outside your resilience accounting. </p><p>Most organizations running agents at scale today have several. Find them before production does.</p><p><i>Sayali Patil has spent 6-plus years at Cisco Systems and Splunk building the reliability and automation systems that keep enterprise AI infrastructure running at scale. </i></p>",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "mindsdb/minds-platform (39208★)",
+    "url": "https://github.com/mindsdb/minds-platform",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-08-02T17:56:45+00:00",
+    "summary": "Platform dedicated to building an open foundation for applied Artificial Intelligence, designed for people seeking production-ready AI systems they can truly control, extend and deploy anywhere.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "steven2358/awesome-generative-ai (12055★)",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-10-20T11:18:17+00:00",
+    "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "aimacode/aima-python (8738★)",
+    "url": "https://github.com/aimacode/aima-python",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2016-02-02T00:11:19+00:00",
+    "summary": "Python implementation of algorithms from Russell And Norvig's \"Artificial Intelligence - A Modern Approach\"",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5417★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3319★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Josh-XT/AGiXT (3192★)",
+    "url": "https://github.com/Josh-XT/AGiXT",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-04-17T19:35:00+00:00",
+    "summary": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3055★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "EthicalML/awesome-artificial-intelligence-regulation (1439★)",
+    "url": "https://github.com/EthicalML/awesome-artificial-intelligence-regulation",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-10-07T09:21:04+00:00",
+    "summary": "This repository aims to map the ecosystem of artificial intelligence guidelines, principles, codes of ethics, standards, regulation and beyond.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1126★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hazratali/awesome-ai-summerschool (627★)",
+    "url": "https://github.com/hazratali/awesome-ai-summerschool",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-01-10T07:14:36+00:00",
+    "summary": "An awesome list of summer schools on Artificial Intelligence, Machine Learning, and Healthcare",
+    "content": null,
+    "priority": "low"
+  }
+]
