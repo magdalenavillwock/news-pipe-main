@@ -1,0 +1,282 @@
+[
+  {
+    "title": "An update on recent Claude Code quality reports",
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-05-26T00:58:29+00:00",
+    "summary": "An update on recent Claude Code quality reports",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "Pope Leo calls for being ‘profoundly human’ in the age of AI",
+    "url": "https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-05-25T15:05:07+00:00",
+    "summary": "Pope Leo XIV warned of the risks of AI and unconstrained technological power in his first major papal document released on Monday. Magnifica Humanitas is the pope's manifesto on \"safeguarding the human person in the time of artificial intelligence,\" in which he discusses the dangers of AI-powered warfare, the effects of AI on labor, and [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2278126608.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tPope Leo XIV attends the presentation of his first Encyclical Letter \"Magnifica humanitas\" on May 25, 2026 in Vatican City, Vatican. | Getty Images\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Pope Leo XIV warned of the risks of AI and unconstrained technological power in his first major papal document released on Monday. <a href=\"https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html\"><em>Magnifica Humanitas</em></a> is the pope's manifesto on \"safeguarding the human person in the time of artificial intelligence,\" in which he discusses the dangers of AI-powered warfare, the effects of AI on labor, and the need for new legal and ethical frameworks to govern technology.</p>\n<p class=\"has-text-align-none\">In his papal encyclical - a kind of open letter from the Catholic Church - Pope Leo stressed the economic and social upheaval that rapid AI adoption is creating, with inadequate protections for individuals that threaten human dignity. He com …</p>\n<p><a href=\"https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "What ClickUp’s mass layoff tells us about the future of work",
+    "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-25T16:00:00+00:00",
+    "summary": "The nine-year-old startup is replacing hundreds of employees with thousands of AI agents.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "The pope’s AI encyclical isn’t really about AI",
+    "url": "https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-25T15:09:41+00:00",
+    "summary": "Pope Leo XIV's first encyclical uses AI as a lens to diagnose older problems: concentrated power, eroding democracy, and a tech elite that shapes the world to its own advantage.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Startup Battlefield 200 applications close in days: Apply before May 27",
+    "url": "https://techcrunch.com/2026/05/25/startup-battlefield-200-applications-close-in-days-apply-before-may-27/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-25T14:30:00+00:00",
+    "summary": "The deadline to apply or nominate for Startup Battlefield 200 is May 27. This is your shot at VC access, global visibility, TechCrunch coverage, and $100,000. Apply now.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "5 days left: Save up to $410 on TechCrunch Disrupt 2026 passes before prices increase",
+    "url": "https://techcrunch.com/2026/05/25/5-days-left-save-up-to-410-on-techcrunch-disrupt-2026-passes-before-prices-increase/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-05-25T14:00:00+00:00",
+    "summary": "Early Bird savings for TechCrunch Disrupt 2026 in San Francisco end May 29 at 11:59 p.m. PT. Register now to save up to $410 before prices increase.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "US's big bet on quantum computing may not be entirely legal",
+    "url": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
+    "source": "Ars Technica",
+    "category": "news",
+    "published": "2026-05-25T12:00:15+00:00",
+    "summary": "Deal also launched the first quantum foundry company, but is there a need for it?",
+    "content": "<p>Last week, the US government announced <a href=\"https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms/\">$2 billion in investments</a> in quantum computing companies, allocating $100 million each to a range of startups in exchange for equity in the companies. Those could be make-or-break investments for many companies that are likely years away from a product that could see widespread use. But a member of the US Congress is now arguing that those deals are illegal, as Congress did not allocate the money for this purpose—instead, it was meant to support public research in semiconductors.</p>\n<p>But the biggest chunk of money would go to a company that likely wouldn't exist if it weren't for the government's backing. Anderon will be set up with a billion dollars each from IBM and the government and will inherit personnel and IP from IBM. It will serve as a foundry for fabricating quantum processing units and will contract its services out to IBM and any other company that wants access to cutting-edge hardware.</p>\n<h2>Is any of this legal?</h2>\n<p>Zoe Lofgren (D–Calif.), the ranking member of the House Science, Space, and Technology Committee, <a href=\"https://lofgren.house.gov/media/press-releases/ranking-member-lofgren-calls-out-trump-admin-illegal-use-chips-and-science\">made it clear</a> that she is not happy with how the government is using its money to support this technology.</p><p><a href=\"https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/#comments\">Comments</a></p>",
+    "priority": "low"
+  },
+  {
+    "title": "Why prompt debt, retrieval debt, and evaluation debt are quietly reshaping enterprise AI risk",
+    "url": "https://venturebeat.com/technology/why-prompt-debt-retrieval-debt-and-evaluation-debt-are-quietly-reshaping-enterprise-ai-risk",
+    "source": "VentureBeat",
+    "category": "news",
+    "published": "2026-05-25T19:30:18+00:00",
+    "summary": "<p>Over the past two decades, technical debt meant outdated architecture, messy code, and poorly maintained documentation. That definition is no longer sufficient in the AI era, where failure modes are more subtle and often non-linear. AI systems are introducing new layers of technical debt that live across prompts, models, and data dependencies — making these layers less visible, harder to measure, and often more dangerous than traditional debt.</p><h2><b>A crisis hiding in plain sight</b></h2><p>The complexities of AI systems and their associated failures have been well documented. A 2025 MIT study found that <a href=\"https://www.forbes.com/sites/jasonsnyder/2025/08/26/mit-finds-95-of-genai-pilots-fail-because-companies-avoid-friction/\"><u>95% of AI projects fail</u></a> to reach production or deliver value. A similar study by S&amp;P Global Market Intelligence found that <a href=\"https://www.ciodive.com/news/AI-project-fail-data-SPGlobal/742590/\"><u>42% of businesses scrapped multiple AI initiatives</u></a> in 2025 — a sharp increase from 17% the previous year. Various reasons are cited for these failures, but most of them point to poorly designed and implemented systems that are complex to manage and have multiple hard-to-monitor failure points, leading to a rapid accumulation of AI debt. </p><p>Traditional technical debt was localized to the codebase, and bugs were usually easily reproducible. Consequently, bugs could be easily identified during tests and fixed through rearchitecting the codebase. However, AI debt is much more distributed, manifesting across prompts, models, data pipelines, and all associated infrastructure. It is also more intermittent: Due to the probabilistic nature of AI, systems do not always respond the same way, leading to intermittent failures. This makes it much more challenging to identify risks during testing, and also creates a need for more continuous monitoring even post-deployment to prevent gradual drift and worsening performance.</p><h2><b>The new forms of AI debt</b></h2><p>AI debt typically manifests across four new forms, each of which comes with its own set of risks.</p><p><b><i>Prompt debt</i></b><b> </b>is the most visible of these. A modern version of ‘spaghetti code,&#x27; this can include undocumented prompt tweaks, accumulated ‘quick-fix’ prompts that lead to inconsistencies, neglected version control of prompts, and ‘prompt stuffing’ (the cramming of extraneous data or context directly into AI prompts). All these combine to make prompts a form of untyped, untested code without any version control, leading to increased brittleness and vulnerabilities.</p><p><b><i>Model dependency debt</i></b> is another increasingly common form of AI debt. Most enterprises now depend on a mixture of external models developed by leading foundation model providers; applications and agents are built on top of API calls to these models. Consequently, application logic now depends on models that are external to the core system, and that cannot be clearly controlled. As models update, performance varies and reproducibility is lost — prompts tuned for one model may fail or perform poorly when switched to another model, whether an update from the same provider or from another provider.</p><p>Most enterprise AI deployments today use retrieval-augmented generation (RAG), which pulls in additional context from enterprise data repositories. <b><i>Retrieval debt</i></b><i> </i>is a consequence of these repositories having messy data, duplicated documents, and outdated information. This causes AI to return technically correct answers that are outdated and no longer relevant, causing downstream failures. Unlike hallucinations, these are harder to detect because they were correct, perhaps even until recently, and hence look correct to any tester. </p><p><b><i>Evaluation debt</i></b> reflects the lack of standardization in testing and monitoring for AI models and applications. While AI benchmarks exist, they tend to focus on narrow tests and reflect point-in-time results. Most enterprises lack consistent testing standards, ground truth datasets, and real-time monitoring of deployments; there is no equivalent yet of continuous integration /continuous delivery (CI/CD) for prompts. As a consequence, CIOs and CTOs do not have clear visibility into model performance and cannot track improvements or worsening of models. </p><p>All of these are in addition to traditional forms of technical debt, which still manifest across the tools and systems that AI applications and agents interact with, read from, or write to. A rapid increase in the adoption of AI-generated code (often deployed without inadequate testing) is further aggravating inconsistencies within, and poor maintainability of traditional codebases. </p><p>The new forms of AI debt combine with these earlier forms of technical debt to compound rapidly and create large-scale risks that can cause catastrophic failure of entire enterprise deployments. Solving for these risks is made even more challenging by the distributed nature of AI ownership – most systems span engineering, product, data, and business teams, leading to unclear accountability when an error is identified. </p><p>As a result, these risks manifest in the form of escalating compute costs, inaccuracies in AI outputs, and increasing exceptions that need to be handled by humans — leading to projects often stalling and failing due to unclear return-on-investment stories and a lack of trust from users. </p><h2><b>How enterprises can prevent AI debt</b></h2><p>AI debt will not be solved by ‘better’ models — failure rates remain high despite models already having high accuracy. The solution to AI debt requires better system design, integration, controls, and changes in organizational culture. </p><p>First, prompts need to be treated as code. This involves careful version control, documentation, and rigorous testing both pre- and post-deployment for all possible prompt configurations. Best practices from the traditional world of coding — such as the use of smaller prompt blocks instead of large prompt-stuffed walls, or reducing the use of hard-coded parameters — can also help mitigate AI debt. </p><p>Second, evaluation needs to be built into the entire AI infrastructure stack. Continuous evaluation pipelines need to be established and must reflect a wide variety of metrics measuring both technical and business-aligned metrics. In addition, AI observability systems should be integrated to monitor output quality, failure rates, model drift, and data drift.</p><p>Third, explainability should be included by default in all AI results to make up for limited reproducibility. Data lineage, models used, and the steps followed should be clearly traceable so as to allow auditability of results and correction in case of any systemic errors. </p><p>This requires explicit AI debt reduction programs and associated budgets, similar to earlier waves of investment in security or in cloud modernization. These need to be driven at a CXO level by key leaders to prevent costly rework later.</p><h2><b>Conclusion: A stitch in time</b></h2><p>Enterprise AI deployments are not just static code; they are living systems that interact with the entire enterprise stack. As a result, the defining challenge in an agentic enterprise will not be building or deploying intelligent systems, it will be maintaining these systems to ensure continued reliability during real-world operation. </p><p>Enterprises that seek to proactively identify and mitigate AI debt from the design phase itself are the likeliest to build sustainable AI platforms that deliver significant long-term productivity boosts across the organization. </p><p><i>Vikram is a principal at Cota Capital, where he invests in early-stage enterprise tech and deep tech companies.</i></p>",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
+    "url": "http://arxiv.org/abs/2605.26114v1",
+    "source": "ArXiv cs.AI",
+    "category": "research",
+    "published": "2026-05-25T17:59:49+00:00",
+    "summary": "We present MobileGym, a browser-hosted, lightweight, fully controllable environment for everyday mobile use, targeting interaction fidelity without replicating proprietary backends. It enables two capabilities previously out of reach for everyday apps: verifiable outcome signals through deterministic state-based judging over structured JSON state, and scalable online RL through low-cost parallel rollouts. The full environment state is captured, configured, forked, and compared as structured JSON",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI",
+    "url": "http://arxiv.org/abs/2605.26112v1",
+    "source": "ArXiv cs.AI",
+    "category": "research",
+    "published": "2026-05-25T17:59:36+00:00",
+    "summary": "This paper studies the next major bottleneck in agentic AI as system scaling, not only model scaling: the design of auditable, persistent, modular, and verifiable architectures around foundation models. We refer to this shift as scaling the harness: treating the structured execution layer around a foundation model as a first-class object of design, evaluation, and optimization. Although recent large language models enable agents to use tools, retrieve information, maintain memory, and execute lo",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Squeezing Capacity from Multimodal Large Language Models for Subject-driven Generation",
+    "url": "http://arxiv.org/abs/2605.26111v1",
+    "source": "ArXiv cs.AI",
+    "category": "research",
+    "published": "2026-05-25T17:59:35+00:00",
+    "summary": "Subject-driven image generation aims to synthesize new images that preserve the identity of the given subject while following textual instructions. Existing approaches often encode text and reference images separately. This limits cross-modal reasoning abilities and causes copy-paste artifacts. Recent frameworks that connect multimodal models and diffusion models improve instruction following, but largely overlook identity preservation. To address these limitations, we condition diffusion models",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Beyond Summaries: Structure-Aware Labeling of Code Changes with Large Language Models",
+    "url": "http://arxiv.org/abs/2605.26100v1",
+    "source": "ArXiv cs.AI",
+    "category": "research",
+    "published": "2026-05-25T17:56:46+00:00",
+    "summary": "Code review is a critical practice in software engineering, yet the growing scale and frequency of code patches in modern projects, together with the widespread adoption of AI code assistants, make manual review increasingly challenging. Identifying the types of changes within a patch, such as renames, moves, or logic modifications, can substantially improve review efficiency by enabling prioritization, filtering, and automation. However, existing LLM-based approaches to code review have largely",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Language Models Need Sleep",
+    "url": "http://arxiv.org/abs/2605.26099v1",
+    "source": "ArXiv cs.AI",
+    "category": "research",
+    "published": "2026-05-25T17:55:39+00:00",
+    "summary": "Transformer-based large language models are increasingly used for long-horizon tasks; however, their attention mechanism scales poorly with context length. To handle this, we study a sleep-like consolidation mechanism in which a model periodically converts recent context into persistent fast weights before clearing its key-value cache. During sleep, the model performs $N$ offline recurrent passes over the accumulated context and updates the fast weights in its state-space model (SSM) blocks thro",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
+    "url": "http://arxiv.org/abs/2605.26114v1",
+    "source": "ArXiv cs.CL",
+    "category": "research",
+    "published": "2026-05-25T17:59:49+00:00",
+    "summary": "We present MobileGym, a browser-hosted, lightweight, fully controllable environment for everyday mobile use, targeting interaction fidelity without replicating proprietary backends. It enables two capabilities previously out of reach for everyday apps: verifiable outcome signals through deterministic state-based judging over structured JSON state, and scalable online RL through low-cost parallel rollouts. The full environment state is captured, configured, forked, and compared as structured JSON",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Prism: A Plug-in Reproducible Infrastructure for Scalable Multimodal Continual Instruction Tuning",
+    "url": "http://arxiv.org/abs/2605.26110v1",
+    "source": "ArXiv cs.CL",
+    "category": "research",
+    "published": "2026-05-25T17:59:28+00:00",
+    "summary": "Multimodal Large Language Models (MLLMs) achieve versatility by reformulating diverse tasks into a unified instruction-following framework via instruction tuning. However, real-world deployment requires continuous adaptation to emerging tasks, motivating Multimodal Continual Instruction Tuning (MCIT). Despite its growing importance, current MCIT research is hindered by severe engineering bottlenecks. Existing methods are typically implemented by directly modifying the base MLLM codebase, which i",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Language Models Need Sleep",
+    "url": "http://arxiv.org/abs/2605.26099v1",
+    "source": "ArXiv cs.CL",
+    "category": "research",
+    "published": "2026-05-25T17:55:39+00:00",
+    "summary": "Transformer-based large language models are increasingly used for long-horizon tasks; however, their attention mechanism scales poorly with context length. To handle this, we study a sleep-like consolidation mechanism in which a model periodically converts recent context into persistent fast weights before clearing its key-value cache. During sleep, the model performs $N$ offline recurrent passes over the accumulated context and updates the fast weights in its state-space model (SSM) blocks thro",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Automated Benchmark Auditing for AI Agents and Large Language Models",
+    "url": "http://arxiv.org/abs/2605.26079v1",
+    "source": "ArXiv cs.CL",
+    "category": "research",
+    "published": "2026-05-25T17:44:21+00:00",
+    "summary": "Modern AI benchmarks operate at a complexity that outpaces traditional verification methods. Tasks authored by domain experts often contain implicit assumptions, incomplete environment specifications, and brittle evaluation logic that human annotation cannot reliably catch. We introduce Auto Benchmark Audit (ABA), an agentic framework that systematically audits individual benchmark tasks, uncovering issues such as hidden environment dependencies, specification gaps, and limited grading logic. We",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "StakeBench: Evaluating Language Understanding Grounded in Market Commitment",
+    "url": "http://arxiv.org/abs/2605.26074v1",
+    "source": "ArXiv cs.CL",
+    "category": "research",
+    "published": "2026-05-25T17:38:30+00:00",
+    "summary": "Existing financial NLP benchmarks often rely on labels supplied by outside observers, measuring how language is perceived rather than what speakers have committed to in the market. We introduce StakeBench, an evaluation framework for language understanding grounded in market commitment. StakeBench links 560,876 comments from 2,261 resolved markets to verified position, action, and market-odds records across Polymarket and Manifold. Supervision is derived from observable market behavior. Position",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "mindsdb/minds-platform (39206★)",
+    "url": "https://github.com/mindsdb/minds-platform",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-08-02T17:56:45+00:00",
+    "summary": "Platform dedicated to building an open foundation for applied Artificial Intelligence, designed for people seeking production-ready AI systems they can truly control, extend and deploy anywhere.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "steven2358/awesome-generative-ai (12060★)",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-10-20T11:18:17+00:00",
+    "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5417★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3321★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Josh-XT/AGiXT (3192★)",
+    "url": "https://github.com/Josh-XT/AGiXT",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-04-17T19:35:00+00:00",
+    "summary": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3059★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "EthicalML/awesome-artificial-intelligence-regulation (1439★)",
+    "url": "https://github.com/EthicalML/awesome-artificial-intelligence-regulation",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-10-07T09:21:04+00:00",
+    "summary": "This repository aims to map the ecosystem of artificial intelligence guidelines, principles, codes of ethics, standards, regulation and beyond.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1126★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hazratali/awesome-ai-summerschool (628★)",
+    "url": "https://github.com/hazratali/awesome-ai-summerschool",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-01-10T07:14:36+00:00",
+    "summary": "An awesome list of summer schools on Artificial Intelligence, Machine Learning, and Healthcare",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "vlang/vsl (393★)",
+    "url": "https://github.com/vlang/vsl",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-12-03T17:04:37+00:00",
+    "summary": "V library to develop Artificial Intelligence and High-Performance Scientific Computations",
+    "content": null,
+    "priority": "low"
+  }
+]
