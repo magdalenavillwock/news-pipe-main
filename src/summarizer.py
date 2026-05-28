@@ -299,6 +299,7 @@ async def _call_claude(prompt: str, model: str) -> str:
         "--model", model,
         "--output-format", "text",
         "--no-session-persistence",
+        "--allowedTools", "WebSearch",
         stdin=asyncio.subprocess.PIPE,
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE,
