@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Introducing the OpenAI Partner Network",
+    "url": "https://openai.com/index/introducing-openai-partner-network",
+    "source": "OpenAI Blog",
+    "category": "big_labs",
+    "published": "2026-06-14T17:00:00+00:00",
+    "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "China may have accessed Mythos",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-06-14T18:27:55+00:00",
+    "summary": "According to a new report from Semafor, the White House's decision to impose export restrictions on Anthropic's Mythos was driven in part by fears that it had been accessed by a group linked to China. If the Chinese government actually had access to Mythos 5 or Fable 5, it would present a serious national security [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Anthropic logo on an orange and grey background.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">According to a new report from <em><a href=\"https://www.semafor.com/article/06/13/2026/white-house-move-to-limit-anthropic-linked-to-concerns-about-chinese-access-to-mythos\">Semafor</a></em>, the White House's decision to impose <a href=\"https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security\">export restrictions</a> on Anthropic's Mythos was driven in part by fears that it had been accessed by a group linked to China. If the Chinese government actually had access to Mythos 5 or Fable 5, it would present a serious national security risk. The government could also attempt to reverse engineer the model through <a href=\"https://www.ibm.com/think/topics/knowledge-distillation\">distillation</a>, a method in which a \"student\" AI is trained on a more advanced model to replicate its behavior.</p>\n<p class=\"has-text-align-none\">The White House has not confirmed this report, and a post on X by Trump adviser <a href=\"https://x.com/davidsacks/status/2065853007619588171?s=46\">David Sacks</a> did not mention China. Instead, Sacks focused on a r …</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "The AI layoff wave is becoming a powder keg",
+    "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-06-15T07:25:41+00:00",
+    "summary": "What makes this combustible: at the very moment that tens of thousands of workers are being shown the door, a small cohort of AI insiders is becoming wealthy on a scale that's hard to comprehend.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "As AI companies race to go public, who else is along for the ride?",
+    "url": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-06-14T16:38:09+00:00",
+    "summary": "Startups are trying to \"ride that SpaceX IPO wave.\"",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "steven2358/awesome-generative-ai (12147★)",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-10-20T11:18:17+00:00",
+    "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "vynect/venom (6559★)",
+    "url": "https://github.com/vynect/venom",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-06-08T04:41:41+00:00",
+    "summary": "Venom is a high-performance system developed with JavaScript to create a bot for WhatsApp, support for creating any interaction, such as customer service, media sending, sentence recognition based on artificial intelligence and all types of design architecture for WhatsApp.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5431★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "py-why/EconML (4672★)",
+    "url": "https://github.com/py-why/EconML",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-04-30T21:02:52+00:00",
+    "summary": "ALICE (Automated Learning and Intelligence for Causation and Economics) is a Microsoft Research project aimed at applying Artificial Intelligence concepts to economic decision making. One of its  goals is to build a toolkit that combines state-of-the-art machine learning techniques with econometrics in order to bring automation to complex causal inference problems. To date, the ALICE Python SDK (econml) implements orthogonal machine learning algorithms such as the double machine learning work of Chernozhukov et al. This toolkit is designed to measure the causal effect of some treatment variable(s) t on an outcome variable y, controlling for a set of features x.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3336★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3114★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "aimacode/aima-java (1618★)",
+    "url": "https://github.com/aimacode/aima-java",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2015-03-12T21:25:57+00:00",
+    "summary": "Java implementation of algorithms from Russell And Norvig's \"Artificial Intelligence - A Modern Approach\"",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Born2Root/Fast-Font (1389★)",
+    "url": "https://github.com/Born2Root/Fast-Font",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-04-05T16:37:10+00:00",
+    "summary": "This font provides faster reading through facilitating the reading process by guiding the eyes through text with artificial fixation points.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1144★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "leomaurodesenv/game-datasets (1067★)",
+    "url": "https://github.com/leomaurodesenv/game-datasets",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-10-03T00:39:11+00:00",
+    "summary": ":video_game: A curated list of awesome game datasets, and tools to artificial intelligence in games",
+    "content": null,
+    "priority": "low"
+  }
+]
