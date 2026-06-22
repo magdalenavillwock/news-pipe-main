@@ -1,0 +1,152 @@
+[
+  {
+    "title": "How we contain Claude across products",
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-06-21T12:48:38+00:00",
+    "summary": "How we contain Claude across products",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+    "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "source": "OpenAI Blog",
+    "category": "big_labs",
+    "published": "2026-06-21T23:00:00+00:00",
+    "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines",
+    "url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
+    "source": "NVIDIA AI Blog",
+    "category": "big_labs",
+    "published": "2026-06-22T05:00:22+00:00",
+    "summary": "Hot tubs sit at about 38 to 40 degrees Celsius, warm enough that most people can only soak for about 15 minutes. NVIDIA’s newest AI servers can run their cooling liquid even hotter — up to 45 degrees Celsius, or 113 degrees Fahrenheit. That higher temperature limit is precisely what makes them more energy efficient. [&#8230;]",
+    "content": "<div id=\"bsf_rt_marker\"></div><p><span style=\"font-weight: 400;\">Hot tubs sit at about 38 to 40 degrees Celsius, warm enough that most people can only soak for about 15 minutes. NVIDIA’s newest AI servers can run their cooling liquid even hotter — up to 45 degrees Celsius, or 113 degrees Fahrenheit. That higher temperature limit is precisely what makes them more energy efficient.</span></p>\n<p><span style=\"font-weight: 400;\">The Rubin generation of NVIDIA AI infrastructure is the world’s first to achieve 100% liquid cooling — every chip, every networking component, cooled entirely by liquid in a closed loop with no fans anywhere in the system. This liquid cooling methodology is outlined in the </span><a href=\"https://www.nvidia.com/en-us/data-center/products/dsx/\" target=\"_blank\"><span style=\"font-weight: 400;\">NVIDIA DSX</span></a><span style=\"font-weight: 400;\"> AI factory reference design, a guide that </span><span style=\"font-weight: 400;\">outlines best practices to design, build and operate the entire AI factory infrastructure stack.</span></p>\n<p><span style=\"font-weight: 400;\">Although each generation offers significantly more computing power for each watt, full liquid-cooled AI compute infrastructure enables data centers to dramatically reduce cooling energy consumption — making a meaningful difference to overall data center energy use at hyperscale.</span></p>\n<p><span style=\"font-weight: 400;\">“The NVIDIA DSX reference design for AI factories has zero water consumption — we have eliminated massive amounts of power usage and pretty much all water usage,” said Ali Heydari, director of data center cooling and infrastructure at NVIDIA. “With dry-cooler-based designs, it’s a closed-loop system with no evaporative water cooling — outside of maybe 1% of the year when we might need chillers in some climates.”</span></p>\n<p><span style=\"font-weight: 400;\">Historically, cooling alone has accounted for up to </span><a href=\"https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/investing-in-the-rising-data-center-economy\" target=\"_blank\"><span style=\"font-weight: 400;\">40% of a data center’s electricity consumption</span></a><span style=\"font-weight: 400;\">, making it one of the most significant areas where efficiency improvements can drive down both operational expenses and energy demands.</span></p>\n<p><a href=\"https://www.energystar.gov/products/data_center_equipment/5-simple-ways-avoid-energy-waste-your-data-center/raise-temperature\" target=\"_blank\"><span style=\"font-weight: 400;\">Industry estimates</span></a><span style=\"font-weight: 400;\"> suggest that raising chiller plant temperatures by just one degree can cut cooling energy costs by about 4%. At scale, those savings add up quickly. A 50-megawatt hyperscale facility can save over $4 million annually in cooling-related energy and water costs by moving to liquid-cooled infrastructure. </span></p>\n<p><span style=\"font-weight: 400;\">In favorable climates, NVIDIA’s 45-degree liquid-cooling architecture can enable chiller-less operation with dry coolers, reducing facility cooling water consumption from roughly 2.6 million gallons per megawatt per year for conventional cooling-tower-based systems to near zero — up to a 100% reduction in water use. </span></p>\n<p><span style=\"font-weight: 400;\">The reason: traditional air-cooled data centers depend on large volumes of cooled air to remove heat from IT equipment, often requiring energy-intensive cooling infrastructure during hot weather. With NVIDIA’s 45-degree liquid cooling, heat is captured directly at the chip and transported through liquid loops operating at much higher temperatures, allowing outdoor dry coolers to reject heat efficiently for much of the year while significantly reducing mechanical cooling requirements and facility water consumption. </span></p>\n<p><span style=\"font-weight: 400;\">The data center ambient temperature is flexible — warm summer air is fine — because nothing in the server depends on cool air. The liquid does all the work — and the same liquid can be recirculated in a closed loop so no new water is consumed to cool the chips.</span></p>\n<div class=\"wp-video\" style=\"width: 1200px;\"><video class=\"wp-video-shortcode\" controls=\"controls\" height=\"675\" id=\"video-94841-1\" loop=\"loop\" preload=\"auto\" width=\"1200\"><source src=\"https://blogs.nvidia.com/wp-content/uploads/2026/06/LiquidCoolingInfra_montage_v4.mp4?_=1\" type=\"video/mp4\" /><a href=\"https://blogs.nvidia.com/wp-content/uploads/2026/06/LiquidCoolingInfra_montage_v4.mp4\">https://blogs.nvidia.com/wp-content/uploads/2026/06/LiquidCoolingInfra_montage_v4.mp4</a></video></div>\n<p>&nbsp;</p>\n<h2><b>A New Standard for the Industry</b></h2>\n<p><span style=\"font-weight: 400;\">Because the NVIDIA Rubin platform integrates 100% liquid-cooled infrastructure, every cloud provider and data center operator building for it is making the transition. </span></p>\n<p><span style=\"font-weight: 400;\">The ecosystem is keeping pace. Motivair, the advanced cooling division of Schneider Electric, has worked alongside NVIDIA’s product roadmap for nearly a decade — and Richard Whitmore, its president and CEO, says the relationship only intensified as power densities crossed the threshold where air cooling was no longer a viable option.</span></p>\n<p><span style=\"font-weight: 400;\">“Once the watts per chip crossed a certain level, liquid cooling became mandatory,” said Whitmore.</span></p>\n<h2><b>Too Hot to Cool AI Infrastructure Is Hotter Than You’d Think</b></h2>\n<p><span style=\"font-weight: 400;\">There’s a long-standing misconception in the industry that a cold data center is an efficient one. Decades ago, if a data center didn’t feel like a walk-in freezer, people would assume something was wrong. </span></p>\n<p><span style=\"font-weight: 400;\">In reality, chips can sustain far warmer environments than that instinct suggests. Silicon processors generate enormous internal heat — the coolant entering a fully liquid-cooled chip at 45 degrees Celsius exits at roughly 55 degrees, having absorbed that heat load across the chip surface. Yet performance doesn’t degrade. </span></p>\n<p><span style=\"font-weight: 400;\">The processors continue to operate at full performance because liquid-cooled cold plates keep device temperatures within validated operating limits, even with coolant entering the rack at 45 degrees Celsius. </span></p>\n<h2><b>No Fans, No Cold Aisles — A Fundamentally Different Machine</b></h2>\n<p><span style=\"font-weight: 400;\">Walk into a traditional data center and notice two things: the noise — cooling fans contribute to total noise levels at or above 85 decibels, loud enough to require ear protection — and the physical choreography of hot aisles and cold aisles, carefully managed to push cooled air across components. </span></p>\n<p><span style=\"font-weight: 400;\">The Rubin architecture changes the picture.</span></p>\n<p><span style=\"font-weight: 400;\">Coolant — 75% water and 25% propylene glycol — flows through cold plates that sit directly on processors, pulling heat out at the source. Running that coolant at up to 45 degrees Celsius means that in many climates, the facility loop can reject heat without turning on mechanical chillers and noisy fans. </span></p>\n<figure class=\"wp-caption aligncenter\" id=\"attachment_94870\" style=\"width: 1200px;\"><img alt=\"\" class=\"wp-image-94870 size-large\" height=\"425\" src=\"https://blogs.nvidia.com/wp-content/uploads/2026/06/liquid-cooling-pipes-1680x595.jpg\" width=\"1200\" /><figcaption class=\"wp-caption-text\" id=\"caption-attachment-94870\">In an AI factory, coolant flows from a coolant distribution unit to the servers in a closed-loop cyle.</figcaption></figure>\n<p><span style=\"font-weight: 400;\">That unlocks something beyond energy savings: the possibility of eliminating water consumption entirely. </span></p>\n<p><span style=\"font-weight: 400;\">In the right geography — somewhere with reliably cool outdoor air — a liquid-cooled data center can reject its heat through coolant distribution units that capture heat directly at the source and transport it to outdoor dry coolers, essentially large radiator coils positioned outside the building. </span></p>\n<p><span style=\"font-weight: 400;\">The loop is filled once and runs closed for the life of the facility. And it takes dramatically less space in the AI factory compared to traditional air-cooling infrastructure.</span></p>\n<p><span style=\"font-weight: 400;\">“In the right geographic location, with the right system design, you don’t need any refrigeration equipment,” Whitmore said. “You can just put big radiator coils outside and use the air temperature for all your cooling. It’s incredibly efficient.”</span></p>\n<p><span style=\"font-weight: 400;\">The geography caveat matters. A data center in the Scottish Highlands and one in Phoenix, Arizona, face very different realities. But even in warmer climates, the shift toward 45-degrees-Celsius coolant moves operators significantly closer to that chiller-less ideal — where chillers may turn on just a few days a year when the outside air temperature demands it.</span></p>\n<p><span style=\"font-weight: 400;\">Another key benefit of this new model for AI factories is the potential for waste heat recovery, where residual heat from AI factory operations can be repurposed to heat commercial or residential buildings nearby. </span></p>\n<h2><b>The Engineering Problem Nobody Had Solved</b></h2>\n<p><span style=\"font-weight: 400;\">Previous liquid-cooled servers were hybrid: GPUs and CPUs got cold plates, but the rest of the system stayed air-cooled, with finned heat sinks designed to shed heat into moving air. In a fully liquid-cooled server, the cooling for these components needed to be completely redesigned to use liquid.</span></p>\n<p><span style=\"font-weight: 400;\">NVIDIA’s thermal engineering team reworked how those components handle heat, designing cooling loops that simplify how liquid is routed to multiple high-power chips on the board using a single inlet and outlet, resulting in a cleaner tray-level cooling architecture.</span></p>\n<p><span style=\"font-weight: 400;\">One visible outcome: Rubin servers have clean, sealed front panels where air-cooled servers have perforated bezels. Another: fully liquid cooled servers enable higher rack density than air-cooled servers, so a system that previously occupied six rack units now fits in two — more compute, less space, less noise.</span></p>\n<figure class=\"wp-caption aligncenter\" id=\"attachment_94873\" style=\"width: 1200px;\"><img alt=\"\" class=\"wp-image-94873 size-large\" height=\"519\" src=\"https://blogs.nvidia.com/wp-content/uploads/2026/06/liquid-cooling-hoses-1680x726.jpg\" width=\"1200\" /><figcaption class=\"wp-caption-text\" id=\"caption-attachment-94873\">Liquid cooling infrastructure overhead pipes routes into powerful AI servers.</figcaption></figure>\n<p><span style=\"font-weight: 400;\">AI workloads are not getting lighter. The compute demand driving data center construction is growing faster than almost any other category of infrastructure investment. </span></p>\n<p><span style=\"font-weight: 400;\">Without efficiency improvements in how that compute is cooled, the energy cost of running AI at scale would grow in lockstep with the hardware. Liquid cooling at up to 45 degrees Celsius — hotter than a hot tub, cooler for the planet — is one of the most important tools the industry has to close that gap.</span></p>\n<p><i><span style=\"font-weight: 400;\">Learn more about </span></i><a href=\"https://blogs.nvidia.com/blog/blackwell-platform-water-efficiency-liquid-cooling-data-centers-ai-factories/\"><i><span style=\"font-weight: 400;\">liquid cooling</span></i></a><i><span style=\"font-weight: 400;\">, the </span></i><a href=\"https://www.nvidia.com/en-us/data-center/products/dsx/\" target=\"_blank\"><i><span style=\"font-weight: 400;\">NVIDIA DSX</span></i></a><i><span style=\"font-weight: 400;\"> platform for AI factories and NVIDIA’s approach to </span></i><a href=\"https://www.nvidia.com/en-us/glossary/energy-efficiency/\" target=\"_blank\"><i><span style=\"font-weight: 400;\">energy-efficient AI infrastructure.</span></i></a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+    "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-06-21T15:28:17+00:00",
+    "summary": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+    "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-06-21T14:40:28+00:00",
+    "summary": "Siri’s AI overhaul may have grabbed the headlines at WWDC, but some of Apple’s most useful AI features are arriving elsewhere in iOS 27.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "vynect/venom (6563★)",
+    "url": "https://github.com/vynect/venom",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-06-08T04:41:41+00:00",
+    "summary": "Venom is a high-performance system developed with JavaScript to create a bot for WhatsApp, support for creating any interaction, such as customer service, media sending, sentence recognition based on artificial intelligence and all types of design architecture for WhatsApp.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5435★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3344★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Josh-XT/AGiXT (3198★)",
+    "url": "https://github.com/Josh-XT/AGiXT",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-04-17T19:35:00+00:00",
+    "summary": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3131★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Born2Root/Fast-Font (1406★)",
+    "url": "https://github.com/Born2Root/Fast-Font",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-04-05T16:37:10+00:00",
+    "summary": "This font provides faster reading through facilitating the reading process by guiding the eyes through text with artificial fixation points.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1161★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "divelab/AIRS (778★)",
+    "url": "https://github.com/divelab/AIRS",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-02-01T17:05:09+00:00",
+    "summary": "Artificial Intelligence Research for Science (AIRS)",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "10up/classifai (706★)",
+    "url": "https://github.com/10up/classifai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-06-18T12:09:10+00:00",
+    "summary": "Supercharge WordPress Content Workflows and Engagement with Artificial Intelligence.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hazratali/awesome-ai-summerschool (661★)",
+    "url": "https://github.com/hazratali/awesome-ai-summerschool",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-01-10T07:14:36+00:00",
+    "summary": "An awesome list of summer schools on Artificial Intelligence, Machine Learning, and Healthcare",
+    "content": null,
+    "priority": "low"
+  }
+]
