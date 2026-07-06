@@ -1,0 +1,152 @@
+[
+  {
+    "title": "How we contain Claude across products",
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-07-05T08:56:46+00:00",
+    "summary": "How we contain Claude across products",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "Some of the nation’s rich are letting AI teach their kids",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-07-05T22:30:54+00:00",
+    "summary": "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep and Alpha [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Photo collage of a pixelated student at a desk.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25584700/STK483_EDUCATION_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Most Americans <a href=\"https://www.theverge.com/ai-artificial-intelligence/644853/pew-gallup-data-americans-dont-trust-ai\">don't trust AI</a>. It's proven that it doesn't know what <a href=\"https://www.theverge.com/2024/5/30/24168344/google-defends-ai-overviews-search-results\">safe toppings</a> for pizza are. People don't even want to listen to <a href=\"https://www.theverge.com/entertainment/915027/deezer-ai-music-daily-uploads\">AI music</a>. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools.</p>\n<p class=\"wp-block-paragraph\">Companies like Forge Prep and Alpha School are charging families tens of thousands of dollars to turn their kids into beta testers for AI tutors and \"interactive project-based workshops.\" Unsurprisingly, Silicon Valley have been major adopters of this new model. Shaun Johnson, a San Francisco-based venture capitalist, told the <a href=\"https://www.wsj.com/us-news/education/alternative-education-wealthy-families-ai-cd7922b3?st=TeME61&amp;reflink=desktopwebshare_permalink\"><em>Wall Street Journal</em></a> that he plans to send his …</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-07-05T14:23:11+00:00",
+    "summary": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. Ben Franklin texts Thomas Jefferson to [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"The founding fathers having a conference call with all of their cameras off via Google Meet, as if they wouldn’t be a bunch of stodgy Microsoft Teams users.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Q3RjZY-rSsc-HD.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tI call BS: the founding fathers definitely would have been Microsoft Teams users. | Image: Google\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">\"Group project, but make it 1776.\" That's how a new commercial for <a href=\"https://www.youtube.com/watch?v=Q3RjZY-rSsc&amp;t=65s\">Google Workspace</a> opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. </p>\n<p class=\"wp-block-paragraph\">Ben Franklin texts Thomas Jefferson to check on the status of a draft, who takes a photo and uses AI to transcribe it into a Google Doc. Franklin and Adams hop in to make edits in suggestion mode, Gemini finds them a meeting time, takes notes during a Google Meet call, and then Nano Banana whips up a seal for the United States featuring a turkey ( …</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Amazon will stop accepting new customers for Mechanical Turk",
+    "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-07-05T17:43:36+00:00",
+    "summary": "These may be the last days of Amazon’s Mechanical Turk.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "🤗 Kernels: Major Updates",
+    "url": "https://huggingface.co/blog/revamped-kernels",
+    "source": "HuggingFace Blog",
+    "category": "platforms",
+    "published": "2026-07-06T00:00:00+00:00",
+    "summary": null,
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "owainlewis/awesome-artificial-intelligence (15161★)",
+    "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2015-01-27T09:27:48+00:00",
+    "summary": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "aimacode/aima-python (8764★)",
+    "url": "https://github.com/aimacode/aima-python",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2016-02-02T00:11:19+00:00",
+    "summary": "Python implementation of algorithms from Russell And Norvig's \"Artificial Intelligence - A Modern Approach\"",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "vynect/venom (6565★)",
+    "url": "https://github.com/vynect/venom",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-06-08T04:41:41+00:00",
+    "summary": "Venom is a high-performance system developed with JavaScript to create a bot for WhatsApp, support for creating any interaction, such as customer service, media sending, sentence recognition based on artificial intelligence and all types of design architecture for WhatsApp.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5442★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3357★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3162★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "EthicalML/awesome-artificial-intelligence-regulation (1448★)",
+    "url": "https://github.com/EthicalML/awesome-artificial-intelligence-regulation",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-10-07T09:21:04+00:00",
+    "summary": "This repository aims to map the ecosystem of artificial intelligence guidelines, principles, codes of ethics, standards, regulation and beyond.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1170★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "10up/classifai (706★)",
+    "url": "https://github.com/10up/classifai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-06-18T12:09:10+00:00",
+    "summary": "Supercharge WordPress Content Workflows and Engagement with Artificial Intelligence.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hazratali/awesome-ai-summerschool (676★)",
+    "url": "https://github.com/hazratali/awesome-ai-summerschool",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-01-10T07:14:36+00:00",
+    "summary": "An awesome list of summer schools on Artificial Intelligence, Machine Learning, and Healthcare",
+    "content": null,
+    "priority": "low"
+  }
+]
