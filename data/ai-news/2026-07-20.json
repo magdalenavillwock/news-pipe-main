@@ -1,0 +1,152 @@
+[
+  {
+    "title": "I hate that I don’t hate this song made with Suno",
+    "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-07-19T17:35:54+00:00",
+    "summary": "I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring, especially the outputs of Suno. So I'm having a bit of a tough time processing the fact that [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Artist 1010Benja in 2025 standing in a road wearing all black during golden hour.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Screenshot-2026-07-19-at-1.30.30-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t1010Benja won’t apologize for using AI. | Image: 1010Benja / Instagram\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be <a href=\"https://www.theverge.com/podcast/965581/suno-ai-music-vergecast\">offensively boring</a>, especially the outputs of <a href=\"https://www.theverge.com/ai-artificial-intelligence/786349/suno-ai-music-generator-v5-review\">Suno</a>. So I'm having a bit of a tough time processing the fact that I actually quite enjoy 1010Benja's \"<a href=\"https://youtu.be/XwKDmTxAqck?list=OLAK5uy_lYaoXcrvI8Tbc2saAjhHQQgQLebT-KVUw\">Semiramis' Dream</a>.\"</p>\n<p class=\"wp-block-paragraph\">Benja has been unapologetic about his use of generative AI on his latest EP, <a href=\"https://soundcloud.com/1010benja/sets/1010-time-has-nothing-to-do\"><em>Time Has Nothing To Do With What You Choose… </em></a>The other three tracks can't quite hold a candle to what you find on 2024's <a href=\"https://soundcloud.com/1010benja/sets/ten-total\"><em>Ten Total</em></a><em>.</em> But the opener \"Semiramis' Dream\" is infectious. It explodes out of the speakers with a jungle beat and Be …</p>\n<p><a href=\"https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "What to watch for after Jensen Huang’s Japan visit",
+    "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-07-19T21:16:07+00:00",
+    "summary": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+    "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-07-19T19:24:45+00:00",
+    "summary": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
+    "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-07-19T14:52:08+00:00",
+    "summary": "\"Everybody knows the Greeks are inside.\"",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+    "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-07-19T14:00:00+00:00",
+    "summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "owainlewis/awesome-artificial-intelligence (15306★)",
+    "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2015-01-27T09:27:48+00:00",
+    "summary": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5454★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "py-why/EconML (4718★)",
+    "url": "https://github.com/py-why/EconML",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-04-30T21:02:52+00:00",
+    "summary": "ALICE (Automated Learning and Intelligence for Causation and Economics) is a Microsoft Research project aimed at applying Artificial Intelligence concepts to economic decision making. One of its  goals is to build a toolkit that combines state-of-the-art machine learning techniques with econometrics in order to bring automation to complex causal inference problems. To date, the ALICE Python SDK (econml) implements orthogonal machine learning algorithms such as the double machine learning work of Chernozhukov et al. This toolkit is designed to measure the causal effect of some treatment variable(s) t on an outcome variable y, controlling for a set of features x.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3363★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3192★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "EthicalML/awesome-artificial-intelligence-regulation (1454★)",
+    "url": "https://github.com/EthicalML/awesome-artificial-intelligence-regulation",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-10-07T09:21:04+00:00",
+    "summary": "This repository aims to map the ecosystem of artificial intelligence guidelines, principles, codes of ethics, standards, regulation and beyond.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1183★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "10up/classifai (710★)",
+    "url": "https://github.com/10up/classifai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-06-18T12:09:10+00:00",
+    "summary": "Supercharge WordPress Content Workflows and Engagement with Artificial Intelligence.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hazratali/awesome-ai-summerschool (687★)",
+    "url": "https://github.com/hazratali/awesome-ai-summerschool",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-01-10T07:14:36+00:00",
+    "summary": "An awesome list of summer schools on Artificial Intelligence, Machine Learning, and Healthcare",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hades217/awesome-ai (547★)",
+    "url": "https://github.com/hades217/awesome-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2017-07-18T06:53:05+00:00",
+    "summary": "A curated list of artificial intelligence resources (Courses, Tools, App, Open Source Project)",
+    "content": null,
+    "priority": "low"
+  }
+]
