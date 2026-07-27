@@ -1,0 +1,142 @@
+[
+  {
+    "title": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
+    "url": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
+    "source": "NVIDIA AI Blog",
+    "category": "big_labs",
+    "published": "2026-07-27T00:45:42+00:00",
+    "summary": "The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsys to optimize critical electronic design automation (EDA) applications for the NVIDIA Vera CPU. NVIDIA is now deploying Vera across [&#8230;]",
+    "content": "<div id=\"bsf_rt_marker\"></div><p><span style=\"font-weight: 400;\">The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, <a href=\"https://nvidianews.nvidia.com/news/nvidia-expands-nvidia-agent-toolkit-with-nvidia-physicsnemo-and-cuda-x-libraries-to-transform-how-the-world-engineers-designs-and-builds\" target=\"_blank\">NVIDIA is collaborating with industry leaders Cadence and Synopsys</a> </span><span style=\"font-weight: 400;\">to optimize critical electronic design automation (EDA) applications for the NVIDIA Vera CPU.</span></p>\n<p><span style=\"font-weight: 400;\">NVIDIA is now deploying Vera across EDA workflows used to develop its next generation of CPUs and GPUs, demonstrating how high-performance CPU architecture can help accelerate some of the industry&#8217;s most demanding engineering workloads.</span></p>\n<h2><b>Accelerating Critical EDA Workloads</b></h2>\n<p><span style=\"font-weight: 400;\">What’s at stake is the pace of chip production. In turn, the tempo of industry technologies that stand to benefit from boosted EDA workloads, driving development momentum.  </span></p>\n<p><span style=\"font-weight: 400;\">Simulation, verification and implementation technologies play a central role in semiconductor development. Long before a chip reaches manufacturing, engineers spend years validating behavior, identifying corner cases and refining designs through thousands of iterations.</span></p>\n<p><span style=\"font-weight: 400;\">While GPUs and AI have accelerated many aspects of chip design, several critical EDA workloads remain heavily dependent on CPU performance. Logic simulation, formal verification and portions of digital implementation often depend on fast individual cores, efficient memory systems and strong overall throughput.</span></p>\n<p><span style=\"font-weight: 400;\">That makes CPU architecture an important factor in determining how quickly engineering teams can validate designs, explore alternatives and move products toward tapeout.</span></p>\n<p>&nbsp;</p>\n<figure class=\"wp-caption alignnone\" id=\"attachment_96871\" style=\"width: 960px;\"><img alt=\"\" class=\"size-medium wp-image-96871\" height=\"720\" src=\"https://blogs.nvidia.com/wp-content/uploads/2026/07/image3-960x720.jpeg\" width=\"960\" /><figcaption class=\"wp-caption-text\" id=\"caption-attachment-96871\"><em>Vera cluster in NVIDIA Portland data center.</em></figcaption></figure>\n<h2><b>Highlighting Early Results With </b><b>Cadence</b><b> and </b><b>Synopsys</b></h2>\n<p><span style=\"font-weight: 400;\">NVIDIA&#8217;s initial testing includes several leading EDA applications. The results highlight Vera&#8217;s ability to accelerate two of the most compute-intensive stages of modern chip design. Early testing on selected production-class workflows shows promising results. </span></p>\n<p><span style=\"font-weight: 400;\">Cadence Jasper</span><span style=\"font-weight: 400;\">, a formal verification platform, uses smart proof technology and machine learning to find and fix bugs and improve verification productivity early in the design cycle.</span></p>\n<p><span style=\"font-weight: 400;\">Synopsys VCS,</span><span style=\"font-weight: 400;\"> a high-performance functional verification solution used to simulate and validate complex chip designs before fabrication, used the same number of cores in the test. </span></p>\n<p><span style=\"font-weight: 400;\">Both applications showed up to 1.5x higher performance on selected workloads.</span></p>\n<p><span style=\"font-weight: 400;\">Beyond benchmark results, NVIDIA is working closely with both companies on application profiling, software optimization and system-level tuning designed to improve engineering productivity across a broader range of workflows over time.</span></p>\n<h2><b>Bringing Vera to the Design Process</b></h2>\n<p><span style=\"font-weight: 400;\">NVIDIA is deploying Vera throughout the EDA workflows used to create future NVIDIA processors.</span></p>\n<p><span style=\"font-weight: 400;\">Vera combines 88 custom NVIDIA Olympus CPU cores with a high-efficiency LPDDR5X memory subsystem and second generation NVIDIA Scalable Coherent Fabric designed to deliver strong per-core performance, high memory bandwidth and consistent low latency for demanding engineering applications.</span></p>\n<p><span style=\"font-weight: 400;\">These capabilities are particularly important for workloads that mix latency-sensitive jobs with large-scale regression testing across compute farms. Faster execution can shorten individual verification runs, while greater throughput enables engineers to evaluate more design alternatives and complete more validation within the same development window.</span></p>\n<h2><b>Going From RTL to Silicon</b></h2>\n<p><span style=\"font-weight: 400;\">After defining a processor&#8217;s architecture and microarchitecture, engineers describe much of its behavior at the register-transfer level (RTL). Multiple verification and implementation technologies then work together to transform that design into manufacturable silicon.</span></p>\n<p><span style=\"font-weight: 400;\">These workflows span logic simulation, formal verification, regression testing and digital implementation, helping engineers validate functionality, identify corner cases and transform designs into manufacturable silicon.</span></p>\n<p><span style=\"font-weight: 400;\">Because these stages are interconnected, improvements in verification throughput can help organizations identify issues earlier and reduce costly downstream design iterations.</span></p>\n<h2><b>Building Future NVIDIA Chips With NVIDIA CPUs</b></h2>\n<p><span style=\"font-weight: 400;\">The deployment of Vera across NVIDIA&#8217;s own engineering workflows reflects a broader strategy: accelerate each workload with the compute architecture best suited to the task.</span></p>\n<p><span style=\"font-weight: 400;\">In EDA, GPUs and AI continue to speed many algorithms, while high-performance CPUs remain essential for critical simulation, verification and implementation workloads. Together, they help improve the performance of the overall design cycle.</span></p>\n<p><span style=\"font-weight: 400;\">Looking ahead, NVIDIA plans to build on Vera with the next-generation Rosa CPU, powered by the NVIDIA Rigel core, while continuing to optimize leading EDA applications across its CPU roadmap.</span></p>\n<p><span style=\"font-weight: 400;\">By using NVIDIA CPUs to help design future NVIDIA CPUs and GPUs, the company is creating a continuous feedback loop between silicon design, software optimization and systems engineering, with each generation helping build the next.</span></p>\n<p><i><span style=\"font-weight: 400;\">Learn more about NVIDIA at </span></i><a href=\"https://www.nvidia.com/en-us/events/dac/\" target=\"_blank\"><i><span style=\"font-weight: 400;\">DAC 2026</span></i></a><i><span style=\"font-weight: 400;\">.</span></i></p>\n<p>&nbsp;</p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Are brain waves the next unlock for physical AI?",
+    "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-07-27T00:19:14+00:00",
+    "summary": "Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Making sense of the panic over Chinese AI",
+    "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-07-26T19:40:57+00:00",
+    "summary": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+    "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-07-26T16:33:13+00:00",
+    "summary": "\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "steven2358/awesome-generative-ai (12387★)",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-10-20T11:18:17+00:00",
+    "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5460★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "py-why/EconML (4730★)",
+    "url": "https://github.com/py-why/EconML",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-04-30T21:02:52+00:00",
+    "summary": "ALICE (Automated Learning and Intelligence for Causation and Economics) is a Microsoft Research project aimed at applying Artificial Intelligence concepts to economic decision making. One of its  goals is to build a toolkit that combines state-of-the-art machine learning techniques with econometrics in order to bring automation to complex causal inference problems. To date, the ALICE Python SDK (econml) implements orthogonal machine learning algorithms such as the double machine learning work of Chernozhukov et al. This toolkit is designed to measure the causal effect of some treatment variable(s) t on an outcome variable y, controlling for a set of features x.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3367★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3211★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1189★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "10up/classifai (710★)",
+    "url": "https://github.com/10up/classifai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-06-18T12:09:10+00:00",
+    "summary": "Supercharge WordPress Content Workflows and Engagement with Artificial Intelligence.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "vlang/vsl (401★)",
+    "url": "https://github.com/vlang/vsl",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-12-03T17:04:37+00:00",
+    "summary": "V library to develop Artificial Intelligence and High-Performance Scientific Computations",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hortonworks/cloudbreak (361★)",
+    "url": "https://github.com/hortonworks/cloudbreak",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2014-05-10T10:03:07+00:00",
+    "summary": "CDP Public Cloud is an integrated analytics and data management platform deployed on cloud services. It offers broad data analytics and artificial intelligence functionality along with secure user access and data governance features.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "aws-solutions/generative-ai-application-builder-on-aws (349★)",
+    "url": "https://github.com/aws-solutions/generative-ai-application-builder-on-aws",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-09-27T23:14:42+00:00",
+    "summary": "Generative AI Application Builder on AWS facilitates the development, rapid experimentation, and deployment of generative artificial intelligence (AI) applications without requiring deep experience in AI. The solution includes integrations with Amazon Bedrock and its included LLMs, such as Amazon Titan, and pre-built connectors for 3rd-party LLMs.",
+    "content": null,
+    "priority": "low"
+  }
+]
