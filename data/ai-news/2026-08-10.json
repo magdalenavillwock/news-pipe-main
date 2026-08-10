@@ -1,0 +1,162 @@
+[
+  {
+    "title": "How we contain Claude across products",
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-08-10T01:59:51+00:00",
+    "summary": "How we contain Claude across products",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "AI detectors are creating a new era of distrust",
+    "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-08-09T12:00:00+00:00",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"A book that is being scanned for possibility of AI-generated text\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268680_AI_detection_CVirginia-.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\"><em>This is </em><a href=\"https://www.theverge.com/the-stepback-newsletter\">The Stepback</a><em>, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow </em><a href=\"https://www.theverge.com/authors/emma-roth\"><em>Emma Roth</em></a><em>. </em>The Stepback<em> arrives in our subscribers' inboxes at 8AM ET. Opt in for </em>The Stepback<em> </em><a href=\"https://www.theverge.com/newsletters\"><em>here</em></a><em>.</em></p>\n<h2 class=\"wp-block-heading\">How it started</h2>\n<p class=\"wp-block-paragraph\">Long before ChatGPT became a thing, educators and editors frequently used anti-plagiarism tools to see if writers were being honest about their work. These tools work by comparing a written work against a database filled with content from across the web, scholarly articles, and more to check for matching sentences and phrases. Some, like Turnitin, offer a percentage th …</p>\n<p><a href=\"https://www.theverge.com/column/976690/ai-writing-detectors-suspicion\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+    "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-08-09T20:35:17+00:00",
+    "summary": "The AI-focused hedge fund is still making some big bets.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Anthropic is turning Claude Code’s auto mode on by default",
+    "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-08-09T19:20:32+00:00",
+    "summary": "Programming with Claude Code will soon require even less human oversight.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+    "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-08-09T15:00:00+00:00",
+    "summary": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "The AI safety test is becoming a safety risk",
+    "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-08-09T14:30:00+00:00",
+    "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "vynect/venom (6570★)",
+    "url": "https://github.com/vynect/venom",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-06-08T04:41:41+00:00",
+    "summary": "Venom is a high-performance system developed with JavaScript to create a bot for WhatsApp, support for creating any interaction, such as customer service, media sending, sentence recognition based on artificial intelligence and all types of design architecture for WhatsApp.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5474★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "microsoft/muzic (4946★)",
+    "url": "https://github.com/microsoft/muzic",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-06-03T10:06:54+00:00",
+    "summary": "Muzic: Music Understanding and Generation with Artificial Intelligence",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "py-why/EconML (4748★)",
+    "url": "https://github.com/py-why/EconML",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-04-30T21:02:52+00:00",
+    "summary": "ALICE (Automated Learning and Intelligence for Causation and Economics) is a Microsoft Research project aimed at applying Artificial Intelligence concepts to economic decision making. One of its  goals is to build a toolkit that combines state-of-the-art machine learning techniques with econometrics in order to bring automation to complex causal inference problems. To date, the ALICE Python SDK (econml) implements orthogonal machine learning algorithms such as the double machine learning work of Chernozhukov et al. This toolkit is designed to measure the causal effect of some treatment variable(s) t on an outcome variable y, controlling for a set of features x.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3375★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3263★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1196★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "leomaurodesenv/game-datasets (1102★)",
+    "url": "https://github.com/leomaurodesenv/game-datasets",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-10-03T00:39:11+00:00",
+    "summary": ":video_game: A curated list of awesome game datasets, and tools to artificial intelligence in games",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "10up/classifai (710★)",
+    "url": "https://github.com/10up/classifai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-06-18T12:09:10+00:00",
+    "summary": "Supercharge WordPress Content Workflows and Engagement with Artificial Intelligence.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "leoncuhk/awesome-quant-ai (554★)",
+    "url": "https://github.com/leoncuhk/awesome-quant-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2024-07-04T02:29:27+00:00",
+    "summary": "A curated list of awesome resources for quantitative investment and trading strategies focusing on artificial intelligence and machine learning applications in finance.",
+    "content": null,
+    "priority": "low"
+  }
+]
