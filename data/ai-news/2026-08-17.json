@@ -1,0 +1,192 @@
+[
+  {
+    "title": "How we contain Claude across products",
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-08-17T01:23:51+00:00",
+    "summary": "How we contain Claude across products",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "OpenAI reportedly disbanded its preparedness team",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-08-16T21:32:56+00:00",
+    "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Maroon OpenAI logo on yellow background\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">According to the <a href=\"https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee\"><em>Financial Times</em></a>, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could <a href=\"https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai\">go rogue</a> and hack another company.) According to <em>FT</em>, responsibility has instead been divided up for specific areas like bio and cyber, then moved into existing teams.</p>\n<p class=\"wp-block-paragraph\">This is the latest change at the company, which has been in upheaval as it heads towards what is expected to be a massive IPO. Over the last few years, it's slowly torn down its more reach-led model, dissolving its AG …</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-08-16T14:56:40+00:00",
+    "summary": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you make a request. The feature [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Chat GPT logo on a graphic green background.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_C.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">ChatGPT's desktop app on macOS has a new feature called <a href=\"https://x.com/AriX/status/2087996577227124775\">Computer History</a> that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you make a request.</p>\n<p class=\"wp-block-paragraph\">The feature is opt-in, rather than opt-out,  and you can exclude certain apps and websites from Computer History, and you can delete entries if you want finer-grained control. Ari Weinstein, Product and Engineering manager at OpenAI, <a href=\"https://x.com/AriX/status/2088106720157446352?s=20\">said on X</a> that Computer History will automatically ignore content in incognito or private browser ta …</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Rogue AI aren’t science fiction anymore",
+    "url": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-08-16T12:00:00+00:00",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started It all started in July, when one of OpenAI's autonomous AI agents [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\"><em>This is </em><a href=\"https://www.theverge.com/the-stepback-newsletter\">The Stepback</a><em>, a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, <a href=\"https://www.theverge.com/authors/robert-hart\">follow Robert Hart</a>. </em>The Stepback <em>arrives in our subscribers' inboxes at 8AM ET. Opt in for </em>The Stepback<em> <a href=\"https://www.theverge.com/newsletters\">here</a>.</em></p>\n<h2 class=\"wp-block-heading\">How it started </h2>\n<p class=\"wp-block-paragraph\">It all started in July, when one of OpenAI's autonomous AI agents <a href=\"https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai\">went rogue</a> during a cybersecurity test. The agent escaped its isolated testing environment, accessed the internet, and hacked another company, Hugging Face. A few years ago, that might have sounded like science fiction. But, broadly speaking, that's exactly what happened, and the incident kicked off a wave of concern over what increa …</p>\n<p><a href=\"https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+    "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-08-16T20:57:04+00:00",
+    "summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
+    "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-08-16T20:32:01+00:00",
+    "summary": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+    "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-08-16T16:53:51+00:00",
+    "summary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Cutting RAG inference costs 6x starts with deciding what never reaches the LLM",
+    "url": "https://venturebeat.com/orchestration/cutting-rag-inference-costs-6x-starts-with-deciding-what-never-reaches-the-llm",
+    "source": "VentureBeat",
+    "category": "news",
+    "published": "2026-08-16T20:45:00+00:00",
+    "summary": "<p>Most teams building <a href=\"https://venturebeat.com/orchestration/an-eval-harness-found-what-qualitative-review-couldnt-ai-models-are-most-confident-when-wrong\">retrieval augmented generation</a> (RAG) systems for high stakes classification make the same architectural bet: Route every ambiguous case straight to the language model and trust the retrieved context to sort it out. This works fine in a demo. It falls apart the moment the system has to survive an audit, a regulator, or a compliance officer asking why a specific decision was made six months ago.</p><p>I have spent the last year building RAG based classification systems in regulated enterprise settings, where the cost of a wrong answer is not a bad chatbot reply. A decision has to hold up to scrutiny long after the model produced it. This environment forces a different design philosophy than most AI engineering content assumes. </p><p>Here is what changes when you cannot afford to be probabilistic about everything, and how a cascade architecture solves it.</p><h2>The invisible cost of an all LLM pipeline</h2><p>\nThe appeal of routing everything through a <a href=\"https://venturebeat.com/orchestration/an-eval-harness-found-what-qualitative-review-couldnt-ai-models-are-most-confident-when-wrong\">large language model</a> (LLM) is obvious: Fewer moving parts, faster iteration, the model handles unanticipated edge cases. The problem shows up later, in three places.</p><p>First, auditability. &quot;The model decided based on retrieved context&quot; is not an acceptable answer. You need a decision path a human can reconstruct without rerunning inference and hoping for the same output.</p><p>Second, cost at scale. If your system processes tens of thousands of cases a day and every one hits an LLM call with several retrieved documents in context, your inference bill and latency both scale with volume in a way that rule based logic does not.</p><p>Third, and least discussed, model drift on the easy cases. LLMs are excellent at nuanced judgment calls. They are inconsistent, in ways that are hard to detect, on cases that should have a deterministic answer. A clear structured match against known criteria should never depend on a language model&#x27;s mood.</p><h2>The cascade approach</h2><p>\nThe fix: Stop treating the LLM as the front line and start treating it as the escalation path. In practice this means a three stage pipeline.</p><p>Stage one is deterministic. Exact matches, structured field comparisons, and anything with a clear rule get resolved here with no model call at all. This stage should clear the majority of volume, often more than half depending on your data quality, and every decision is fully explainable because it is a lookup, not an inference.</p><p>Stage two is where retrieval earns its keep. For cases that survive stage one — and I mean survive as in they were not clearly resolved — you build a retrieval layer that pulls the specific evidence relevant to the ambiguity: Prior reviewer decisions on similar cases, contextual documents that explain an apparent conflict, or historical precedent that clarifies an edge case. The retrieval step matters more than the generation step here. If you retrieve the wrong context, even the best language model in the world will produce a confident, well reasoned, wrong answer.</p><p>Stage three is the <a href=\"https://venturebeat.com/orchestration/the-cleanup-trap-stop-asking-rag-to-fix-bad-data\">LLM call</a>, and it should only see the residue that stages one and two could not resolve. This is the part people skip when they design their first version, and it is the single biggest lever for both cost and quality. In one system I worked on, routing only the genuinely ambiguous 10 to 15% of cases to the LLM cut inference cost by roughly 6X compared to an all LLM baseline, while improving consistency on the deterministic majority to effectively perfect.</p><h2>Designing the prompt for asymmetric risk</h2><p>Once a case reaches the LLM stage, most teams default to a neutral prompt: &quot;Assess whether this case should be approved or flagged.&quot; That framing is wrong for high stakes classification because the cost of the two error types is not symmetric. Missing something that genuinely needed attention can mean real harm downstream. Incorrectly flagging something that was fine costs a reviewer&#x27;s time and a delay. Those two outcomes are rarely equally bad, yet a neutral prompt asks the model to treat them as if they were.</p><p>An asymmetric risk prompt makes that tradeoff explicit to the model rather than letting it guess at your risk tolerance. Concretely, this means instructing the model to treat uncertainty as a reason to escalate rather than clear, providing calibrated examples of both error types with their consequences spelled out, and asking for a confidence score alongside the classification rather than a binary answer. The confidence score becomes your second cascade point: Anything below a certain threshold goes to a human reviewer instead of being auto resolved, no matter what the model&#x27;s classification says.</p><p>This sounds like a small prompt engineering detail. In practice it is the difference between a system that reduces reviewer workload and one that quietly increases risk while looking like it is working.</p><h2>Evaluating a system like this properly</h2><p>Standard RAG evaluation metrics were not built with this use case in mind, and using them without adaptation will give you a false sense of confidence. A few adjustments that matter.</p><p>Retrieval quality needs to be measured separately from final classification accuracy. A system can have excellent retrieval ranking scores and still make bad final decisions if the generation step misweights the evidence. Track them independently.</p><p>Your evaluation set needs deliberate oversampling of the cases that reach stage three, since that is where your system&#x27;s judgment actually gets tested. If your eval set mirrors your production distribution, it will be dominated by the deterministic cases your cascade already handles well, and you will be blind to exactly the failures that matter most.</p><p>LLM as judge evaluation works for this domain but only if the judge prompt encodes the same asymmetric risk framing as your production prompt. A judge that treats both error types equally will systematically favor the wrong tradeoff when you are tuning your system.</p><p>Finally, build a feedback loop from confirmed outcomes back into your retrieval corpus. When a human reviewer overturns a model decision, that case and its correct resolution should become retrievable context for future similar cases. Without this, your system&#x27;s handling of ambiguous cases never improves, it just keeps making the same category of mistake at the same rate.</p><h2>The broader lesson</h2><p>The instinct to reach for the most capable model for every decision is understandable, but in domains where wrong answers have real consequences, the more valuable engineering work is deciding what should never touch the model at all. Cascade architecture is not a workaround for LLM limitations. It is what a mature RAG system looks like once you have actually had to defend its decisions to someone whose job is to find the flaw in your logic.</p><p>If you are building AI systems for any regulated or high stakes domain, the question worth asking before you write a single prompt is not &quot;How do I get the model to handle this well.&quot; It is &quot;Which parts of this decision should never have been the model&#x27;s job in the first place.&quot;</p><p><i>Vineet Vijay is a Lead AI and machine learning engineer.</i></p>",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "DeepSeek's top-ranked V4 Flash stumbles on real agent tasks as its prices surge",
+    "url": "https://venturebeat.com/orchestration/deepseeks-top-ranked-v4-flash-stumbles-on-real-agent-tasks-as-its-prices-surge",
+    "source": "VentureBeat",
+    "category": "news",
+    "published": "2026-08-16T13:00:00+00:00",
+    "summary": "<p>DeepSeek&#x27;s V4 Flash has topped model leaderboards and been hailed by developers as a &quot;total monster&quot; since its rollout. But in real-world testing, it completed just 53.8% of a batch of complex agent tasks. </p><p><a href=\"https://x.com/composio/status/2085330847951970801?s=20\">Composio ran the model through eight different agent harnesses</a>, including Claude Code, Codex, and OpenCode, on 30 deliberately difficult, multi-step tasks spanning live tools like Gmail, GitHub, Slack, and Google Sheets. Of 240 total runs, 129 passed — and only six of the 30 workflows were completed successfully by every harness tested.</p><p>The gap illustrates why orchestration, not raw model capability, may decide whether the model succeeds in enterprise settings: the same model produced substantially different results depending on the harness, tool configuration, caching behavior, retries, and provider stack it ran on.</p><p><a href=\"https://www.engadget.com/2236912/deepseek-ai-models-get-four-times-pricier/\">DeepSeek said it will be hiking the prices for V4 Flash and Pro</a>, models that have quickly become favorites among developers building coding assistants and agents. </p><p>While it seems the move might undercut its very appeal — strikingly capable models at ultra-low pricing that frontier providers simply can&#x27;t match — it also moves the story beyond the now-clichéd &quot;cheap Chinese model&quot; narrative, as early use cases emerge and enterprises figure out where different models fit into their tech stacks and what workflows they should be aimed at.</p><h2>&quot;<!-- -->Insane&quot; adoption numbers as DeepSeek flips the cost structure</h2><p>DeepSeek rolled out V4 Flash to public beta July 31, and made V4 Pro generally available on August 13. The 284-billion-parameter Flash is built for volume and speed, the 1.6 trillion-parameter Pro for more complex workflows.</p><p>Both models have flexible reasoning capabilities (low, high, max) and ‘thinking modes’ applying chain-of-thought (CoT) reasoning to improve answer accuracy.</p><p>Users were immediately impressed by Flash’s capabilities. It has <a href=\"https://openrouter.ai/rankings\">dominated OpenRouter&#x27;s usage leaderboard</a> since its rollout, currently the most-used model on the platform by weekly token volume.</p><p>“The adoption numbers of the initial DeepSeek V4 Flash were insane,” <a href=\"https://x.com/natolambert/status/2084790959636922652?s=20\">ML researcher Nathan Lambert posted to X</a>, <!-- -->adding that the new version &quot;scored the same as GLM 5.2,&quot; making it a &quot;total monster&quot; that will be used extensively.</p><div></div><p>DeepSeek switching the cost model adds an interesting dimension. </p><p><a href=\"https://api-docs.deepseek.com/quick_start/pricing/\">V4 API rates</a> are going up by as much as 1,100% depending on the model, token type and time of use. The new pricing structure: </p><ul><li><p>Flash will be 22 cents per million input tokens and 66 cents per million output tokens off-peak; and 44 cents per million input tokens and $1.32 per million output tokens at peak. This represents a 57% to 371% increase. </p></li><li><p>Pro will be 66 cents per million input tokens and $1.98 per million output tokens off-peak; and $1.32 per million input tokens and $3.96 per million output tokens at peak. This shows a 51% to 355% jump. </p></li><li><p>Cache hits, meanwhile (when models reuse prompts rather than starting from scratch), are going up between 52% and 1,100%.</p></li></ul><p>DeepSeek says offering 50% lower off-peak usage is intended to encourage “more flexible workload scheduling.&quot; Seventeen of every 24 hours stay at half price, and the new structure actually prices the company&#x27;s home market the highest.</p><p>&quot;This is not a simple price rise,&quot; said <a href=\"https://greyhoundresearch.com/svg/\">Sanchit vir Gogia of Greyhound Research</a>. &quot;It is a pricing architecture that makes the timing of inference an economic variable.&quot;</p><p>Work that can wait — such as batch evaluation, synthetic-data generation, and overnight development runs — moves into the cheap hours; interactive agents and live operations cannot. Gogia said irritation among developers and enterprises is genuine and vocal, and that DeepSeek&#x27;s past low pricing doesn&#x27;t obligate it to stay cheap forever.</p><p>At first glance, it does look like a “suicidal move from a platform still looking for credibility against more established AI model vendors,” <a href=\"https://www.linkedin.com/in/carmi/\">said tech analyst Carmi Levy</a>. The increases will certainly eat into DeepSeek&#x27;s price advantage and force customers to weigh concerns around the company&#x27;s Chinese origins more heavily.</p><p>Still, DeepSeek remains far cheaper by all pricing measures relative to competing models from OpenAI, Anthropic, Google, Cohere, xAI, and others, he said. </p><p>So, while the move will force DeepSeek to emphasize performance and security over cost, it hardly wipes out its already-notable price-performance advantage, and still gives customers ample wiggle room to justify its use for specific workloads, Levy said. The math will just have to be more tightly calculated. </p><p>“The advantage will likely erode over time as DeepSeek inevitably continues to align pricing with market realities, but for now it&#x27;s still easy to make the business case,” Levy said. </p><h2>Where can DeepSeek Flash fit into enterprise environments? </h2><p>Adoption inside enterprises remains an open question due to cost, capability, reliability, data governance, security, and other factors.</p><p>One use case is batch processing, Levy said. This kind of work is typically routine and repetitive rather than demanding top-tier intelligence, so it makes sense to use a cheaper, more efficient model. “It’s a high-performance inference engine that enterprises can consider using for point solution workloads rather than as a wholesale replacement for the incumbent offerings,” Levy said. </p><p>Partial adoption will likely involve isolated, non-sensitive workloads with clearly-defined success metrics, strict oversight, permissions controls, and fallback models in case of failures, he noted. Broader deployment will require DeepSeek and its hosting partners to demonstrate strong reliability, security, privacy, auditability, and deployment options. As it adjusts price structures based on demand, DeepSeek also must retain a large enough price-performance advantage to justify any risk, he said.</p><p>Expect unsanctioned, smaller-scale use in backroom labs and contained test environments as IT teams get familiar with the new model and figure out when and how to bring it to senior leadership for budget approval.</p><p>“DeepSeek has built a well-earned reputation as a global disruptor,” he said, “and it’s clear that its march to broader enterprise adoption will continue to gather momentum.”</p><h2>Testing DeepSeek in multi-tool workflows </h2><p>While many use cases are still in the experimental phases, Meta software engineer Naman Ahuja offers one that could translate directly into enterprise environments. In a project unrelated to his employer, he built a home-automation agent with DeepSeek V4 Flash to explore how a lower-cost model performs as the reasoning/orchestration layer for a real multi-tool workflow.</p><p>When he leaves home, an agent coordinates several actions across otherwise separate systems: Such as setting a thermostat to “away” to reduce unnecessary energy use, arming a Ring security system, closing and locking doors. </p><p>“What interested me was not simply whether the model could understand a command, but whether it could translate intent into a sequence of actions across multiple tools where reliability matters,” Ahuja said. </p><p>The biggest lesson was that once a model can take actions, reliability matters as much as intelligence. The system needs structured tool outputs, verification that actions actually succeeded, retry/failure handling, and clear boundaries around what the model is allowed to do.</p><p>In the case of enterprise, “the architecture is similar.” Home devices change to ticketing systems, databases, CRM platforms, or infrastructure APIs. The most useful agents will likely orchestrate repetitive workflows across multiple systems, with scoped permissions, auditability, observability, and human approval for higher-risk actions.</p><p>“Many valuable AI agents will not be chatbots; they will be background agents coordinating APIs, infrastructure, and business systems in response to events,” he said. </p><h2>Enterprises need tangible use cases</h2><p>But Flash&#x27;s API is still in public beta, Gogia pointed out, and there is not yet an evidence trail of settled enterprise adoption, real-world deployments, and named customers.</p><p>“The benchmark story is looser than its retelling, the portfolio story is newer than it looks, and the economics have moved into the system around the model,” he said. Developer mainstreaming is proven; enterprise standardization is not. “The model is mainstream by traffic and still unproven by contract.”</p><p>DeepSeek&#x27;s own integration guidance is an important consideration, he said: Its documentation for at least one popular agent environment states that built-in V4 entries are not sufficient for reliable operation without compatibility overrides. </p><p>“Which is a vendor telling the market, accurately, that benchmark performance is not a proxy for production readiness,” Gogia said. “A model can score beautifully and still misbehave once tools, credentials, and state enter the room.”</p><p>The serving layer behaves no differently: the same open weights run by different hosts show visible differences in throughput and uptime. &quot;Choosing Flash therefore answers one procurement question and opens three more: Who serves it, where it runs, and which controls surround it,&quot; Gogia said.</p><h2>Prepare for a multi-model future</h2><p>DeepSeek offers a nuanced case for a multi-model future. V4 Flash is being deployed as the high-volume worker inside diverse estates, Gogia noted: It handles routine generation, retrieval, and background automation, while more difficult or sensitive tasks go elsewhere. </p><p>“The question is whether its performance is sufficient for the real-world workflows enterprises actually run, not whether it tops every benchmark,” he said. Enterprises must determine which combination of model, harness, and provider completes the work safely at the lowest cost.</p><p>Adam Dalloul, CEO and founder of EmpirioLabs AI, pointed out that bigger isn’t always better; workflows should be task-dependent. For example, his team at EmpirioLabs AI — which hosts 100-plus models on one API, including DeepSeek V4 Flash — were recently working on translating its site into different languages, and there was no need for a large model like GPT 5.6 Sol or Opus 5 to complete the task. </p><p>“This is where subagents come in handy,” he said. </p><p>His recommended approach: Spawn cheaper subagents and adapt per task. For instance, use Flash variants for day-to-day work, and Pro variants when you need something more powerful. “It depends on the nature of your application.”</p><p>Many companies are pivoting towards their own internal benchmarks to route models effectively, Dalloul noted. For example, his team has a workflow that puts a model through various gates and instructions. This helps them identify the model with the speed and accuracy required for the task. </p><p>In another example, one of his enterprise clients exclusively wanted access to DeepSeek V4 Flash. They had tested a variety of models and V4 Flash was the only one that met their criteria for speed, cost, and an “appropriate intelligence threshold.”</p><p>Meta’s Ahuja agreed that smaller, more efficient models can handle frequent, well-defined agentic tasks, while more expensive frontier models can be reserved for “ambiguous, difficult, or higher-risk decisions.” The relevant metric increasingly becomes cost per successfully completed workflow rather than simply cost per token. </p><p>The trade-off, however, is that cheap inference does not automatically mean cheap or safe automation, he said. Once an AI system can take actions, reliability, verification, permissions, failure handling, and security become much more important. </p><p>“A failed text response is inconvenient; a failed action in an operational workflow can have real consequences,” Ahuja said. </p>",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "owainlewis/awesome-artificial-intelligence (15826★)",
+    "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2015-01-27T09:27:48+00:00",
+    "summary": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5483★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "py-why/EconML (4755★)",
+    "url": "https://github.com/py-why/EconML",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-04-30T21:02:52+00:00",
+    "summary": "ALICE (Automated Learning and Intelligence for Causation and Economics) is a Microsoft Research project aimed at applying Artificial Intelligence concepts to economic decision making. One of its  goals is to build a toolkit that combines state-of-the-art machine learning techniques with econometrics in order to bring automation to complex causal inference problems. To date, the ALICE Python SDK (econml) implements orthogonal machine learning algorithms such as the double machine learning work of Chernozhukov et al. This toolkit is designed to measure the causal effect of some treatment variable(s) t on an outcome variable y, controlling for a set of features x.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "aadi1011/AI-ML-Roadmap-from-scratch (4139★)",
+    "url": "https://github.com/aadi1011/AI-ML-Roadmap-from-scratch",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2024-05-26T05:26:18+00:00",
+    "summary": "Become skilled in Artificial Intelligence, Machine Learning, Generative AI, Deep Learning, Data Science, Natural Language Processing, Reinforcement Learning and more with this complete 0 to 100 repository.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3387★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3282★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "EthicalML/awesome-artificial-intelligence-regulation (1455★)",
+    "url": "https://github.com/EthicalML/awesome-artificial-intelligence-regulation",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-10-07T09:21:04+00:00",
+    "summary": "This repository aims to map the ecosystem of artificial intelligence guidelines, principles, codes of ethics, standards, regulation and beyond.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1204★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "10up/classifai (711★)",
+    "url": "https://github.com/10up/classifai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-06-18T12:09:10+00:00",
+    "summary": "Supercharge WordPress Content Workflows and Engagement with Artificial Intelligence.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "meerilahi/Books-Collection (630★)",
+    "url": "https://github.com/meerilahi/Books-Collection",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2025-03-30T00:39:43+00:00",
+    "summary": "This repository contains a collection of books I have downloaded related to **Mathematics**, **Artificial Intelligence (AI) & Machine Learning (ML)**, and **Algorithms**. Some of these books I have read, while others are on my reading list.",
+    "content": null,
+    "priority": "low"
+  }
+]
