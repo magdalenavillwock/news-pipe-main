@@ -1,0 +1,182 @@
+[
+  {
+    "title": "How we contain Claude across products",
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-08-31T04:29:06+00:00",
+    "summary": "How we contain Claude across products",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "Texas Governor Abbott blocks funding for more Flock cameras",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-08-30T15:35:10+00:00",
+    "summary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Illustration of hands holding instruments to destroy a Flock camera\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268713_Americans_seem_to_agree_that_destroy_Flock_cameras_is_good_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has <a href=\"https://www.texastribune.org/2026/08/28/texas-greg-abbott-flock-cameras-order-state-money/\">frozen state spending</a> on them. The move came just ahead of the publication of a <a href=\"https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/\"><em>Texas Tribune</em> investigation</a> that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, allegedly to help fight catalytic converter theft.</p>\n<p class=\"wp-block-paragraph\">Flock cameras have increasingly drawn ire from <a href=\"https://www.washingtonpost.com/politics/2026/08/29/flock-cameras-stir-bipartisan-fury-gov-greg-abbott-blocks-them-texas/\">across the political spectrum</a> as they've become the subject of privacy concerns. There have been multiple incidents of officers being placed on leave or <a href=\"https://www.404media.co/cops-keep-getting-arrested-for-using-flock-to-stalk-people/\">criminally charged</a> for misusing Flock systems, including at  …</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "The U.S. is building barriers around drones and robots, but China has scale to get around them",
+    "url": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-08-31T02:34:00+00:00",
+    "summary": "The U.S. is shutting out more foreign-made drones and robots. China’s scale means the global competition may simply move elsewhere.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Musk’s faster path to more gas turbines comes with pollution problem",
+    "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-08-30T16:54:25+00:00",
+    "summary": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else — but it's a bet on a fuel source that's already triggering lawsuits and health studies everywhere his (and others') turbines have gone in.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+    "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-08-30T15:00:00+00:00",
+    "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Inside Meta’s push to put robots to work in data centers",
+    "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+    "source": "Ars Technica",
+    "category": "news",
+    "published": "2026-08-30T11:03:47+00:00",
+    "summary": "The company is testing robots on tasks that can performed by technicians.",
+    "content": "<p>Meta is testing robots that can plug in cables, reset servers, and handle other tasks inside its <a href=\"https://www.wired.com/story/how-data-centers-broke-american-politics/\">data centers</a>, according to several current and former workers familiar with the projects. The ongoing effort, which has not been previously reported, may eventually allow <a href=\"https://www.wired.com/tag/meta/\">Meta</a> to operate its rapidly expanding data center footprint with fewer humans, keeping labor costs in check as its spending on <a href=\"https://www.wired.com/story/microsoft-google-meta-2025-earnings/\">AI infrastructure soars</a>.</p>\n<p>Meta is using robots and related hardware from several different vendors, including Watney Robotics, Kinova, and ABB, according to the same workers, who asked to remain anonymous because they weren’t authorized to speak to the media. Kinova and ABB declined to comment. Watney didn’t respond to requests for comment.</p>\n<p>In one experiment, Meta is evaluating whether a Kinova Gen3 robotic arm could be used for power cycling or cutting off electricity to servers. The company is also testing a different robot to swap networking cables. One Meta data center worker estimates that if it’s successful, the bot could replace up to 80 percent of some people’s workloads. “We thought those of us performing the physical tasks were safe for a while, but not anymore,” says the worker. “It’s coming for us all, unfortunately.”</p><p><a href=\"https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/\">Read full article</a></p>\n<p><a href=\"https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/#comments\">Comments</a></p>",
+    "priority": "low"
+  },
+  {
+    "title": "AI agents need their own identity before they need a gateway",
+    "url": "https://venturebeat.com/security/ai-agents-need-their-own-identity-before-they-need-a-gateway",
+    "source": "VentureBeat",
+    "category": "news",
+    "published": "2026-08-30T23:00:00+00:00",
+    "summary": "<p>Enterprise AI has entered a new era. Organizations are rapidly moving beyond assistants that answer questions to autonomous agents capable of reasoning, invoking tools, accessing enterprise applications, coordinating with other agents, and completing multi-step business workflows with minimal human intervention.</p><p>This shift represents a fundamental change in how software operates. Traditional applications execute predefined logic written by developers. AI agents, however, dynamically determine how to achieve an objective. They decide which tools to use, which APIs to call, what information to retrieve, and how to sequence actions based on context. That flexibility unlocks enormous business value, but it also introduces a new class of <a href=\"https://venturebeat.com/security/ai-agents-that-pass-authentication-can-still-drift-expose-data-or-get-memory-poisoned\">security risks</a>.</p><p>Much of today&#x27;s AI security discussion focuses on prompt injection, model vulnerabilities, and data leakage. These are important concerns, but they represent only part of the challenge. Once an AI agent has successfully authenticated and begins acting autonomously, traditional security controls provide very little visibility into whether it continues to operate safely.</p><p>This is where enterprises need to adopt a new security mindset: runtime trust.</p><h2><b>Authentication establishes identity, not trust</b></h2><p>Enterprise security has traditionally relied on three foundational questions: Who are you, what can you access, and what actions are you authorized to perform. Identity providers, multi-factor authentication (MFA), role-based access control, and zero trust architectures answer these questions effectively for human users and conventional applications, and NIST&#x27;s zero trust guidance remains a solid reference point for how those principles are meant to work (<a href=\"https://csrc.nist.gov/pubs/sp/800/207/final\"><u>NIST SP 800-207</u></a>).</p><p>AI agents introduce a different problem. An <a href=\"https://venturebeat.com/orchestration/enterprise-ai-agents-are-only-as-reliable-as-the-messiest-documents-behind-them\">AI agent</a> may legitimately authenticate using an enterprise identity, receive valid API credentials, and be granted access to systems like Microsoft 365, ServiceNow, Salesforce, or GitHub. From an identity perspective, everything appears correct. The real challenge begins after authentication: During execution, the agent continuously reasons, interprets objectives, invokes tools, retrieves information, and adapts its behavior based on new context, and security teams must determine whether those actions remain aligned with the user&#x27;s intent and organizational policy. Authentication verifies who an AI agent is. Runtime trust continuously verifies what it is doing.</p><h2><b>Enterprise AI is becoming an autonomous workforce</b></h2><p>Modern AI agents increasingly interact with large language models (LLMs), Model Context Protocol (MCP) servers, <a href=\"https://venturebeat.com/orchestration/cutting-rag-inference-costs-6x-starts-with-deciding-what-never-reaches-the-llm\">retrieval-augmented generation</a> (RAG) systems, vector databases, enterprise APIs, SaaS platforms, and internal knowledge repositories, as well as other AI agents. This interconnected ecosystem enables sophisticated automation but dramatically expands the attack surface: A single compromised tool, poisoned knowledge source, overly permissive API, or manipulated prompt can influence downstream decisions across an entire workflow, and unlike traditional software, these risks evolve during execution rather than being fixed at deployment.</p><p>That expanding surface is exactly what a handful of runtime threats exploit.</p><p><i>Goal drift</i> happens when an agent begins with a legitimate objective but gradually deviates from the user&#x27;s original intent while attempting to optimize outcomes. An agent tasked with preparing a customer report, for instance, might autonomously retrieve unrelated confidential information because it incorrectly determines that additional context would improve the response.</p><p><i>Excessive tool invocation</i> is what happens when <a href=\"https://venturebeat.com/orchestration/enterprises-winning-with-ai-agents-are-limiting-how-much-the-agents-can-do-alone\">autonomous agents</a> with access to numerous enterprise tools call unnecessary APIs, modify configurations, access sensitive repositories, or perform administrative actions simply because the model believes those actions are useful, absent any runtime controls to stop it.</p><p><i>Memory poisoning</i> exploits the persistent memory that improves personalization: Attackers can intentionally insert misleading instructions into long-term memory or retrieval systems, causing future decisions to be influenced by malicious or outdated information.</p><p><i>Context manipulation</i> takes advantage of how heavily LLMs depend on context: If attackers influence retrieved documents, system prompts, conversation history, or external data sources, they can indirectly steer autonomous behavior without ever compromising the underlying model. <a href=\"https://atlas.mitre.org/\"><u>MITRE&#x27;s ATLAS framework</u></a> catalogs this kind of adversarial behavior against AI systems in useful detail.</p><p><i>Multi-agent amplification</i> emerges as organizations deploy specialized AI agents that collaborate: If one agent behaves incorrectly, downstream agents may trust and amplify those actions, creating cascading failures across enterprise workflows.</p><h2><b>Introducing runtime trust</b></h2><p>Runtime trust extends security beyond authentication by continuously validating AI behavior throughout execution. Rather than assuming authenticated agents remain trustworthy indefinitely, it continuously evaluates whether autonomous decisions remain aligned with organizational policy. A runtime trust architecture rests on several complementary capabilities.</p><p><i>Intent validation</i> evaluates, before executing sensitive actions, whether proposed behavior still matches the user&#x27;s original objective: Is this action necessary? Is it expected? Does it exceed the requested scope? Would a reasonable human perform the same action?</p><p><i>Behavioral monitoring</i> observes tool usage, API activity, reasoning patterns, execution frequency, delegated actions, and abnormal workflows, so unexpected behavior becomes immediately visible rather than remaining hidden inside model reasoning.</p><p><i>Policy enforcement</i> means enterprise policies govern what AI agents can do, not merely what they can access — blocking financial transactions above approval thresholds, preventing privilege modifications, restricting administrative operations, limiting sensitive data retrieval, and requiring approval for high-risk actions. These controls function much like application firewalls for autonomous decision-making.</p><p><i>Least-privilege execution</i> means AI agents receive only the capabilities necessary for the current task. Instead of granting permanent access to dozens of enterprise tools, organizations should dynamically issue short-lived permissions based on runtime context, an approach that OWASP&#x27;s guidance for agentic applications increasingly emphasizes (<a href=\"https://genai.owasp.org/\"><u>OWASP GenAI Security Project</u></a>).</p><p><i>Human oversight</i> recognizes that not every decision should be autonomous — high-impact operations, including financial approvals, identity changes, regulatory actions, or customer-impacting decisions, should require explicit human confirmation before execution.</p><h2><b>Protecting the enterprise AI ecosystem</b></h2><p>Runtime trust also extends beyond individual agents. As MCP adoption accelerates, enterprises should verify trusted servers, authenticated tools, approved capabilities, monitored interactions, and policy enforcement. RAG knowledge repositories require document integrity, source validation, access control, retrieval auditing, and poisoning detection. Persistent AI memory should implement lifecycle management, expiration policies, integrity verification, access logging, and sensitive data protection.</p><h3><b>Building operational visibility</b></h3><p>One of the biggest challenges in <a href=\"https://venturebeat.com/orchestration/an-eval-harness-found-what-qualitative-review-couldnt-ai-models-are-most-confident-when-wrong\">enterprise AI</a> is observability. Security teams need visibility into why an agent selected particular tools, which data influenced its decisions, how it reached its conclusions, what actions it executed, whether policies were triggered, and which safeguards prevented unsafe behavior. Runtime logging, audit trails, and behavioral analytics are becoming essential components of enterprise AI operations, not optional add-ons.</p><h3><b>A practical roadmap</b></h3><p>Organizations do not need to rebuild existing security programs. Instead, they should extend them by incorporating runtime trust into existing governance processes. Practical first steps include inventorying AI agents and their capabilities, applying least-privilege access to tools and APIs, classifying high-risk autonomous actions, implementing runtime policy enforcement, monitoring behavioral anomalies continuously, protecting memory and RAG data sources, requiring human approval for critical operations, and integrating AI runtime telemetry into existing SOC workflows.</p><h2><b>Looking ahead</b></h2><p>Enterprise AI will continue evolving toward increasingly autonomous systems capable of collaborating, planning, and executing complex business processes. Security strategies must evolve alongside them. The question is no longer whether an AI agent successfully authenticated. The more important question is whether it continues to behave safely throughout its entire lifecycle. Organizations that adopt continuous runtime governance today will be significantly better positioned to deploy autonomous AI responsibly, reduce operational risk, and build the confidence necessary for large-scale enterprise AI adoption.</p><p>The future of AI security will not be defined solely by stronger models or better authentication. It will be defined by our ability to establish, measure, and continuously verify trust while intelligent systems are making decisions in real time.</p><p><b><i>Ravindra Annam is a cyber security architect.</i></b></p>",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "AI agents that pass authentication can still drift, expose data, or get memory-poisoned",
+    "url": "https://venturebeat.com/security/ai-agents-that-pass-authentication-can-still-drift-expose-data-or-get-memory-poisoned",
+    "source": "VentureBeat",
+    "category": "news",
+    "published": "2026-08-30T20:15:00+00:00",
+    "summary": "<p>There is a clear repeating trend in agent deployments: The gateway is the first control teams reach for, but it is the one they are least ready to run. This is because gateways sit on top of identity and attribution layers that are mostly not there.</p><p>The first layer of risk is not hypothetical. In June,<a href=\"https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html\"> <u>CISA added a LiteLLM flaw</u></a> to its Known Exploited Vulnerabilities catalog after attackers were caught abusing it in the wild. The bug ran commands on the host through the gateway itself, and chained with a second flaw it required no credentials. It was one of seven common vulnerabilities and exposures (CVEs) disclosed in that single AI gateway in a month. This is the layer many enterprises reach for first to secure their AI agents.</p><p>When considering secure agent architecture, gateway controls should not be the first control. They should be the fifth.</p><p>Most models on the maturity of agent security describe the controls a company will need in the future. They tend to miss, from my experience, the more difficult problem of describing the brownfield scenario: In what order should these controls be layered in conjunction with an identity and access management system that is already in place?</p><p>If the control plane is unaware of which agent is acting, who delegated the work, what task the agent is to perform, and what credentials are being used, then the context is incomplete. A gateway may block clear policy violations, but will struggle to distinguish a justified action from one that is technically permissible but operationally inappropriate.</p><p>The pattern of failure is clear when sequencing these controls for agent production deployments: Enforcement is taken early, while the identity and attribution context it depends on has yet to be developed. Agent security functions as a dependency chain, with each control depending on context generated upstream.</p><h2><b>The wrong starting point</b></h2><p>Think about routing agent traffic via a new runtime gateway. A finance-reconciliation agent tries to alter a record in production. The gateway authenticates the user token and checks the API call. What it can&#x27;t observe is that the request is agent-initiated, that the agent is executing a more limited function, or that the request is part of a tool chain invoked by an untrusted artifact.</p><p>The credential is valid. The API call is permissible. The action contradicts the purpose of the delegation. The gateway is there, but its set of supports seems absent, so a costly control is applied to a very small part of the whole picture.</p><p>Limiting an <a href=\"https://venturebeat.com/technology/your-agent-didnt-hallucinate-it-exceeded-its-authority\">agent&#x27;s privileges</a> to those of the human principal is useful so the agent does not exceed the person it serves. However, having a privilege ceiling does not create separate attribution. Twenty agents might operate under a single person&#x27;s permissions and still need unique identities, audit logs, behavior profiles, and revocation paths.</p><h2><b>Dependency-gated deployment</b></h2><p>I call this process dependency-gated deployment. Upstream exit tests must be satisfied before any downstream control is considered operationally complete. Concurrent development of downstream controls is permissible. </p><p>Here are the six gates, and the proof that they work:</p><table><tbody><tr><td><p><b>Gate</b></p></td><td><p><b>Control</b></p></td><td><p><b>Operational proof it works</b></p></td></tr><tr><td><p>1</p></td><td><p>Agent inventory and accountable ownership</p></td><td><p>Every production agent has a named owner, purpose, approved tools, and lifecycle state</p></td></tr><tr><td><p>2</p></td><td><p>Distinct agent identity plus delegation context</p></td><td><p>The system can identify the agent, its owner, and the principal it is acting for</p></td></tr><tr><td><p>3</p></td><td><p>Task-scoped, short-lived credentials</p></td><td><p>A compromised agent cannot reach resources unrelated to its assigned task</p></td></tr><tr><td><p>4</p></td><td><p>Attributable telemetry</p></td><td><p>A completed task can be reconstructed from initiation to downstream effect</p></td></tr><tr><td><p>5</p></td><td><p>Runtime action enforcement</p></td><td><p>Policy decisions incorporate agent, principal, task, and action context, not just token validity</p></td></tr><tr><td><p>6</p></td><td><p>Behavioral baselines and cross-system kill path</p></td><td><p>The agent&#x27;s effective authority can be stopped everywhere it reaches</p></td></tr></tbody></table><p><i>The six dependency gates for the agent security controls. Each control is contextualized by the gates above it. From the author&#x27;s analysis of production agent deployments.</i></p><h2><b>Start with the agents you can actually name</b></h2><p>To begin, recognize the production agents in open-source frameworks, cloud offerings, SaaS services, and developer tools. For each, record the owner, responsibility, lifecycle stage, allowed tools, data domains, and sources of credentials.</p><p>Bypass this step, and the organization will lose the first hour of <a href=\"https://venturebeat.com/security/forget-typosquatting-slopsquatting-is-the-software-supply-chain-threat-created-by-ai-coding-tools\">incident response</a> while they figure out what should have been obvious. The inventory identifies the asset that every control thereafter governs.</p><h2><b>An agent needs its own identity, but it cannot lose the human behind it </b></h2><p>An agent should not be buried in a developer token, a shared service account, or a human session. Simply knowing the caller is an agent is not sufficient. The control plane requires additional delegation context: Who delegated the work, what specific task the agent was instructed to execute, and which resources the agent needs the authority to access. Identity specifies which actor placed the call. Delegation is the answer to whose authority it acts, and for what reason.</p><p>Once that connection is cut off, the downstream logs attribute the reconciliation agent to the employee whose token it borrowed, and every action it takes is attributed to someone who did not start it.</p><h2><b>Shrink authority before you inspect behavior </b></h2><p>Once an agent can be identified, capabilities should be limited. Access restrictions should be time-bound to the task and limited to the tools and resources required to perform the task. This can be implemented using identity access management (IAM) features such as workload identity, token exchange, conditional access, and time-bound entitlements which the organization already possesses.</p><p>With regard to the<a href=\"https://goteleport.com/about/newsroom/press-releases/2026-state-of-ai-in-enterprise-security-report/\"> <u>2026 Teleport study</u></a> involving 205 security leaders, the access scope surpasses the predictive capacity of industry, maturity, or self-assurance concerning predicting AI-related incidents. For example, organizations with over-privileged AI reported a 76% incident rate, whereas AI incidents occurred in 17% of organizations under the least privilege. This indicates that access scope in the dependency chain is more important than context-aware runtime enforcement.</p><p>The primary principle is monotonic delegation. Every transfer of responsibility must preserve or diminish authority; under no circumstances should it increase authority. For the reconciliation agent, this means an agent who can view one ledger as opposed to one who inherits the employee&#x27;s access to all systems the employee can access.</p><h2><b>Fix attribution before automating enforcement </b></h2><p>Most audit stacks can capture what resource was accessed and which credential allowed access. In the agent deployments I have reviewed, this is the most commonly missed gate. Prior to utilizing an adaptive runtime policy, link any relevant tool invocation to the agent identity, initiating principal, task id, parent action, and outcome. After doing so, examine the telemetry: For one completed task, see if you can track down the initiator, the agent who executed it, the authority under which the action was taken, the tools utilized, and the outcome. In regulated environments, oversight that is not attributed cannot be justified.</p><h2><b>Now the gateway earns its keep</b></h2><p>The gateway can use registered identities, explicit delegation, scoped credentials, and attributable telemetry to question if this agent is authorized to perform this action, for this principal, within this task, involving this resource. Although the user&#x27;s credentials may provision write access to the finance-reconciliation agent, the gateway has situational context and so determines that it is out of scope. This is control&#x27;s point of greatest value. The most stringent controls should be applied at irreversible boundaries — payments, access policy changes, deletions, modifications of the production environment, and data exports.</p><h2><b>Detection and the kill path come last</b></h2><p>Behavioral baselines are developed last because distinguishable and attributable agent activity must be established to set a standard. Then, <a href=\"https://venturebeat.com/security/prompt-injection-is-exploiting-enterprise-ais-biggest-design-flaws-by-targeting-agents-rag-pipelines-and-model-routers\">security teams</a> are able to identify anomalous patterns of tool usage, unexpected cross-domain access, and deviations from their assigned tasks. Containment is more than just the disabling of a single directory object: A proper kill path entails disabling the agent&#x27;s identity, invalidation of active and derived credentials, blockage of tool activation, termination of active tasks, and isolation of the workload that contains the agent.</p><h2><b>Start without replacing your IAM</b></h2><p>Designing a whole new identity program is unnecessary. If the existing identity provider doesn&#x27;t treat agents as native object types, begin with an authoritative registry linked to the existing workload identities. Following this, extend agent and task identifiers as trusted execution contexts, implement short-lived credentials to mitigate inherited privileges, and include those identifiers in tool-call logs for subsequent gateway ingestion. The dependency model remains unchanged as vendor support matures.</p><p>Control gaps are measurable. In<a href=\"https://www.okta.com/newsroom/articles/ai-agents-at-work-2026-agentic-enterprise-security/\"> <u>Okta&#x27;s 2026 survey</u></a>, only 34% of executives said their organization always applies the same level of security rigor to its agentic workforce as to its human workforce. The last control from the chain cannot be applied first to close that gap.</p><h2><b>What to do in the next 30 days</b></h2><p>Begin with 10 production agents. For each one, identify the owner, purpose, approved tools, and credentials. By now, you should have the beginnings of an agent registry and perhaps your first insights on governance.</p><p>Test attribution. Find out if IAM and logging can tell each agent apart from the human or service that delegated the task. If this kind of differentiation is not possible, a gateway would be operating without any visibility.</p><p>Reconstruct one completed agent task within an action chain, from start to finish, including downstream effects. Wherever the chain breaks is where your deployment falls short.</p><p>Adding downstream enforcement ahead of required context breaks agent security. Maturity models describe the destination. A build order gets you there without breaking production along the way. </p><p><b><i>Nik Kale is a principal engineer specializing in enterprise AI platforms and security. </i></b></p>",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "KalyanM45/AI-Project-Gallery (6467★)",
+    "url": "https://github.com/KalyanM45/AI-Project-Gallery",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-12-31T14:26:51+00:00",
+    "summary": "This Repository Contain All the Artificial Intelligence Projects such as Machine Learning, Deep Learning and Generative AI that I have done while understanding Advanced Techniques & Concepts.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5495★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3410★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3339★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "alfredfrancis/ai-chatbot-framework (2169★)",
+    "url": "https://github.com/alfredfrancis/ai-chatbot-framework",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2016-12-16T19:10:56+00:00",
+    "summary": "A python chatbot framework with Natural Language Understanding and Artificial Intelligence.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "EthicalML/awesome-artificial-intelligence-regulation (1462★)",
+    "url": "https://github.com/EthicalML/awesome-artificial-intelligence-regulation",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-10-07T09:21:04+00:00",
+    "summary": "This repository aims to map the ecosystem of artificial intelligence guidelines, principles, codes of ethics, standards, regulation and beyond.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1207★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "10up/classifai (711★)",
+    "url": "https://github.com/10up/classifai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-06-18T12:09:10+00:00",
+    "summary": "Supercharge WordPress Content Workflows and Engagement with Artificial Intelligence.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "Jun-jie-Huang/awesome-LLM-AIOps (661★)",
+    "url": "https://github.com/Jun-jie-Huang/awesome-LLM-AIOps",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-11T02:22:32+00:00",
+    "summary": "A list of awesome academic researches and industrial materials about Large Language Model (LLM) and Artificial Intelligence for IT Operations (AIOps).",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hortonworks/cloudbreak (361★)",
+    "url": "https://github.com/hortonworks/cloudbreak",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2014-05-10T10:03:07+00:00",
+    "summary": "CDP Public Cloud is an integrated analytics and data management platform deployed on cloud services. It offers broad data analytics and artificial intelligence functionality along with secure user access and data governance features.",
+    "content": null,
+    "priority": "low"
+  }
+]
