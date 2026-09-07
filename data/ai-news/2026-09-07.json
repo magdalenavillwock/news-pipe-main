@@ -1,0 +1,172 @@
+[
+  {
+    "title": "How we contain Claude across products",
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-09-07T03:35:57+00:00",
+    "summary": "How we contain Claude across products",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "Supporting independent journalism in Ukraine",
+    "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+    "source": "OpenAI Blog",
+    "category": "big_labs",
+    "published": "2026-09-07T00:00:00+00:00",
+    "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "An Alien Mind",
+    "url": "https://openai.com/index/an-alien-mind",
+    "source": "OpenAI Blog",
+    "category": "big_labs",
+    "published": "2026-09-06T09:00:00+00:00",
+    "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Research acceleration: The view inside OpenAI",
+    "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "source": "OpenAI Blog",
+    "category": "big_labs",
+    "published": "2026-09-06T08:00:00+00:00",
+    "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-09-06T23:36:04+00:00",
+    "summary": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2292926705.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tThe OpenAI logo is displayed on a smartphone screen placed on a reflective surface on which the company's logo is projected in Creteil, France, on September 4, 2026, as OpenAI began rolling out GPT-6 Astra, its most advanced model to date. (Photo by Samuel Boivin/NurPhoto via Getty Images) | NurPhoto via Getty Images\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\"><em>The Seattle Times</em> and <em>Newsday</em> are just the latest plaintiffs to take OpenAI to court, <a href=\"https://www.reuters.com/legal/government/seattle-times-newsday-sue-openai-microsoft-alleging-copyright-infringement-2026-09-05/\">alleging copyright infringement</a>. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by <a href=\"https://www.theverge.com/2023/12/27/24016212/new-york-times-openai-microsoft-lawsuit-copyright-infringement\"><em>The New York Times</em></a>, <a href=\"https://www.theverge.com/news/656044/ziff-davis-sues-openai-ign-cnet-pcmag\">Ziff Davis</a>, <a href=\"https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit\">Merriam-Webster, and Encyclopedia Britannica</a> against OpenAI.</p>\n<p class=\"wp-block-paragraph\"><em>The Seattle Times</em> and <em>Newsday</em> also named Microsoft as a defendant in the suit, since Copilot is built on OpenAI's technology. The publishers join a list of <a href=\"https://www.theverge.com/ai-artificial-intelligence/956543/nearly-400-local-newspapers-are-suing-openai-and-microsoft\">nearly 400 local newspapers</a> that recently sued the two  …</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+    "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-09-06T20:47:37+00:00",
+    "summary": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+    "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-09-06T16:45:00+00:00",
+    "summary": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "steven2358/awesome-generative-ai (12574★)",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-10-20T11:18:17+00:00",
+    "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5504★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3416★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3350★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "EthicalML/awesome-artificial-intelligence-regulation (1464★)",
+    "url": "https://github.com/EthicalML/awesome-artificial-intelligence-regulation",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-10-07T09:21:04+00:00",
+    "summary": "This repository aims to map the ecosystem of artificial intelligence guidelines, principles, codes of ethics, standards, regulation and beyond.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1211★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hazratali/awesome-ai-summerschool (723★)",
+    "url": "https://github.com/hazratali/awesome-ai-summerschool",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-01-10T07:14:36+00:00",
+    "summary": "An awesome list of summer schools on Artificial Intelligence, Machine Learning, and Healthcare",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "10up/classifai (710★)",
+    "url": "https://github.com/10up/classifai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-06-18T12:09:10+00:00",
+    "summary": "Supercharge WordPress Content Workflows and Engagement with Artificial Intelligence.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hades217/awesome-ai (548★)",
+    "url": "https://github.com/hades217/awesome-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2017-07-18T06:53:05+00:00",
+    "summary": "A curated list of artificial intelligence resources (Courses, Tools, App, Open Source Project)",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hortonworks/cloudbreak (361★)",
+    "url": "https://github.com/hortonworks/cloudbreak",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2014-05-10T10:03:07+00:00",
+    "summary": "CDP Public Cloud is an integrated analytics and data management platform deployed on cloud services. It offers broad data analytics and artificial intelligence functionality along with secure user access and data governance features.",
+    "content": null,
+    "priority": "low"
+  }
+]
