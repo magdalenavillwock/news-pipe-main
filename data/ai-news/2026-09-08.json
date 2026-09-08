@@ -1,0 +1,122 @@
+[
+  {
+    "title": "How we contain Claude across products",
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-09-08T03:40:53+00:00",
+    "summary": "How we contain Claude across products",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "Opaque recurrence, and other AI terms that you should probably know",
+    "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-09-07T19:24:00+00:00",
+    "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "steven2358/awesome-generative-ai (12576★)",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-10-20T11:18:17+00:00",
+    "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5506★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3415★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3355★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "EthicalML/awesome-artificial-intelligence-regulation (1464★)",
+    "url": "https://github.com/EthicalML/awesome-artificial-intelligence-regulation",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-10-07T09:21:04+00:00",
+    "summary": "This repository aims to map the ecosystem of artificial intelligence guidelines, principles, codes of ethics, standards, regulation and beyond.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1212★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hazratali/awesome-ai-summerschool (723★)",
+    "url": "https://github.com/hazratali/awesome-ai-summerschool",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-01-10T07:14:36+00:00",
+    "summary": "An awesome list of summer schools on Artificial Intelligence, Machine Learning, and Healthcare",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "10up/classifai (710★)",
+    "url": "https://github.com/10up/classifai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-06-18T12:09:10+00:00",
+    "summary": "Supercharge WordPress Content Workflows and Engagement with Artificial Intelligence.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hades217/awesome-ai (548★)",
+    "url": "https://github.com/hades217/awesome-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2017-07-18T06:53:05+00:00",
+    "summary": "A curated list of artificial intelligence resources (Courses, Tools, App, Open Source Project)",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hortonworks/cloudbreak (361★)",
+    "url": "https://github.com/hortonworks/cloudbreak",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2014-05-10T10:03:07+00:00",
+    "summary": "CDP Public Cloud is an integrated analytics and data management platform deployed on cloud services. It offers broad data analytics and artificial intelligence functionality along with secure user access and data governance features.",
+    "content": null,
+    "priority": "low"
+  }
+]
