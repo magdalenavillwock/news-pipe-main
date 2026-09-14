@@ -1,0 +1,152 @@
+[
+  {
+    "title": "How we contain Claude across products",
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-09-14T04:00:36+00:00",
+    "summary": "How we contain Claude across products",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+    "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+    "source": "OpenAI Blog",
+    "category": "big_labs",
+    "published": "2026-09-14T00:00:00+00:00",
+    "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Trump and Mike Johnson think the AI industry is overreacting",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-09-13T19:41:48+00:00",
+    "summary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump and House Speaker Mike Johnson, however, [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"A photo of Donald Trump with an illustrated background.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK466_ELECTION_2024_CVirginia_E.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Yesterday, Anthropic CEO Dario Amodei published a <a href=\"https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development\">lengthy open letter</a> saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's <a href=\"https://x.com/sama/status/2098811563415150910\">Sam Altman</a> and <a href=\"https://x.com/elonmusk/status/2098789109980332057\">Elon Musk</a> both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered <a href=\"https://x.com/demishassabis/status/2098909516582490602\">tentative support</a> for Amodei's proposal. </p>\n<p class=\"wp-block-paragraph\">Donald Trump and House Speaker Mike Johnson, however, seem to think the AI executives are being <a href=\"https://www.wsj.com/tech/ai/trump-defends-white-houses-light-touch-on-ai-regulation-c4ed2488\">overreactive</a> and fear that a pause could lead to China outpacing the US in the AI race. According to the <em><a href=\"https://www.ft.com/content/cae60732-f929-4735-a627-db8c14e7c7ed\">Financial Times</a></em>, Trump said \"Look, we're leading China in AI … and, frankly, I want to keep it that way, because whoever wins AI, wins.\"</p>\n<p class=\"wp-block-paragraph\">Jo …</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "What’s behind the AI industry’s latest warnings of doom?",
+    "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-09-13T19:40:15+00:00",
+    "summary": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+    "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-09-13T16:30:00+00:00",
+    "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "steven2358/awesome-generative-ai (12635★)",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-10-20T11:18:17+00:00",
+    "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "vynect/venom (6579★)",
+    "url": "https://github.com/vynect/venom",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-06-08T04:41:41+00:00",
+    "summary": "Venom is a high-performance system developed with JavaScript to create a bot for WhatsApp, support for creating any interaction, such as customer service, media sending, sentence recognition based on artificial intelligence and all types of design architecture for WhatsApp.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "chrxh/alien (5512★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3448★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3368★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "neomatrix369/awesome-ai-ml-dl (1714★)",
+    "url": "https://github.com/neomatrix369/awesome-ai-ml-dl",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-12-23T19:55:49+00:00",
+    "summary": "Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn it. Study notes and a curated list of awesome resources of such topics.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "EthicalML/awesome-artificial-intelligence-regulation (1464★)",
+    "url": "https://github.com/EthicalML/awesome-artificial-intelligence-regulation",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-10-07T09:21:04+00:00",
+    "summary": "This repository aims to map the ecosystem of artificial intelligence guidelines, principles, codes of ethics, standards, regulation and beyond.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1214★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "leomaurodesenv/game-datasets (1120★)",
+    "url": "https://github.com/leomaurodesenv/game-datasets",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-10-03T00:39:11+00:00",
+    "summary": ":video_game: A curated list of awesome game datasets, and tools to artificial intelligence in games",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "10up/classifai (710★)",
+    "url": "https://github.com/10up/classifai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-06-18T12:09:10+00:00",
+    "summary": "Supercharge WordPress Content Workflows and Engagement with Artificial Intelligence.",
+    "content": null,
+    "priority": "low"
+  }
+]
