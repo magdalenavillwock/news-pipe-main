@@ -1,0 +1,172 @@
+[
+  {
+    "title": "How we contain Claude across products",
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "source": "Anthropic Engineering",
+    "category": "anthropic",
+    "published": "2026-09-28T04:24:01+00:00",
+    "summary": "How we contain Claude across products",
+    "content": null,
+    "priority": "high"
+  },
+  {
+    "title": "Engram is a sampler that turns broken AI hallucinations into music",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-09-27T20:46:36+00:00",
+    "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, aimed at creating something that sounds ready for top-40 [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"Engram — an instrument with 16 pads, 8 knobs, a few buttons, and all the usual nonsense on a rug.\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Screenshot-2026-09-27-at-4.42.53-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Music startup <a href=\"https://thoughtfulthings.ai/\">Thoughtful Things</a> has just launched the Kickstarter campaign for its first instrument, <a href=\"https://www.kickstarter.com/projects/evmaki/engram-generative-audio-sampler-and-groovebox?ref=section-homepage-view-more-discovery-p1&amp;category_id=Q2F0ZWdvcnktMzM5#use-of-ai\">Engram</a>. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, aimed at creating something that sounds ready for top-40 radio. It's about creating experimental, uncanny sounds and pushing AI audio models beyond their limits.</p>\n<p class=\"wp-block-paragraph\">Engram isn't connected to the internet. Instead, it runs a \"tiny AI\" locally. According to the Kickstarter listing, the model is designed in-house and custom-trained. The company says: </p>\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\"> …</blockquote>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+    "source": "The Verge AI",
+    "category": "news",
+    "published": "2026-09-27T17:21:07+00:00",
+    "summary": "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government sites, it's yet another concerning example of AI [&#8230;]",
+    "content": "<figure>\n\n<img alt=\"\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2236154957.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\tThe United Nations logo on a gate outside the UN headquarters in New York. | AFP via Getty Images\t</figcaption>\n</figure>\n<p class=\"wp-block-paragraph\">Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site <a href=\"https://swarmcha.se/posts/openai-unctad\">over 16,000 times between April and June</a>. While the incident doesn't quite rise to the level of the <a href=\"https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack\">Hugging Face hack</a>, or the recent <a href=\"https://www.theverge.com/ai-artificial-intelligence/1001032/openai-didnt-notice-its-ai-bots-trying-to-hack-the-education-departments-website\">attacks on US government sites</a>, it's yet another concerning example of AI agents going <a href=\"https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai\">outside the normal bounds</a> to accomplish a task.</p>\n<p class=\"wp-block-paragraph\">According to Howard-Jones, the agents were likely tasked with retrieving publicly available data related to the Productive Capacities Index (PCI) through the UNCTADstat API. However, the agents did not appear to have direct API access and  …</p>\n<p><a href=\"https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website\">Read the full story at The Verge.</a></p>",
+    "priority": "medium"
+  },
+  {
+    "title": "Anthropic’s CEO is about to have dinner with President Trump",
+    "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-09-27T20:34:28+00:00",
+    "summary": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Can Muse overcome Meta’s trust issues?",
+    "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-09-27T19:57:30+00:00",
+    "summary": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+    "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+    "source": "TechCrunch AI",
+    "category": "news",
+    "published": "2026-09-27T16:30:00+00:00",
+    "summary": "\"AI is the devil and I its maker.\"",
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "Holo4: powering generalist computer-use agents",
+    "url": "https://huggingface.co/blog/Hcompany/holo4",
+    "source": "HuggingFace Blog",
+    "category": "platforms",
+    "published": "2026-09-28T09:44:05+00:00",
+    "summary": null,
+    "content": null,
+    "priority": "medium"
+  },
+  {
+    "title": "chrxh/alien (5525★)",
+    "url": "https://github.com/chrxh/alien",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2020-10-19T15:59:01+00:00",
+    "summary": "ALIEN is a CUDA-powered artificial life simulation program.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "py-why/EconML (4801★)",
+    "url": "https://github.com/py-why/EconML",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-04-30T21:02:52+00:00",
+    "summary": "ALICE (Automated Learning and Intelligence for Causation and Economics) is a Microsoft Research project aimed at applying Artificial Intelligence concepts to economic decision making. One of its  goals is to build a toolkit that combines state-of-the-art machine learning techniques with econometrics in order to bring automation to complex causal inference problems. To date, the ALICE Python SDK (econml) implements orthogonal machine learning algorithms such as the double machine learning work of Chernozhukov et al. This toolkit is designed to measure the causal effect of some treatment variable(s) t on an outcome variable y, controlling for a set of features x.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "TarrySingh/Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials (4007★)",
+    "url": "https://github.com/TarrySingh/Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2017-07-13T19:46:01+00:00",
+    "summary": "Synapsa Commons: free, hands-on AI courses that run anywhere (Colab, Kaggle, Binder, Codespaces, Jupyter). Build EU AI Act conformity evidence, validate models like a risk committee, price predictive-maintenance alarms, measure document extraction, and make a simulated humanoid walk. Every lesson autograded. From the team building Synapsa.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wppconnect-team/wppconnect (3457★)",
+    "url": "https://github.com/wppconnect-team/wppconnect",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2021-01-25T00:10:32+00:00",
+    "summary": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "opengeos/geoai (3397★)",
+    "url": "https://github.com/opengeos/geoai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-08-11T20:05:04+00:00",
+    "summary": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "EthicalML/awesome-artificial-intelligence-regulation (1468★)",
+    "url": "https://github.com/EthicalML/awesome-artificial-intelligence-regulation",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2019-10-07T09:21:04+00:00",
+    "summary": "This repository aims to map the ecosystem of artificial intelligence guidelines, principles, codes of ethics, standards, regulation and beyond.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "taranis-ai/taranis-ai (1219★)",
+    "url": "https://github.com/taranis-ai/taranis-ai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2023-10-05T08:40:04+00:00",
+    "summary": "Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis.",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "wx-chevalier/AI-Notes (785★)",
+    "url": "https://github.com/wx-chevalier/AI-Notes",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2016-01-26T06:14:46+00:00",
+    "summary": ":books: [.md & .ipynb] Series of Artificial Intelligence & Deep Learning, including Mathematics Fundamentals, Python Practices, NLP Application, etc. 💫 人工智能与深度学习实战，数理统计篇 | 机器学习篇 | 深度学习篇 | 自然语言处理篇 | 工具实践 Scikit & Tensoflow & PyTorch 篇 | 行业应用 & 课程笔记",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "hazratali/awesome-ai-summerschool (740★)",
+    "url": "https://github.com/hazratali/awesome-ai-summerschool",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2022-01-10T07:14:36+00:00",
+    "summary": "An awesome list of summer schools on Artificial Intelligence, Machine Learning, and Healthcare",
+    "content": null,
+    "priority": "low"
+  },
+  {
+    "title": "10up/classifai (711★)",
+    "url": "https://github.com/10up/classifai",
+    "source": "GitHub Trending AI",
+    "category": "tools",
+    "published": "2018-06-18T12:09:10+00:00",
+    "summary": "Supercharge WordPress Content Workflows and Engagement with Artificial Intelligence.",
+    "content": null,
+    "priority": "low"
+  }
+]
